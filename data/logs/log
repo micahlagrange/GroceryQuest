@@ -1,0 +1,1080 @@
+DEBUG:root:logging enabled at path: data\logs
+DEBUG:root:key repetition is set to True
+DEBUG:root:loaded hero state" {'_name': 'Hero_name', 'mobile': True, 'collision_on': True, 'vert': 0, 'arrow_keys': {273, 274, 275, 276}, 'inventory': [], '_isalive': True, 'hor': 0, 'direction': 'LEFT', '_pos': (300, 440), 'speed': 20}
+DEBUG:root:current bgm was:  room bgm is: engine_slow.wav
+DEBUG:root:saving hero state: {'_name': 'Hero_name', 'collision_on': True, 'vert': 0, 'arrow_keys': {273, 274, 275, 276}, '_isalive': True, 'mobile': True, 'inventory': [], 'hor': 0, 'direction': 'LEFT', '_pos': (300, 440), 'speed': 20}
+DEBUG:root:Game over! End loop.
+DEBUG:root:logging enabled at path: data\logs
+DEBUG:root:key repetition is set to True
+DEBUG:root:loaded hero state" {'speed': 20, '_pos': (300, 440), 'direction': 'LEFT', 'hor': 0, 'mobile': True, '_isalive': True, 'inventory': [], 'arrow_keys': {273, 274, 275, 276}, 'vert': 0, 'collision_on': True, '_name': 'Hero_name'}
+DEBUG:root:current bgm was:  room bgm is: engine_slow.wav
+DEBUG:root:saving hero state: {'speed': 20, '_pos': (300, 440), 'direction': 'LEFT', 'hor': 0, 'inventory': [], 'mobile': True, '_isalive': True, 'arrow_keys': {273, 274, 275, 276}, 'vert': 0, 'collision_on': True, '_name': 'Hero_name'}
+DEBUG:root:Game over! End loop.
+DEBUG:root:logging enabled at path: data\logs
+DEBUG:root:key repetition is set to True
+DEBUG:root:current bgm was:  room bgm is: engine_slow.wav
+DEBUG:root:saving hero state: {'hor': 0, 'speed': 20, 'mobile': True, '_pos': (300, 440), 'arrow_keys': {273, 274, 275, 276}, '_isalive': True, '_name': 'Hero_name', 'collision_on': True, 'direction': 'LEFT', 'vert': 0, 'inventory': []}
+DEBUG:root:Game over! End loop.
+DEBUG:root:logging enabled at path: data\logs
+DEBUG:root:key repetition is set to True
+DEBUG:root:current bgm was:  room bgm is: engine_slow.wav
+DEBUG:root:Game over! End loop.
+DEBUG:root:logging enabled at path: data\logs
+DEBUG:root:key repetition is set to True
+DEBUG:root:current bgm was:  room bgm is: engine_slow.wav
+DEBUG:root:Game over! End loop.
+DEBUG:root:logging enabled at path: data\logs
+DEBUG:root:key repetition is set to True
+DEBUG:root:current bgm was:  room bgm is: engine_slow.wav
+DEBUG:root:Game over! End loop.
+DEBUG:root:logging enabled at path: data\logs
+DEBUG:root:key repetition is set to True
+DEBUG:root:current bgm was:  room bgm is: engine_slow.wav
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:275
+DEBUG:root:275
+DEBUG:root:275
+DEBUG:root:275
+DEBUG:root:275
+DEBUG:root:275
+DEBUG:root:275
+DEBUG:root:275
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:276
+DEBUG:root:276
+DEBUG:root:276
+DEBUG:root:276
+DEBUG:root:276
+DEBUG:root:276
+DEBUG:root:276
+DEBUG:root:276
+DEBUG:root:276
+DEBUG:root:276
+DEBUG:root:276
+DEBUG:root:276
+DEBUG:root:276
+DEBUG:root:276
+DEBUG:root:276
+DEBUG:root:276
+DEBUG:root:276
+DEBUG:root:276
+DEBUG:root:276
+DEBUG:root:276
+DEBUG:root:276
+DEBUG:root:276
+DEBUG:root:276
+DEBUG:root:276
+DEBUG:root:275
+DEBUG:root:275
+DEBUG:root:275
+DEBUG:root:275
+DEBUG:root:275
+DEBUG:root:275
+DEBUG:root:275
+DEBUG:root:275
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:276
+DEBUG:root:276
+DEBUG:root:276
+DEBUG:root:276
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:275
+DEBUG:root:275
+DEBUG:root:275
+DEBUG:root:275
+DEBUG:root:275
+DEBUG:root:275
+DEBUG:root:275
+DEBUG:root:275
+DEBUG:root:275
+DEBUG:root:276
+DEBUG:root:276
+DEBUG:root:276
+DEBUG:root:276
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:275
+DEBUG:root:275
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:274
+DEBUG:root:274
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:274
+DEBUG:root:274
+DEBUG:root:274
+DEBUG:root:274
+DEBUG:root:274
+DEBUG:root:274
+DEBUG:root:274
+DEBUG:root:274
+DEBUG:root:274
+DEBUG:root:274
+DEBUG:root:274
+DEBUG:root:274
+DEBUG:root:274
+DEBUG:root:274
+DEBUG:root:274
+DEBUG:root:274
+DEBUG:root:274
+DEBUG:root:274
+DEBUG:root:274
+DEBUG:root:274
+DEBUG:root:274
+DEBUG:root:274
+DEBUG:root:274
+DEBUG:root:274
+DEBUG:root:274
+DEBUG:root:274
+DEBUG:root:274
+DEBUG:root:saving hero state: {'direction': 'LEFT', 'speed': 20, '_isalive': True, 'inventory': [<items.SlimeDust object at 0x0000000006E20E10>, <items.RatTail object at 0x0000000006E209B0>, <items.RatTail object at 0x0000000006E20C50>, <items.RatTail object at 0x0000000006E2FF60>, <items.SlimeDust object at 0x0000000006E2F2B0>, <items.RatTail object at 0x0000000006E20A58>], 'vert': 0, 'mobile': True, '_name': 'Hero_name', '_pos': (220, 460), 'hor': 0}
+DEBUG:root:Game over! End loop.
+DEBUG:root:logging enabled at path: data\logs
+DEBUG:root:key repetition is set to True
+DEBUG:root:loaded hero state" {'_pos': (220, 460), 'mobile': True, 'inventory': [<items.SlimeDust object at 0x0000000002BA6F28>, <items.RatTail object at 0x0000000002BB10F0>, <items.RatTail object at 0x0000000002BB1160>, <items.RatTail object at 0x0000000006DCB780>, <items.SlimeDust object at 0x0000000006DCB6A0>, <items.RatTail object at 0x0000000006DCB828>], '_isalive': True, '_name': 'Hero_name', 'speed': 20, 'vert': 0, 'direction': 'LEFT', 'hor': 0}
+DEBUG:root:current bgm was:  room bgm is: engine_slow.wav
+DEBUG:root:logging enabled at path: data\logs
+DEBUG:root:key repetition is set to True
+DEBUG:root:loaded hero state" {'inventory': [<items.SlimeDust object at 0x0000000002C57748>, <items.RatTail object at 0x0000000002C57828>, <items.RatTail object at 0x0000000002C57898>, <items.RatTail object at 0x0000000006ED0F98>, <items.SlimeDust object at 0x0000000006EF6A58>, <items.RatTail object at 0x0000000006EF6080>], 'direction': 'LEFT', 'hor': 0, '_name': 'Hero_name', 'speed': 20, '_pos': (220, 460), '_isalive': True, 'vert': 0, 'mobile': True}
+DEBUG:root:current bgm was:  room bgm is: engine_slow.wav
+DEBUG:root:logging enabled at path: data\logs
+DEBUG:root:key repetition is set to True
+DEBUG:root:loaded hero state" {'vert': 0, '_isalive': True, 'direction': 'LEFT', 'speed': 20, '_name': 'Hero_name', 'mobile': True, '_pos': (220, 460), 'hor': 0, 'inventory': [<items.SlimeDust object at 0x0000000002BF7748>, <items.RatTail object at 0x0000000002BF7828>, <items.RatTail object at 0x0000000002BF7898>, <items.RatTail object at 0x0000000006E38F98>, <items.SlimeDust object at 0x0000000006E4DA58>, <items.RatTail object at 0x0000000006E4D080>]}
+DEBUG:root:current bgm was:  room bgm is: engine_slow.wav
+DEBUG:root:saving hero state: {'vert': 0, '_isalive': True, 'speed': 20, 'hor': 0, 'direction': 'LEFT', '_name': 'Hero_name', 'mobile': True, '_pos': (300, 440), 'collision_on': True, 'inventory': [<items.SlimeDust object at 0x0000000002BF7748>, <items.RatTail object at 0x0000000002BF7828>, <items.RatTail object at 0x0000000002BF7898>, <items.RatTail object at 0x0000000006E38F98>, <items.SlimeDust object at 0x0000000006E4DA58>, <items.RatTail object at 0x0000000006E4D080>]}
+DEBUG:root:Game over! End loop.
+DEBUG:root:logging enabled at path: data\logs
+DEBUG:root:key repetition is set to True
+DEBUG:root:loaded hero state" {'speed': 20, 'collision_on': True, '_name': 'Hero_name', 'mobile': True, '_isalive': True, 'inventory': [<items.SlimeDust object at 0x0000000002C5D898>, <items.RatTail object at 0x0000000006D8A080>, <items.RatTail object at 0x0000000006D8ABE0>, <items.RatTail object at 0x0000000006D8A128>, <items.SlimeDust object at 0x0000000006D8A9B0>, <items.RatTail object at 0x0000000006D8AAC8>], 'hor': 0, 'vert': 0, '_pos': (300, 440), 'direction': 'LEFT'}
+DEBUG:root:current bgm was:  room bgm is: engine_slow.wav
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:275
+DEBUG:root:275
+DEBUG:root:275
+DEBUG:root:275
+DEBUG:root:275
+DEBUG:root:275
+DEBUG:root:275
+DEBUG:root:275
+DEBUG:root:274
+DEBUG:root:275
+DEBUG:root:275
+DEBUG:root:274
+DEBUG:root:274
+DEBUG:root:276
+DEBUG:root:276
+DEBUG:root:276
+DEBUG:root:276
+DEBUG:root:276
+DEBUG:root:276
+DEBUG:root:276
+DEBUG:root:276
+DEBUG:root:276
+DEBUG:root:276
+DEBUG:root:276
+DEBUG:root:276
+DEBUG:root:276
+DEBUG:root:276
+DEBUG:root:276
+DEBUG:root:276
+DEBUG:root:276
+DEBUG:root:276
+DEBUG:root:276
+DEBUG:root:276
+DEBUG:root:275
+DEBUG:root:275
+DEBUG:root:275
+DEBUG:root:275
+DEBUG:root:275
+DEBUG:root:275
+DEBUG:root:275
+DEBUG:root:275
+DEBUG:root:275
+DEBUG:root:275
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:276
+DEBUG:root:276
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:276
+DEBUG:root:276
+DEBUG:root:276
+DEBUG:root:276
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:275
+DEBUG:root:275
+DEBUG:root:275
+DEBUG:root:275
+DEBUG:root:275
+DEBUG:root:275
+DEBUG:root:275
+DEBUG:root:275
+DEBUG:root:275
+DEBUG:root:275
+DEBUG:root:276
+DEBUG:root:276
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:273
+DEBUG:root:saving hero state: {'speed': 20, 'collision_on': True, '_name': 'Hero_name', 'mobile': False, '_isalive': True, '_pos': (220, 60), 'vert': 0, 'hor': 0, 'inventory': [<items.SlimeDust object at 0x0000000002C5D898>, <items.RatTail object at 0x0000000006D8A080>, <items.RatTail object at 0x0000000006D8ABE0>, <items.RatTail object at 0x0000000006D8A128>, <items.SlimeDust object at 0x0000000006D8A9B0>, <items.RatTail object at 0x0000000006D8AAC8>, <items.RatTail object at 0x0000000006D8ADA0>, <items.SlimeDust object at 0x0000000006D8E198>, <items.RatTail object at 0x0000000006D8AEB8>, <items.RatTail object at 0x0000000006D9D2E8>, <items.SlimeDust object at 0x0000000006D995F8>, <items.RatTail object at 0x0000000006D8E240>], 'direction': 'LEFT'}
+DEBUG:root:Game over! End loop.
+DEBUG:root:logging enabled at path: data\logs
+DEBUG:root:key repetition is set to True
+DEBUG:root:loaded hero state" {'_name': 'Hero_name', 'collision_on': True, 'inventory': [<items.SlimeDust object at 0x0000000002BD9860>, <items.RatTail object at 0x0000000006D86A58>, <items.RatTail object at 0x0000000006D86A90>, <items.RatTail object at 0x0000000006D86128>, <items.SlimeDust object at 0x0000000006D86BE0>, <items.RatTail object at 0x0000000006D869B0>, <items.RatTail object at 0x0000000006D86AC8>, <items.SlimeDust object at 0x0000000006D86B00>, <items.RatTail object at 0x0000000006D86A20>, <items.RatTail object at 0x0000000006D860B8>, <items.SlimeDust object at 0x0000000006D86C50>, <items.RatTail object at 0x0000000006D86CC0>], 'direction': 'LEFT', 'hor': 0, 'mobile': False, '_pos': (220, 60), 'speed': 20, 'vert': 0, '_isalive': True}
+DEBUG:root:current bgm was:  room bgm is: engine_slow.wav
+DEBUG:root:saving hero state: {'inventory': [<items.SlimeDust object at 0x0000000002BD9860>, <items.RatTail object at 0x0000000006D86A58>, <items.RatTail object at 0x0000000006D86A90>, <items.RatTail object at 0x0000000006D86128>, <items.SlimeDust object at 0x0000000006D86BE0>, <items.RatTail object at 0x0000000006D869B0>, <items.RatTail object at 0x0000000006D86AC8>, <items.SlimeDust object at 0x0000000006D86B00>, <items.RatTail object at 0x0000000006D86A20>, <items.RatTail object at 0x0000000006D860B8>, <items.SlimeDust object at 0x0000000006D86C50>, <items.RatTail object at 0x0000000006D86CC0>, <items.SlimeDust object at 0x0000000006D852E8>, <items.RatTail object at 0x0000000006D86EF0>, <items.RatTail object at 0x0000000006D85048>], 'direction': 'LEFT', 'mobile': True, '_pos': (140, 260), 'vert': 0, '_isalive': True, '_name': 'Hero_name', 'hor': 0, 'collision_on': True, 'speed': 20}
+INFO:root:Game over! End loop.
+DEBUG:root:logging enabled at path: data\logs
+DEBUG:root:key repetition is set to True
+DEBUG:root:loaded hero state" {'mobile': True, '_isalive': True, '_name': 'Hero_name', '_pos': (140, 260), 'inventory': [<items.SlimeDust object at 0x0000000002BCBBE0>, <items.RatTail object at 0x0000000002BCBF60>, <items.RatTail object at 0x0000000002BD50F0>, <items.RatTail object at 0x0000000002BD5128>, <items.SlimeDust object at 0x0000000002BD5160>, <items.RatTail object at 0x0000000006E95780>, <items.RatTail object at 0x0000000006E956A0>, <items.SlimeDust object at 0x0000000006E95828>, <items.RatTail object at 0x0000000006E958D0>, <items.RatTail object at 0x0000000006E957B8>, <items.SlimeDust object at 0x0000000006E957F0>, <items.RatTail object at 0x0000000006E95940>, <items.SlimeDust object at 0x0000000006EC3160>, <items.RatTail object at 0x0000000006EC3390>, <items.RatTail object at 0x0000000006EC3358>], 'direction': 'LEFT', 'vert': 0, 'hor': 0, 'speed': 20, 'collision_on': True}
+DEBUG:root:current bgm was:  room bgm is: engine_slow.wav
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:mouseclick syntax still unwritten
+DEBUG:root:saving hero state: {'mobile': True, 'collision_on': True, '_pos': (300, 140), '_name': 'Hero_name', 'vert': 0, '_isalive': True, 'direction': 'LEFT', 'inventory': [<items.SlimeDust object at 0x0000000002BCBBE0>, <items.RatTail object at 0x0000000002BCBF60>, <items.RatTail object at 0x0000000002BD50F0>, <items.RatTail object at 0x0000000002BD5128>, <items.SlimeDust object at 0x0000000002BD5160>, <items.RatTail object at 0x0000000006E95780>, <items.RatTail object at 0x0000000006E956A0>, <items.SlimeDust object at 0x0000000006E95828>, <items.RatTail object at 0x0000000006E958D0>, <items.RatTail object at 0x0000000006E957B8>, <items.SlimeDust object at 0x0000000006E957F0>, <items.RatTail object at 0x0000000006E95940>, <items.SlimeDust object at 0x0000000006EC3160>, <items.RatTail object at 0x0000000006EC3390>, <items.RatTail object at 0x0000000006EC3358>, <items.RatTail object at 0x0000000006ED64E0>, <items.SlimeDust object at 0x0000000006ED27F0>, <items.RatTail object at 0x0000000006EC99E8>, <items.Bone object at 0x0000000006D99048>, <items.SlimeDust object at 0x0000000006D99278>, <items.SlimeDust object at 0x0000000006D99320>], 'hor': 0, 'speed': 20}
+INFO:root:Game over! End loop.
+DEBUG:root:logging enabled at path: data\logs
+DEBUG:root:key repetition is set to True
+DEBUG:root:current bgm was:  room bgm is: engine_slow.wav
+DEBUG:root:saving hero state: {'vert': 0, '_isalive': True, '_pos': (420, 300), 'mobile': True, 'hor': 0, 'inventory': [<items.SlimeDust object at 0x0000000006E624E0>, <items.RatTail object at 0x0000000006E40940>], '_name': 'Hero_name', 'speed': 20, 'direction': 'LEFT', 'collision_on': True}
+INFO:root:Game over! End loop.
+DEBUG:root:logging enabled at path: data\logs
+DEBUG:root:key repetition is set to True
+DEBUG:root:loaded hero state" {'vert': 0, 'hor': 0, 'collision_on': True, '_name': 'Hero_name', '_isalive': True, 'inventory': [<items.SlimeDust object at 0x0000000002BED7F0>, <items.RatTail object at 0x0000000002BED898>], 'speed': 20, '_pos': (420, 300), 'direction': 'LEFT', 'mobile': True}
+DEBUG:root:current bgm was:  room bgm is: engine_slow.wav
+DEBUG:root:saving hero state: {'inventory': [<items.SlimeDust object at 0x0000000002BED7F0>, <items.RatTail object at 0x0000000002BED898>], 'hor': 0, 'speed': 20, 'collision_on': True, 'direction': 'LEFT', 'mobile': True, 'vert': 0, '_isalive': True, '_name': 'Hero_name', '_pos': (380, 440)}
+INFO:root:Game over! End loop.
+DEBUG:root:logging enabled at path: data\logs
+DEBUG:root:key repetition is set to True
+DEBUG:root:loaded hero state" {'hor': 0, 'collision_on': True, '_name': 'Hero_name', '_pos': (380, 440), 'direction': 'LEFT', 'vert': 0, 'inventory': [<items.SlimeDust object at 0x0000000002D3D6A0>, <items.RatTail object at 0x0000000002D3D1D0>], '_isalive': True, 'mobile': True, 'speed': 20}
+DEBUG:root:current bgm was:  room bgm is: engine_slow.wav
+DEBUG:root:saving hero state: {'collision_on': True, 'speed': 20, 'inventory': [<items.SlimeDust object at 0x0000000002D3D6A0>, <items.RatTail object at 0x0000000002D3D1D0>], '_name': 'Hero_name', '_isalive': True, 'hor': 0, 'vert': 0, '_pos': (380, 440), 'mobile': True, 'direction': 'LEFT'}
+INFO:root:Game over! End loop.
+DEBUG:root:logging enabled at path: data\logs
+DEBUG:root:key repetition is set to True
+DEBUG:root:loaded hero state" {'_name': 'Hero_name', 'inventory': [<items.SlimeDust object at 0x0000000002CE7AC8>, <items.RatTail object at 0x0000000002CE7828>], 'collision_on': True, 'hor': 0, '_isalive': True, 'mobile': True, '_pos': (380, 440), 'vert': 0, 'speed': 20, 'direction': 'LEFT'}
+DEBUG:root:current bgm was:  room bgm is: engine_slow.wav
+DEBUG:root:saving hero state: {'_name': 'Hero_name', 'speed': 20, '_pos': (300, 440), 'vert': 0, 'collision_on': True, 'inventory': [<items.SlimeDust object at 0x0000000002CE7AC8>, <items.RatTail object at 0x0000000002CE7828>], '_isalive': True, 'mobile': True, 'hor': 0, 'direction': 'LEFT'}
+INFO:root:Game over! End loop.
+DEBUG:root:logging enabled at path: data\logs
+DEBUG:root:key repetition is set to True
+DEBUG:root:loaded hero state" {'_isalive': True, 'hor': 0, 'mobile': True, '_name': 'Hero_name', 'inventory': [<items.SlimeDust object at 0x0000000002CAD828>, <items.RatTail object at 0x0000000002CAD8D0>], 'direction': 'LEFT', 'speed': 20, '_pos': (300, 440), 'vert': 0, 'collision_on': True}
+DEBUG:root:current bgm was:  room bgm is: engine_slow.wav
+DEBUG:root:saving hero state: {'_isalive': True, 'mobile': True, 'inventory': [<items.SlimeDust object at 0x0000000002CAD828>, <items.RatTail object at 0x0000000002CAD8D0>], 'direction': 'LEFT', 'hor': 0, '_name': 'Hero_name', 'collision_on': True, '_pos': (300, 440), 'vert': 0, 'speed': 20}
+INFO:root:Game over! End loop.
+DEBUG:root:logging enabled at path: data\logs
+DEBUG:root:key repetition is set to True
+DEBUG:root:loaded hero state" {'mobile': True, 'collision_on': True, 'hor': 0, 'speed': 20, 'vert': 0, '_isalive': True, '_pos': (300, 440), '_name': 'Hero_name', 'direction': 'LEFT', 'inventory': [<items.SlimeDust object at 0x0000000002B689E8>, <items.RatTail object at 0x0000000002B68FD0>]}
+DEBUG:root:current bgm was:  room bgm is: engine_slow.wav
+DEBUG:root:saving hero state: {'collision_on': True, 'hor': 0, '_isalive': True, 'speed': 20, '_name': 'Hero_name', 'mobile': True, 'vert': 0, '_pos': (460, 80), 'direction': 'LEFT', 'inventory': [<items.SlimeDust object at 0x0000000002B689E8>, <items.RatTail object at 0x0000000002B68FD0>, <items.RatTail object at 0x0000000006EDB7B8>, <items.RatTail object at 0x0000000006EE7198>, <items.SlimeDust object at 0x0000000006EE34A8>, <items.SlimeDust object at 0x0000000006EB4710>]}
+INFO:root:Game over! End loop.
+DEBUG:root:logging enabled at path: data\logs
+DEBUG:root:key repetition is set to True
+DEBUG:root:loaded hero state" {'collision_on': True, 'inventory': [<items.SlimeDust object at 0x0000000002B72160>, <items.RatTail object at 0x0000000006D90828>, <items.RatTail object at 0x0000000006D907B8>, <items.RatTail object at 0x0000000006D907F0>, <items.SlimeDust object at 0x0000000006D90940>, <items.SlimeDust object at 0x0000000006DB3160>], '_name': 'Hero_name', 'mobile': True, '_pos': (460, 80), 'hor': 0, 'direction': 'LEFT', 'speed': 20, 'vert': 0, '_isalive': True}
+DEBUG:root:current bgm was:  room bgm is: engine_slow.wav
+DEBUG:root:saving hero state: {'_name': 'Hero_name', 'mobile': True, '_pos': (300, 120), 'hor': 0, 'vert': 0, 'collision_on': True, 'inventory': [<items.SlimeDust object at 0x0000000002B72160>, <items.RatTail object at 0x0000000006D90828>, <items.RatTail object at 0x0000000006D907B8>, <items.RatTail object at 0x0000000006D907F0>, <items.SlimeDust object at 0x0000000006D90940>, <items.SlimeDust object at 0x0000000006DB3160>, <items.RatTail object at 0x0000000006DB3470>, <items.SlimeDust object at 0x0000000006DB3828>, <items.RatTail object at 0x0000000006DB3588>, <items.RatTail object at 0x0000000006DC32B0>], 'direction': 'LEFT', 'speed': 20, '_isalive': True}
+INFO:root:Game over! End loop.
+DEBUG:root:logging enabled at path: data\logs
+DEBUG:root:key repetition is set to True
+DEBUG:root:loaded hero state" {'vert': 0, 'mobile': True, '_pos': (300, 120), '_isalive': True, 'speed': 20, '_name': 'Hero_name', 'hor': 0, 'collision_on': True, 'inventory': [<items.SlimeDust object at 0x0000000002C750F0>, <items.RatTail object at 0x0000000006EA1780>, <items.RatTail object at 0x0000000006EA1828>, <items.RatTail object at 0x0000000006EA18D0>, <items.SlimeDust object at 0x0000000006EA17B8>, <items.SlimeDust object at 0x0000000006EA17F0>, <items.RatTail object at 0x0000000006EA1940>, <items.SlimeDust object at 0x0000000006ED1160>, <items.RatTail object at 0x0000000006ED10F0>, <items.RatTail object at 0x0000000006ED1208>], 'direction': 'LEFT'}
+DEBUG:root:current bgm was:  room bgm is: engine_slow.wav
+DEBUG:root:saving hero state: {'vert': 0, 'mobile': True, '_pos': (320, 100), 'hor': 0, 'inventory': [<items.SlimeDust object at 0x0000000002C750F0>, <items.RatTail object at 0x0000000006EA1780>, <items.RatTail object at 0x0000000006EA1828>, <items.RatTail object at 0x0000000006EA18D0>, <items.SlimeDust object at 0x0000000006EA17B8>, <items.SlimeDust object at 0x0000000006EA17F0>, <items.RatTail object at 0x0000000006EA1940>, <items.SlimeDust object at 0x0000000006ED1160>, <items.RatTail object at 0x0000000006ED10F0>, <items.RatTail object at 0x0000000006ED1208>, <items.RatTail object at 0x0000000006EA16A0>, <items.SlimeDust object at 0x0000000006ED1908>, <items.RatTail object at 0x0000000006ED1668>], 'direction': 'LEFT', '_isalive': True, 'speed': 20, '_name': 'Hero_name', 'collision_on': True}
+INFO:root:Game over! End loop.
+DEBUG:root:logging enabled at path: data\logs
+DEBUG:root:key repetition is set to True
+DEBUG:root:loaded hero state" {'mobile': True, 'vert': 0, 'speed': 20, '_pos': (320, 100), '_isalive': True, 'inventory': [<items.SlimeDust object at 0x0000000002B59FD0>, <items.RatTail object at 0x0000000002B63160>, <items.RatTail object at 0x0000000006E7D6A0>, <items.RatTail object at 0x0000000006E7D828>, <items.SlimeDust object at 0x0000000006E7D8D0>, <items.SlimeDust object at 0x0000000006E7D7B8>, <items.RatTail object at 0x0000000006E7D7F0>, <items.SlimeDust object at 0x0000000006E7D940>, <items.RatTail object at 0x0000000006EA3160>, <items.RatTail object at 0x0000000006EA30F0>, <items.RatTail object at 0x0000000006EA3198>, <items.SlimeDust object at 0x0000000006EA3358>, <items.RatTail object at 0x0000000006EA3240>], 'hor': 0, 'collision_on': True, 'direction': 'LEFT', '_name': 'Hero_name'}
+DEBUG:root:current bgm was:  room bgm is: engine_slow.wav
+DEBUG:root:saving hero state: {'mobile': True, '_isalive': True, 'inventory': [<items.SlimeDust object at 0x0000000002B59FD0>, <items.RatTail object at 0x0000000002B63160>, <items.RatTail object at 0x0000000006E7D6A0>, <items.RatTail object at 0x0000000006E7D828>, <items.SlimeDust object at 0x0000000006E7D8D0>, <items.SlimeDust object at 0x0000000006E7D7B8>, <items.RatTail object at 0x0000000006E7D7F0>, <items.SlimeDust object at 0x0000000006E7D940>, <items.RatTail object at 0x0000000006EA3160>, <items.RatTail object at 0x0000000006EA30F0>, <items.RatTail object at 0x0000000006EA3198>, <items.SlimeDust object at 0x0000000006EA3358>, <items.RatTail object at 0x0000000006EA3240>], 'speed': 20, 'hor': 0, 'direction': 'LEFT', 'collision_on': True, 'vert': 0, '_pos': (320, 440), '_name': 'Hero_name'}
+INFO:root:Game over! End loop.
+DEBUG:root:logging enabled at path: data\logs
+DEBUG:root:key repetition is set to True
+DEBUG:root:loaded hero state" {'direction': 'LEFT', 'inventory': [<items.SlimeDust object at 0x0000000002CC7AC8>, <items.RatTail object at 0x0000000002CC7828>, <items.RatTail object at 0x0000000002CC7898>, <items.RatTail object at 0x0000000002CC78D0>, <items.SlimeDust object at 0x0000000006DA3FD0>, <items.SlimeDust object at 0x0000000006DB3A90>, <items.RatTail object at 0x0000000006DB3080>, <items.SlimeDust object at 0x0000000006DB3C88>, <items.RatTail object at 0x0000000006DB3CC0>, <items.RatTail object at 0x0000000006DB3AC8>, <items.RatTail object at 0x0000000006DB39E8>, <items.SlimeDust object at 0x0000000006DB3B00>, <items.RatTail object at 0x0000000006DB3B38>], 'speed': 20, '_name': 'Hero_name', 'vert': 0, 'collision_on': True, '_isalive': True, '_pos': (320, 440), 'mobile': True, 'hor': 0}
+DEBUG:root:current bgm was:  room bgm is: engine_slow.wav
+DEBUG:root:logging enabled at path: data\logs
+DEBUG:root:key repetition is set to True
+DEBUG:root:loaded hero state" {'_name': 'Hero_name', 'hor': 0, '_pos': (320, 440), 'direction': 'LEFT', 'inventory': [<items.SlimeDust object at 0x0000000002C8DAC8>, <items.RatTail object at 0x0000000002C8D828>, <items.RatTail object at 0x0000000002C8D898>, <items.RatTail object at 0x0000000002C8D8D0>, <items.SlimeDust object at 0x0000000006D53FD0>, <items.SlimeDust object at 0x0000000006D71A90>, <items.RatTail object at 0x0000000006D71080>, <items.SlimeDust object at 0x0000000006D71C50>, <items.RatTail object at 0x0000000006D71CC0>, <items.RatTail object at 0x0000000006D71160>, <items.RatTail object at 0x0000000006D719E8>, <items.SlimeDust object at 0x0000000006D71B00>, <items.RatTail object at 0x0000000006D71B38>], 'mobile': True, 'collision_on': True, '_isalive': True, 'vert': 0, 'speed': 20}
+DEBUG:root:current bgm was:  room bgm is: engine_slow.wav
+DEBUG:root:saving hero state: {'hor': 0, 'inventory': [<items.SlimeDust object at 0x0000000002C8DAC8>, <items.RatTail object at 0x0000000002C8D828>, <items.RatTail object at 0x0000000002C8D898>, <items.RatTail object at 0x0000000002C8D8D0>, <items.SlimeDust object at 0x0000000006D53FD0>, <items.SlimeDust object at 0x0000000006D71A90>, <items.RatTail object at 0x0000000006D71080>, <items.SlimeDust object at 0x0000000006D71C50>, <items.RatTail object at 0x0000000006D71CC0>, <items.RatTail object at 0x0000000006D71160>, <items.RatTail object at 0x0000000006D719E8>, <items.SlimeDust object at 0x0000000006D71B00>, <items.RatTail object at 0x0000000006D71B38>], 'mobile': True, 'vert': 0, '_pos': (300, 80), '_name': 'Hero_name', 'direction': 'LEFT', 'collision_on': True, '_isalive': True, 'speed': 20}
+INFO:root:Game over! End loop.
+DEBUG:root:logging enabled at path: data\logs
+DEBUG:root:key repetition is set to True
+DEBUG:root:loaded hero state" {'inventory': [<items.SlimeDust object at 0x0000000002BFEA20>, <items.RatTail object at 0x0000000002BFE780>, <items.RatTail object at 0x0000000002BFE7F0>, <items.RatTail object at 0x0000000002BFE828>, <items.SlimeDust object at 0x0000000006DF2E48>, <items.SlimeDust object at 0x0000000006DF2F28>, <items.RatTail object at 0x0000000006E16198>, <items.SlimeDust object at 0x0000000006E16048>, <items.RatTail object at 0x0000000006E16A58>, <items.RatTail object at 0x0000000006E16AC8>, <items.RatTail object at 0x0000000006E16978>, <items.SlimeDust object at 0x0000000006E16A90>, <items.RatTail object at 0x0000000006E16080>], '_isalive': True, 'vert': 0, '_name': 'Hero_name', 'mobile': True, '_pos': (300, 80), 'speed': 20, 'collision_on': True, 'direction': 'LEFT', 'hor': 0}
+DEBUG:root:current bgm was:  room bgm is: engine_slow.wav
+DEBUG:root:saving hero state: {'_isalive': True, 'mobile': True, 'speed': 20, 'collision_on': True, 'hor': 0, 'inventory': [<items.SlimeDust object at 0x0000000002BFEA20>, <items.RatTail object at 0x0000000002BFE780>, <items.RatTail object at 0x0000000002BFE7F0>, <items.RatTail object at 0x0000000002BFE828>, <items.SlimeDust object at 0x0000000006DF2E48>, <items.SlimeDust object at 0x0000000006DF2F28>, <items.RatTail object at 0x0000000006E16198>, <items.SlimeDust object at 0x0000000006E16048>, <items.RatTail object at 0x0000000006E16A58>, <items.RatTail object at 0x0000000006E16AC8>, <items.RatTail object at 0x0000000006E16978>, <items.SlimeDust object at 0x0000000006E16A90>, <items.RatTail object at 0x0000000006E16080>, <items.SlimeDust object at 0x0000000006E182B0>, <items.RatTail object at 0x0000000002BFE7B8>], 'vert': 0, '_name': 'Hero_name', '_pos': (480, 60), 'direction': 'LEFT'}
+INFO:root:Game over! End loop.
+DEBUG:root:logging enabled at path: data\logs
+DEBUG:root:key repetition is set to True
+DEBUG:root:loaded hero state" {'_name': 'Hero_name', 'inventory': [<items.SlimeDust object at 0x0000000002B39F60>, <items.RatTail object at 0x0000000002B43128>, <items.RatTail object at 0x0000000006D41780>, <items.RatTail object at 0x0000000006D416A0>, <items.SlimeDust object at 0x0000000006D41828>, <items.SlimeDust object at 0x0000000006D418D0>, <items.RatTail object at 0x0000000006D417B8>, <items.SlimeDust object at 0x0000000006D417F0>, <items.RatTail object at 0x0000000006D41940>, <items.RatTail object at 0x0000000006D63160>, <items.RatTail object at 0x0000000006D63358>, <items.SlimeDust object at 0x0000000006D632B0>, <items.RatTail object at 0x0000000006D63198>, <items.SlimeDust object at 0x0000000006D63390>, <items.RatTail object at 0x0000000006D632E8>], '_isalive': True, 'direction': 'LEFT', 'mobile': True, '_pos': (480, 60), 'collision_on': True, 'hor': 0, 'vert': 0, 'speed': 20}
+DEBUG:root:current bgm was:  room bgm is: engine_slow.wav
+DEBUG:root:saving hero state: {'direction': 'LEFT', 'mobile': True, '_pos': (320, 440), 'hor': 0, 'vert': 0, '_name': 'Hero_name', 'inventory': [<items.SlimeDust object at 0x0000000002B39F60>, <items.RatTail object at 0x0000000002B43128>, <items.RatTail object at 0x0000000006D41780>, <items.RatTail object at 0x0000000006D416A0>, <items.SlimeDust object at 0x0000000006D41828>, <items.SlimeDust object at 0x0000000006D418D0>, <items.RatTail object at 0x0000000006D417B8>, <items.SlimeDust object at 0x0000000006D417F0>, <items.RatTail object at 0x0000000006D41940>, <items.RatTail object at 0x0000000006D63160>, <items.RatTail object at 0x0000000006D63358>, <items.SlimeDust object at 0x0000000006D632B0>, <items.RatTail object at 0x0000000006D63198>, <items.SlimeDust object at 0x0000000006D63390>, <items.RatTail object at 0x0000000006D632E8>], '_isalive': True, 'collision_on': True, 'speed': 20}
+INFO:root:Game over! End loop.
+DEBUG:root:logging enabled at path: data\logs
+DEBUG:root:key repetition is set to True
+DEBUG:root:loaded hero state" {'mobile': True, 'vert': 0, '_isalive': True, '_pos': (320, 440), 'speed': 20, 'collision_on': True, '_name': 'Hero_name', 'hor': 0, 'direction': 'LEFT', 'inventory': [<items.SlimeDust object at 0x0000000002C587F0>, <items.RatTail object at 0x0000000006D9EF28>, <items.RatTail object at 0x0000000006DCFAC8>, <items.RatTail object at 0x0000000006DCF048>, <items.SlimeDust object at 0x0000000006DCF208>, <items.SlimeDust object at 0x0000000006DCF978>, <items.RatTail object at 0x0000000006DCFA90>, <items.SlimeDust object at 0x0000000006DCF080>, <items.RatTail object at 0x0000000006DCF9E8>, <items.RatTail object at 0x0000000006DCF1D0>, <items.RatTail object at 0x0000000006DCFC50>, <items.SlimeDust object at 0x0000000006DCFC18>, <items.RatTail object at 0x0000000006DCFBA8>, <items.SlimeDust object at 0x0000000006DCFB70>, <items.RatTail object at 0x0000000006DCFBE0>]}
+DEBUG:root:current bgm was:  room bgm is: engine_slow.wav
+DEBUG:root:saving hero state: {'mobile': True, 'vert': 0, '_isalive': True, '_pos': (160, 260), 'speed': 20, '_name': 'Hero_name', 'hor': 0, 'direction': 'LEFT', 'inventory': [<items.SlimeDust object at 0x0000000002C587F0>, <items.RatTail object at 0x0000000006D9EF28>, <items.RatTail object at 0x0000000006DCFAC8>, <items.RatTail object at 0x0000000006DCF048>, <items.SlimeDust object at 0x0000000006DCF208>, <items.SlimeDust object at 0x0000000006DCF978>, <items.RatTail object at 0x0000000006DCFA90>, <items.SlimeDust object at 0x0000000006DCF080>, <items.RatTail object at 0x0000000006DCF9E8>, <items.RatTail object at 0x0000000006DCF1D0>, <items.RatTail object at 0x0000000006DCFC50>, <items.SlimeDust object at 0x0000000006DCFC18>, <items.RatTail object at 0x0000000006DCFBA8>, <items.SlimeDust object at 0x0000000006DCFB70>, <items.RatTail object at 0x0000000006DCFBE0>, <items.RatTail object at 0x0000000006DCF198>, <items.SlimeDust object at 0x0000000006DD1320>, <items.RatTail object at 0x0000000006DD1080>], 'collision_on': True}
+INFO:root:Game over! End loop.
+DEBUG:root:logging enabled at path: data\logs
+DEBUG:root:key repetition is set to True
+DEBUG:root:loaded hero state" {'hor': 0, 'collision_on': True, 'speed': 20, '_pos': (160, 260), 'direction': 'LEFT', 'mobile': True, '_name': 'Hero_name', '_isalive': True, 'inventory': [<items.SlimeDust object at 0x0000000002B95160>, <items.RatTail object at 0x0000000006D60828>, <items.RatTail object at 0x0000000006D607B8>, <items.RatTail object at 0x0000000006D607F0>, <items.SlimeDust object at 0x0000000006D60940>, <items.SlimeDust object at 0x0000000006D7F160>, <items.RatTail object at 0x0000000006D7FA90>, <items.SlimeDust object at 0x0000000006D7F208>, <items.RatTail object at 0x0000000006D7F390>, <items.RatTail object at 0x0000000006D7F240>, <items.RatTail object at 0x0000000006D7F198>, <items.SlimeDust object at 0x0000000006D7F2E8>, <items.RatTail object at 0x0000000006D7F358>, <items.SlimeDust object at 0x0000000006D7F0F0>, <items.RatTail object at 0x0000000006D7F2B0>, <items.RatTail object at 0x0000000006D7F320>, <items.SlimeDust object at 0x0000000006D7F3C8>, <items.RatTail object at 0x0000000006D7F400>], 'vert': 0}
+DEBUG:root:current bgm was:  room bgm is: engine_slow.wav
+DEBUG:root:saving hero state: {'_pos': (240, 280), 'direction': 'LEFT', '_name': 'Hero_name', 'inventory': [<items.SlimeDust object at 0x0000000002B95160>, <items.RatTail object at 0x0000000006D60828>, <items.RatTail object at 0x0000000006D607B8>, <items.RatTail object at 0x0000000006D607F0>, <items.SlimeDust object at 0x0000000006D60940>, <items.SlimeDust object at 0x0000000006D7F160>, <items.RatTail object at 0x0000000006D7FA90>, <items.SlimeDust object at 0x0000000006D7F208>, <items.RatTail object at 0x0000000006D7F390>, <items.RatTail object at 0x0000000006D7F240>, <items.RatTail object at 0x0000000006D7F198>, <items.SlimeDust object at 0x0000000006D7F2E8>, <items.RatTail object at 0x0000000006D7F358>, <items.SlimeDust object at 0x0000000006D7F0F0>, <items.RatTail object at 0x0000000006D7F2B0>, <items.RatTail object at 0x0000000006D7F320>, <items.SlimeDust object at 0x0000000006D7F3C8>, <items.RatTail object at 0x0000000006D7F400>, <items.RatTail object at 0x0000000006D7F828>, <items.RatTail object at 0x0000000006D7F710>, <items.RatTail object at 0x0000000006D85B70>, <items.SlimeDust object at 0x0000000006D8D860>, <items.RatTail object at 0x0000000006D91550>], 'vert': 0, 'hor': 0, 'speed': 20, 'collision_on': True, '_isalive': True, 'mobile': True}
+INFO:root:Game over! End loop.
+DEBUG:root:logging enabled at path: data\logs
+DEBUG:root:key repetition is set to True
+DEBUG:root:loaded hero state" {'direction': 'LEFT', 'inventory': [<items.SlimeDust object at 0x0000000002BBBF60>, <items.RatTail object at 0x0000000002BC5128>, <items.RatTail object at 0x0000000006D77780>, <items.RatTail object at 0x0000000006D776A0>, <items.SlimeDust object at 0x0000000006D77828>, <items.SlimeDust object at 0x0000000006D778D0>, <items.RatTail object at 0x0000000006D777B8>, <items.SlimeDust object at 0x0000000006D777F0>, <items.RatTail object at 0x0000000006D77940>, <items.RatTail object at 0x0000000006D9E160>, <items.RatTail object at 0x0000000006D9E320>, <items.SlimeDust object at 0x0000000006D9E358>, <items.RatTail object at 0x0000000006D9E0F0>, <items.SlimeDust object at 0x0000000006D9E390>, <items.RatTail object at 0x0000000006D9E208>, <items.RatTail object at 0x0000000006D9E2B0>, <items.SlimeDust object at 0x0000000006D9E240>, <items.RatTail object at 0x0000000006D9EA90>, <items.RatTail object at 0x0000000006D9E198>, <items.RatTail object at 0x0000000006D9E2E8>, <items.RatTail object at 0x0000000006D9E3C8>, <items.SlimeDust object at 0x0000000006D9E400>, <items.RatTail object at 0x0000000006D9E438>], '_isalive': True, '_name': 'Hero_name', 'vert': 0, '_pos': (240, 280), 'speed': 20, 'mobile': True, 'collision_on': True, 'hor': 0}
+DEBUG:root:current bgm was:  room bgm is: engine_slow.wav
+DEBUG:root:saving hero state: {'direction': 'LEFT', 'inventory': [<items.SlimeDust object at 0x0000000002BBBF60>, <items.RatTail object at 0x0000000002BC5128>, <items.RatTail object at 0x0000000006D77780>, <items.RatTail object at 0x0000000006D776A0>, <items.SlimeDust object at 0x0000000006D77828>, <items.SlimeDust object at 0x0000000006D778D0>, <items.RatTail object at 0x0000000006D777B8>, <items.SlimeDust object at 0x0000000006D777F0>, <items.RatTail object at 0x0000000006D77940>, <items.RatTail object at 0x0000000006D9E160>, <items.RatTail object at 0x0000000006D9E320>, <items.SlimeDust object at 0x0000000006D9E358>, <items.RatTail object at 0x0000000006D9E0F0>, <items.SlimeDust object at 0x0000000006D9E390>, <items.RatTail object at 0x0000000006D9E208>, <items.RatTail object at 0x0000000006D9E2B0>, <items.SlimeDust object at 0x0000000006D9E240>, <items.RatTail object at 0x0000000006D9EA90>, <items.RatTail object at 0x0000000006D9E198>, <items.RatTail object at 0x0000000006D9E2E8>, <items.RatTail object at 0x0000000006D9E3C8>, <items.SlimeDust object at 0x0000000006D9E400>, <items.RatTail object at 0x0000000006D9E438>, <items.SlimeDust object at 0x0000000006D9EC18>, <items.RatTail object at 0x0000000002BC5160>], 'speed': 20, 'vert': 0, '_pos': (300, 80), 'mobile': True, '_name': 'Hero_name', '_isalive': True, 'collision_on': True, 'hor': 0}
+INFO:root:Game over! End loop.
+DEBUG:root:logging enabled at path: data\logs
+DEBUG:root:key repetition is set to True
+DEBUG:root:loaded hero state" {'inventory': [<items.SlimeDust object at 0x0000000002C9CBA8>, <items.RatTail object at 0x0000000002C9C8D0>, <items.RatTail object at 0x0000000002C9C978>, <items.RatTail object at 0x0000000002C9C9B0>, <items.SlimeDust object at 0x0000000006E6AB70>, <items.SlimeDust object at 0x0000000006E6A048>, <items.RatTail object at 0x0000000006E6A160>, <items.SlimeDust object at 0x0000000006E6A240>, <items.RatTail object at 0x0000000006E6ABA8>, <items.RatTail object at 0x0000000006E6ADA0>, <items.RatTail object at 0x0000000006E6AAC8>, <items.SlimeDust object at 0x0000000006E6ABE0>, <items.RatTail object at 0x0000000006E6AC18>, <items.SlimeDust object at 0x0000000006E6AB38>, <items.RatTail object at 0x0000000006E6A1D0>, <items.RatTail object at 0x0000000006E6ADD8>, <items.SlimeDust object at 0x0000000006E6AC50>, <items.RatTail object at 0x0000000006E6AD30>, <items.RatTail object at 0x0000000006E6ACF8>, <items.RatTail object at 0x0000000006E6AD68>, <items.RatTail object at 0x0000000006E6AC88>, <items.SlimeDust object at 0x0000000006E6A320>, <items.RatTail object at 0x0000000006E6AE10>, <items.SlimeDust object at 0x0000000006E6AE48>, <items.RatTail object at 0x0000000006E6AE80>], '_name': 'Hero_name', 'mobile': True, 'direction': 'LEFT', 'vert': 0, 'speed': 20, '_pos': (300, 80), '_isalive': True, 'hor': 0, 'collision_on': True}
+DEBUG:root:current bgm was:  room bgm is: engine_slow.wav
+DEBUG:root:saving hero state: {'mobile': True, 'direction': 'LEFT', 'vert': 0, 'hor': 0, '_pos': (300, 440), 'collision_on': True, 'inventory': [<items.SlimeDust object at 0x0000000002C9CBA8>, <items.RatTail object at 0x0000000002C9C8D0>, <items.RatTail object at 0x0000000002C9C978>, <items.RatTail object at 0x0000000002C9C9B0>, <items.SlimeDust object at 0x0000000006E6AB70>, <items.SlimeDust object at 0x0000000006E6A048>, <items.RatTail object at 0x0000000006E6A160>, <items.SlimeDust object at 0x0000000006E6A240>, <items.RatTail object at 0x0000000006E6ABA8>, <items.RatTail object at 0x0000000006E6ADA0>, <items.RatTail object at 0x0000000006E6AAC8>, <items.SlimeDust object at 0x0000000006E6ABE0>, <items.RatTail object at 0x0000000006E6AC18>, <items.SlimeDust object at 0x0000000006E6AB38>, <items.RatTail object at 0x0000000006E6A1D0>, <items.RatTail object at 0x0000000006E6ADD8>, <items.SlimeDust object at 0x0000000006E6AC50>, <items.RatTail object at 0x0000000006E6AD30>, <items.RatTail object at 0x0000000006E6ACF8>, <items.RatTail object at 0x0000000006E6AD68>, <items.RatTail object at 0x0000000006E6AC88>, <items.SlimeDust object at 0x0000000006E6A320>, <items.RatTail object at 0x0000000006E6AE10>, <items.SlimeDust object at 0x0000000006E6AE48>, <items.RatTail object at 0x0000000006E6AE80>], '_name': 'Hero_name', '_isalive': True, 'speed': 20}
+INFO:root:Game over! End loop.
+DEBUG:root:logging enabled at path: data\logs
+DEBUG:root:key repetition is set to True
+DEBUG:root:current bgm was:  room bgm is: engine_slow.wav
+DEBUG:root:saving hero state: {'_isalive': True, '_name': 'Hero_name', 'direction': 'LEFT', 'hor': 0, 'speed': 20, 'vert': 0, 'collision_on': True, '_pos': (420, 280), 'inventory': [<items.RatTail object at 0x0000000006DF3908>, <items.SlimeDust object at 0x0000000006E214A8>], 'mobile': True}
+INFO:root:Game over! End loop.
+DEBUG:root:logging enabled at path: data\logs
+DEBUG:root:key repetition is set to True
+DEBUG:root:loaded hero state" {'hor': 0, 'direction': 'LEFT', '_pos': (420, 280), 'speed': 20, '_name': 'Hero_name', 'collision_on': True, 'vert': 0, 'mobile': True, 'inventory': [<items.RatTail object at 0x0000000002C520B8>, <items.SlimeDust object at 0x0000000006BCE7F0>], '_isalive': True}
+DEBUG:root:current bgm was:  room bgm is: engine_slow.wav
+DEBUG:root:saving hero state: {'_name': 'Hero_name', 'collision_on': True, 'vert': 0, '_isalive': True, 'hor': 0, 'direction': 'LEFT', '_pos': (380, 280), 'speed': 20, 'mobile': True, 'inventory': [<items.RatTail object at 0x0000000002C520B8>, <items.SlimeDust object at 0x0000000006BCE7F0>]}
+INFO:root:Game over! End loop.
+DEBUG:root:logging enabled at path: data\logs
+DEBUG:root:key repetition is set to True
+DEBUG:root:loaded hero state" {'_pos': (380, 280), 'inventory': [<items.RatTail object at 0x0000000002B6E9B0>, <items.SlimeDust object at 0x0000000006E66240>], 'collision_on': True, '_isalive': True, '_name': 'Hero_name', 'vert': 0, 'speed': 20, 'hor': 0, 'direction': 'LEFT', 'mobile': True}
+DEBUG:root:current bgm was:  room bgm is: engine_slow.wav
+DEBUG:root:saving hero state: {'inventory': [<items.RatTail object at 0x0000000002B6E9B0>, <items.SlimeDust object at 0x0000000006E66240>, <items.RatTail object at 0x0000000006E66EF0>, <items.RatTail object at 0x0000000006E66C50>, <items.SlimeDust object at 0x0000000006E6E1D0>, <items.RatTail object at 0x0000000006E7B438>, <items.SlimeDust object at 0x0000000006E78748>, <items.RatTail object at 0x0000000006E6EA20>], 'collision_on': True, '_name': 'Hero_name', 'vert': 0, 'speed': 20, 'mobile': True, '_pos': (220, 160), 'hor': 0, '_isalive': True, 'direction': 'LEFT'}
+INFO:root:Game over! End loop.
+DEBUG:root:logging enabled at path: data\logs
+DEBUG:root:key repetition is set to True
+DEBUG:root:loaded hero state" {'_pos': (220, 160), 'hor': 0, '_name': 'Hero_name', 'mobile': True, 'inventory': [<items.RatTail object at 0x0000000002B48B70>, <items.SlimeDust object at 0x0000000002B48F98>, <items.RatTail object at 0x0000000002B48FD0>, <items.RatTail object at 0x0000000002B520B8>, <items.SlimeDust object at 0x0000000002B520F0>, <items.RatTail object at 0x0000000006D7C748>, <items.SlimeDust object at 0x0000000006D7C668>, <items.RatTail object at 0x0000000006D7C7F0>], 'collision_on': True, '_isalive': True, 'vert': 0, 'speed': 20, 'direction': 'LEFT'}
+DEBUG:root:current bgm was:  room bgm is: engine_slow.wav
+DEBUG:root:saving hero state: {'_pos': (140, 240), '_name': 'Hero_name', 'mobile': True, 'inventory': [<items.RatTail object at 0x0000000002B48B70>, <items.SlimeDust object at 0x0000000002B48F98>, <items.RatTail object at 0x0000000002B48FD0>, <items.RatTail object at 0x0000000002B520B8>, <items.SlimeDust object at 0x0000000002B520F0>, <items.RatTail object at 0x0000000006D7C748>, <items.SlimeDust object at 0x0000000006D7C668>, <items.RatTail object at 0x0000000006D7C7F0>, <items.RatTail object at 0x0000000002B489B0>, <items.RatTail object at 0x0000000006D815C0>, <items.SlimeDust object at 0x0000000006D81860>], 'collision_on': True, 'direction': 'LEFT', 'hor': 0, '_isalive': True, 'vert': 0, 'speed': 20}
+INFO:root:Game over! End loop.
+DEBUG:root:logging enabled at path: data\logs
+DEBUG:root:key repetition is set to True
+DEBUG:root:loaded hero state" {'collision_on': True, 'speed': 20, '_pos': (140, 240), 'mobile': True, '_isalive': True, '_name': 'Hero_name', 'hor': 0, 'inventory': [<items.RatTail object at 0x0000000002C0F198>, <items.SlimeDust object at 0x0000000002C0F860>, <items.RatTail object at 0x0000000006CEEF60>, <items.RatTail object at 0x0000000006D12A58>, <items.SlimeDust object at 0x0000000006D12208>, <items.RatTail object at 0x0000000006D12C50>, <items.SlimeDust object at 0x0000000006D12BA8>, <items.RatTail object at 0x0000000006D12080>, <items.RatTail object at 0x0000000006D129B0>, <items.RatTail object at 0x0000000006D12AC8>, <items.SlimeDust object at 0x0000000006D12048>], 'vert': 0, 'direction': 'LEFT'}
+DEBUG:root:current bgm was:  room bgm is: engine_slow.wav
+DEBUG:root:saving hero state: {'collision_on': True, 'speed': 20, '_name': 'Hero_name', 'hor': 0, 'inventory': [<items.RatTail object at 0x0000000002C0F198>, <items.SlimeDust object at 0x0000000002C0F860>, <items.RatTail object at 0x0000000006CEEF60>, <items.RatTail object at 0x0000000006D12A58>, <items.SlimeDust object at 0x0000000006D12208>, <items.RatTail object at 0x0000000006D12C50>, <items.SlimeDust object at 0x0000000006D12BA8>, <items.RatTail object at 0x0000000006D12080>, <items.RatTail object at 0x0000000006D129B0>, <items.RatTail object at 0x0000000006D12AC8>, <items.SlimeDust object at 0x0000000006D12048>], '_pos': (220, 260), 'mobile': True, 'direction': 'LEFT', 'vert': 0, '_isalive': True}
+INFO:root:Game over! End loop.
+DEBUG:root:logging enabled at path: data\logs
+DEBUG:root:key repetition is set to True
+DEBUG:root:loaded hero state" {'speed': 20, '_isalive': True, '_pos': (220, 260), 'mobile': True, 'vert': 0, 'inventory': [<items.RatTail object at 0x0000000002BFB198>, <items.SlimeDust object at 0x0000000002BFB860>, <items.RatTail object at 0x0000000006EBFF60>, <items.RatTail object at 0x0000000006EF1A58>, <items.SlimeDust object at 0x0000000006EF1208>, <items.RatTail object at 0x0000000006EF1BA8>, <items.SlimeDust object at 0x0000000006EF1080>, <items.RatTail object at 0x0000000006EF1C18>, <items.RatTail object at 0x0000000006EF19B0>, <items.RatTail object at 0x0000000006EF1AC8>, <items.SlimeDust object at 0x0000000006EF1048>], 'collision_on': True, 'hor': 0, 'direction': 'LEFT', '_name': 'Hero_name'}
+DEBUG:root:current bgm was:  room bgm is: engine_slow.wav
+DEBUG:root:saving hero state: {'collision_on': True, 'speed': 20, '_isalive': True, '_pos': (300, 440), 'mobile': True, 'vert': 0, 'inventory': [<items.RatTail object at 0x0000000002BFB198>, <items.SlimeDust object at 0x0000000002BFB860>, <items.RatTail object at 0x0000000006EBFF60>, <items.RatTail object at 0x0000000006EF1A58>, <items.SlimeDust object at 0x0000000006EF1208>, <items.RatTail object at 0x0000000006EF1BA8>, <items.SlimeDust object at 0x0000000006EF1080>, <items.RatTail object at 0x0000000006EF1C18>, <items.RatTail object at 0x0000000006EF19B0>, <items.RatTail object at 0x0000000006EF1AC8>, <items.SlimeDust object at 0x0000000006EF1048>], 'direction': 'LEFT', 'hor': 0, '_name': 'Hero_name'}
+INFO:root:Game over! End loop.
+DEBUG:root:logging enabled at path: data\logs
+DEBUG:root:key repetition is set to True
+DEBUG:root:loaded hero state" {'hor': 0, 'mobile': True, '_isalive': True, 'inventory': [<items.RatTail object at 0x0000000002CDE710>, <items.SlimeDust object at 0x0000000006E24F98>, <items.RatTail object at 0x0000000006E24EB8>, <items.RatTail object at 0x0000000006E24FD0>, <items.SlimeDust object at 0x0000000006E24DD8>, <items.RatTail object at 0x0000000006E2E978>, <items.SlimeDust object at 0x0000000006E2EB38>, <items.RatTail object at 0x0000000006E2EBA8>, <items.RatTail object at 0x0000000006E2EA58>, <items.RatTail object at 0x0000000006E2E908>, <items.SlimeDust object at 0x0000000006E2EA20>], 'direction': 'LEFT', '_name': 'Hero_name', 'vert': 0, 'collision_on': True, '_pos': (300, 440), 'speed': 20}
+DEBUG:root:current bgm was:  room bgm is: engine_slow.wav
+DEBUG:root:saving hero state: {'_name': 'Hero_name', 'vert': 0, 'collision_on': True, '_pos': (20, 100), 'speed': 20, 'mobile': True, '_isalive': True, 'inventory': [<items.RatTail object at 0x0000000002CDE710>, <items.SlimeDust object at 0x0000000006E24F98>, <items.RatTail object at 0x0000000006E24EB8>, <items.RatTail object at 0x0000000006E24FD0>, <items.SlimeDust object at 0x0000000006E24DD8>, <items.RatTail object at 0x0000000006E2E978>, <items.SlimeDust object at 0x0000000006E2EB38>, <items.RatTail object at 0x0000000006E2EBA8>, <items.RatTail object at 0x0000000006E2EA58>, <items.RatTail object at 0x0000000006E2E908>, <items.SlimeDust object at 0x0000000006E2EA20>], 'direction': 'LEFT', 'hor': 0}
+INFO:root:Game over! End loop.
+DEBUG:root:logging enabled at path: data\logs
+DEBUG:root:key repetition is set to True
+DEBUG:root:loaded hero state" {'hor': 0, 'collision_on': True, '_pos': (20, 100), 'speed': 20, 'vert': 0, '_name': 'Hero_name', 'mobile': True, 'inventory': [<items.RatTail object at 0x0000000002B46860>, <items.SlimeDust object at 0x0000000006D96A90>, <items.RatTail object at 0x0000000006D96080>, <items.RatTail object at 0x0000000006D96C18>, <items.SlimeDust object at 0x0000000006D96160>, <items.RatTail object at 0x0000000006D96C50>, <items.SlimeDust object at 0x0000000006D969E8>, <items.RatTail object at 0x0000000006D96B00>, <items.RatTail object at 0x0000000006D96B38>, <items.RatTail object at 0x0000000006D96A58>, <items.SlimeDust object at 0x0000000006D960F0>], 'direction': 'LEFT', '_isalive': True}
+DEBUG:root:current bgm was:  room bgm is: engine_slow.wav
+DEBUG:root:saving hero state: {'hor': 0, 'collision_on': True, 'speed': 20, '_name': 'Hero_name', 'mobile': True, '_pos': (400, 240), 'vert': 0, '_isalive': True, 'inventory': [<items.RatTail object at 0x0000000002B46860>, <items.SlimeDust object at 0x0000000006D96A90>, <items.RatTail object at 0x0000000006D96080>, <items.RatTail object at 0x0000000006D96C18>, <items.SlimeDust object at 0x0000000006D96160>, <items.RatTail object at 0x0000000006D96C50>, <items.SlimeDust object at 0x0000000006D969E8>, <items.RatTail object at 0x0000000006D96B00>, <items.RatTail object at 0x0000000006D96B38>, <items.RatTail object at 0x0000000006D96A58>, <items.SlimeDust object at 0x0000000006D960F0>], 'direction': 'LEFT'}
+INFO:root:Game over! End loop.
+DEBUG:root:logging enabled at path: data\logs
+DEBUG:root:key repetition is set to True
+DEBUG:root:loaded hero state" {'_isalive': True, 'direction': 'LEFT', 'inventory': [<items.RatTail object at 0x0000000002BCF908>, <items.SlimeDust object at 0x0000000006D870F0>, <items.RatTail object at 0x0000000006D87CF8>, <items.RatTail object at 0x0000000006D87D30>, <items.SlimeDust object at 0x0000000006D871D0>, <items.RatTail object at 0x0000000006D87A58>, <items.SlimeDust object at 0x0000000006D87B70>, <items.RatTail object at 0x0000000006D87BA8>, <items.RatTail object at 0x0000000006D87AC8>, <items.RatTail object at 0x0000000006D87160>, <items.SlimeDust object at 0x0000000006D87D68>], 'speed': 20, 'mobile': True, 'hor': 0, '_pos': (400, 240), 'collision_on': True, 'vert': 0, '_name': 'Hero_name'}
+DEBUG:root:current bgm was:  room bgm is: engine_slow.wav
+DEBUG:root:saving hero state: {'vert': 0, 'collision_on': True, 'inventory': [<items.RatTail object at 0x0000000002BCF908>, <items.SlimeDust object at 0x0000000006D870F0>, <items.RatTail object at 0x0000000006D87CF8>, <items.RatTail object at 0x0000000006D87D30>, <items.SlimeDust object at 0x0000000006D871D0>, <items.RatTail object at 0x0000000006D87A58>, <items.SlimeDust object at 0x0000000006D87B70>, <items.RatTail object at 0x0000000006D87BA8>, <items.RatTail object at 0x0000000006D87AC8>, <items.RatTail object at 0x0000000006D87160>, <items.SlimeDust object at 0x0000000006D87D68>], '_pos': (300, 80), 'direction': 'LEFT', 'speed': 20, 'hor': 0, '_isalive': True, '_name': 'Hero_name', 'mobile': True}
+INFO:root:Game over! End loop.
+DEBUG:root:logging enabled at path: data\logs
+DEBUG:root:key repetition is set to True
+DEBUG:root:loaded hero state" {'_isalive': True, 'inventory': [<items.RatTail object at 0x0000000002C18A20>, <items.SlimeDust object at 0x0000000002C187B8>, <items.RatTail object at 0x0000000002C187F0>, <items.RatTail object at 0x0000000002C18828>, <items.SlimeDust object at 0x0000000006D9EE48>, <items.RatTail object at 0x0000000006D9EF28>, <items.SlimeDust object at 0x0000000006DC4198>, <items.RatTail object at 0x0000000006DC4048>, <items.RatTail object at 0x0000000006DC4A58>, <items.RatTail object at 0x0000000006DC4AC8>, <items.SlimeDust object at 0x0000000006DC4978>], 'vert': 0, 'mobile': True, 'collision_on': True, '_name': 'Hero_name', 'speed': 20, '_pos': (300, 80), 'direction': 'LEFT', 'hor': 0}
+DEBUG:root:current bgm was:  room bgm is: engine_slow.wav
+DEBUG:root:saving hero state: {'_isalive': True, 'vert': 0, 'collision_on': True, '_name': 'Hero_name', 'inventory': [<items.RatTail object at 0x0000000002C18A20>, <items.SlimeDust object at 0x0000000002C187B8>, <items.RatTail object at 0x0000000002C187F0>, <items.RatTail object at 0x0000000002C18828>, <items.SlimeDust object at 0x0000000006D9EE48>, <items.RatTail object at 0x0000000006D9EF28>, <items.SlimeDust object at 0x0000000006DC4198>, <items.RatTail object at 0x0000000006DC4048>, <items.RatTail object at 0x0000000006DC4A58>, <items.RatTail object at 0x0000000006DC4AC8>, <items.SlimeDust object at 0x0000000006DC4978>], 'mobile': False, 'speed': 20, '_pos': (440, 220), 'direction': 'LEFT', 'hor': 0}
+INFO:root:Game over! End loop.
+DEBUG:root:logging enabled at path: data\logs
+DEBUG:root:key repetition is set to True
+DEBUG:root:loaded hero state" {'vert': 0, '_isalive': True, 'direction': 'LEFT', 'speed': 20, 'mobile': False, '_name': 'Hero_name', 'hor': 0, '_pos': (440, 220), 'collision_on': True, 'inventory': [<items.RatTail object at 0x0000000002BFA710>, <items.SlimeDust object at 0x0000000002BFA828>, <items.RatTail object at 0x0000000002BFA860>, <items.RatTail object at 0x0000000006E8EF60>, <items.SlimeDust object at 0x0000000006EA8A58>, <items.RatTail object at 0x0000000006EA8208>, <items.SlimeDust object at 0x0000000006EA8C18>, <items.RatTail object at 0x0000000006EA8C50>, <items.RatTail object at 0x0000000006EA8A90>, <items.RatTail object at 0x0000000006EA89B0>, <items.SlimeDust object at 0x0000000006EA8AC8>]}
+DEBUG:root:current bgm was:  room bgm is: engine_slow.wav
+DEBUG:root:saving hero state: {'vert': 0, '_isalive': True, 'speed': 20, 'hor': 0, 'direction': 'LEFT', 'mobile': False, '_name': 'Hero_name', '_pos': (500, 280), 'collision_on': True, 'inventory': [<items.RatTail object at 0x0000000002BFA710>, <items.SlimeDust object at 0x0000000002BFA828>, <items.RatTail object at 0x0000000002BFA860>, <items.RatTail object at 0x0000000006E8EF60>, <items.SlimeDust object at 0x0000000006EA8A58>, <items.RatTail object at 0x0000000006EA8208>, <items.SlimeDust object at 0x0000000006EA8C18>, <items.RatTail object at 0x0000000006EA8C50>, <items.RatTail object at 0x0000000006EA8A90>, <items.RatTail object at 0x0000000006EA89B0>, <items.SlimeDust object at 0x0000000006EA8AC8>]}
+INFO:root:Game over! End loop.
+DEBUG:root:logging enabled at path: data\logs
+DEBUG:root:key repetition is set to True
+DEBUG:root:loaded hero state" {'direction': 'LEFT', '_name': 'Hero_name', 'inventory': [<items.RatTail object at 0x0000000002BB3048>, <items.SlimeDust object at 0x0000000006D3D780>, <items.RatTail object at 0x0000000006D3D828>, <items.RatTail object at 0x0000000006D3D710>, <items.SlimeDust object at 0x0000000006D3D748>, <items.RatTail object at 0x0000000006D3D898>, <items.SlimeDust object at 0x0000000006D6A0B8>, <items.RatTail object at 0x0000000006D6A240>, <items.RatTail object at 0x0000000006D6A2B0>, <items.RatTail object at 0x0000000006D6A160>, <items.SlimeDust object at 0x0000000006D6A2E8>], 'vert': 0, 'speed': 20, '_isalive': True, 'mobile': False, '_pos': (500, 280), 'collision_on': True, 'hor': 0}
+DEBUG:root:current bgm was:  room bgm is: engine_slow.wav
+DEBUG:root:saving hero state: {'_name': 'Hero_name', 'vert': 0, 'speed': 20, 'inventory': [<items.RatTail object at 0x0000000002BB3048>, <items.SlimeDust object at 0x0000000006D3D780>, <items.RatTail object at 0x0000000006D3D828>, <items.RatTail object at 0x0000000006D3D710>, <items.SlimeDust object at 0x0000000006D3D748>, <items.RatTail object at 0x0000000006D3D898>, <items.SlimeDust object at 0x0000000006D6A0B8>, <items.RatTail object at 0x0000000006D6A240>, <items.RatTail object at 0x0000000006D6A2B0>, <items.RatTail object at 0x0000000006D6A160>, <items.SlimeDust object at 0x0000000006D6A2E8>], 'mobile': True, 'direction': 'LEFT', 'hor': 0, '_isalive': True, 'collision_on': True, '_pos': (240, 280)}
+INFO:root:Game over! End loop.
+DEBUG:root:logging enabled at path: data\logs
+DEBUG:root:key repetition is set to True
+DEBUG:root:loaded hero state" {'speed': 20, 'collision_on': True, 'inventory': [<items.RatTail object at 0x0000000002B70588>, <items.SlimeDust object at 0x0000000002B70940>, <items.RatTail object at 0x0000000006E61B00>, <items.RatTail object at 0x0000000006E61048>, <items.SlimeDust object at 0x0000000006E610F0>, <items.RatTail object at 0x0000000006E61C88>, <items.SlimeDust object at 0x0000000006E611D0>, <items.RatTail object at 0x0000000006E61D68>, <items.RatTail object at 0x0000000006E61A58>, <items.RatTail object at 0x0000000006E61B70>, <items.SlimeDust object at 0x0000000006E61BA8>], 'vert': 0, 'mobile': True, '_name': 'Hero_name', 'direction': 'LEFT', 'hor': 0, '_pos': (240, 280), '_isalive': True}
+DEBUG:root:current bgm was:  room bgm is: engine_slow.wav
+DEBUG:root:saving hero state: {'speed': 20, 'direction': 'LEFT', 'mobile': False, '_pos': (120, 300), '_isalive': True, 'vert': 0, 'inventory': [<items.RatTail object at 0x0000000002B70588>, <items.SlimeDust object at 0x0000000002B70940>, <items.RatTail object at 0x0000000006E61B00>, <items.RatTail object at 0x0000000006E61048>, <items.SlimeDust object at 0x0000000006E610F0>, <items.RatTail object at 0x0000000006E61C88>, <items.SlimeDust object at 0x0000000006E611D0>, <items.RatTail object at 0x0000000006E61D68>, <items.RatTail object at 0x0000000006E61A58>, <items.RatTail object at 0x0000000006E61B70>, <items.SlimeDust object at 0x0000000006E61BA8>], 'collision_on': True, '_name': 'Hero_name', 'hor': 0}
+INFO:root:Game over! End loop.
+DEBUG:root:logging enabled at path: data\logs
+DEBUG:root:key repetition is set to True
+DEBUG:root:loaded hero state" {'direction': 'LEFT', 'speed': 20, 'vert': 0, '_isalive': True, 'collision_on': True, 'inventory': [<items.RatTail object at 0x0000000002BA9F60>, <items.SlimeDust object at 0x0000000006F405F8>, <items.RatTail object at 0x0000000006F40780>, <items.RatTail object at 0x0000000006F40828>, <items.SlimeDust object at 0x0000000006F40710>, <items.RatTail object at 0x0000000006F40748>, <items.SlimeDust object at 0x0000000006F40898>, <items.RatTail object at 0x0000000006F5D0B8>, <items.RatTail object at 0x0000000006F5D9E8>, <items.RatTail object at 0x0000000006F5D080>, <items.SlimeDust object at 0x0000000006F5D160>], '_name': 'Hero_name', 'mobile': False, '_pos': (120, 300), 'hor': 0}
+DEBUG:root:current bgm was:  room bgm is: engine_slow.wav
+DEBUG:root:saving hero state: {'speed': 20, 'vert': 0, '_isalive': True, 'hor': 0, 'direction': 'LEFT', 'collision_on': True, 'inventory': [<items.RatTail object at 0x0000000002BA9F60>, <items.SlimeDust object at 0x0000000006F405F8>, <items.RatTail object at 0x0000000006F40780>, <items.RatTail object at 0x0000000006F40828>, <items.SlimeDust object at 0x0000000006F40710>, <items.RatTail object at 0x0000000006F40748>, <items.SlimeDust object at 0x0000000006F40898>, <items.RatTail object at 0x0000000006F5D0B8>, <items.RatTail object at 0x0000000006F5D9E8>, <items.RatTail object at 0x0000000006F5D080>, <items.SlimeDust object at 0x0000000006F5D160>], '_name': 'Hero_name', 'mobile': False, '_pos': (440, 240)}
+INFO:root:Game over! End loop.
+DEBUG:root:logging enabled at path: data\logs
+DEBUG:root:key repetition is set to True
+DEBUG:root:loaded hero state" {'hor': 0, '_name': 'Hero_name', 'collision_on': True, 'direction': 'LEFT', '_isalive': True, '_pos': (440, 240), 'mobile': False, 'vert': 0, 'speed': 20, 'inventory': [<items.RatTail object at 0x0000000002BE7F28>, <items.SlimeDust object at 0x0000000006EB16D8>, <items.RatTail object at 0x0000000006EB15F8>, <items.RatTail object at 0x0000000006EB1780>, <items.SlimeDust object at 0x0000000006EB1828>, <items.RatTail object at 0x0000000006EB1710>, <items.SlimeDust object at 0x0000000006EB1748>, <items.RatTail object at 0x0000000006EB1898>, <items.RatTail object at 0x0000000006ED10B8>, <items.RatTail object at 0x0000000006ED1240>, <items.SlimeDust object at 0x0000000006ED12B0>]}
+DEBUG:root:current bgm was:  room bgm is: engine_slow.wav
+DEBUG:root:saving hero state: {'hor': 0, 'direction': 'LEFT', '_pos': (440, 240), 'mobile': False, 'vert': 0, '_name': 'Hero_name', 'collision_on': True, '_isalive': True, 'speed': 20, 'inventory': [<items.RatTail object at 0x0000000002BE7F28>, <items.SlimeDust object at 0x0000000006EB16D8>, <items.RatTail object at 0x0000000006EB15F8>, <items.RatTail object at 0x0000000006EB1780>, <items.SlimeDust object at 0x0000000006EB1828>, <items.RatTail object at 0x0000000006EB1710>, <items.SlimeDust object at 0x0000000006EB1748>, <items.RatTail object at 0x0000000006EB1898>, <items.RatTail object at 0x0000000006ED10B8>, <items.RatTail object at 0x0000000006ED1240>, <items.SlimeDust object at 0x0000000006ED12B0>]}
+INFO:root:Game over! End loop.
+DEBUG:root:logging enabled at path: data\logs
+DEBUG:root:key repetition is set to True
+DEBUG:root:loaded hero state" {'_name': 'Hero_name', 'speed': 20, 'direction': 'LEFT', 'inventory': [<items.RatTail object at 0x0000000002C58828>, <items.SlimeDust object at 0x0000000006BF6A58>, <items.RatTail object at 0x0000000006BF6208>, <items.RatTail object at 0x0000000006BF6B70>, <items.SlimeDust object at 0x0000000006BF6978>, <items.RatTail object at 0x0000000006BF6A90>, <items.SlimeDust object at 0x0000000006BF6080>, <items.RatTail object at 0x0000000006BF69E8>, <items.RatTail object at 0x0000000006BF61D0>, <items.RatTail object at 0x0000000006BF6BE0>, <items.SlimeDust object at 0x0000000006BF6C50>], 'collision_on': True, 'mobile': False, 'hor': 0, 'vert': 0, '_pos': (440, 240), '_isalive': True}
+DEBUG:root:current bgm was:  room bgm is: engine_slow.wav
+DEBUG:root:saving hero state: {'_name': 'Hero_name', 'inventory': [<items.RatTail object at 0x0000000002C58828>, <items.SlimeDust object at 0x0000000006BF6A58>, <items.RatTail object at 0x0000000006BF6208>, <items.RatTail object at 0x0000000006BF6B70>, <items.SlimeDust object at 0x0000000006BF6978>, <items.RatTail object at 0x0000000006BF6A90>, <items.SlimeDust object at 0x0000000006BF6080>, <items.RatTail object at 0x0000000006BF69E8>, <items.RatTail object at 0x0000000006BF61D0>, <items.RatTail object at 0x0000000006BF6BE0>, <items.SlimeDust object at 0x0000000006BF6C50>], 'collision_on': True, 'hor': 0, 'vert': 0, '_pos': (580, 360), 'speed': 20, 'direction': 'LEFT', 'mobile': True, '_isalive': True}
+INFO:root:Game over! End loop.
+DEBUG:root:logging enabled at path: data\logs
+DEBUG:root:key repetition is set to True
+DEBUG:root:current bgm was:  room bgm is: engine_slow.wav
+DEBUG:root:saving hero state: {'speed': 20, 'collision_on': True, 'direction': 'LEFT', '_isalive': True, '_pos': (560, 300), 'vert': 0, 'hor': 0, 'mobile': True, 'inventory': [<items.RatTail object at 0x0000000006E2F898>, <items.Gold object at 0x0000000006E537B8>, <items.SlimeDust object at 0x0000000006E53438>], '_name': 'Hero_name'}
+INFO:root:Game over! End loop.
+DEBUG:root:logging enabled at path: data\logs
+DEBUG:root:key repetition is set to True
+DEBUG:root:loaded hero state" {'hor': 0, 'collision_on': True, '_isalive': True, '_pos': (560, 300), 'vert': 0, 'speed': 20, '_name': 'Hero_name', 'mobile': True, 'direction': 'LEFT', 'inventory': [<items.RatTail object at 0x0000000002B77860>, <items.Gold object at 0x0000000006DCD080>, <items.SlimeDust object at 0x0000000006DCDC18>]}
+DEBUG:root:current bgm was:  room bgm is: engine_slow.wav
+DEBUG:root:saving hero state: {'mobile': True, 'direction': 'LEFT', 'hor': 0, 'collision_on': True, '_isalive': True, '_pos': (580, 440), 'vert': 0, 'speed': 20, '_name': 'Hero_name', 'inventory': [<items.RatTail object at 0x0000000002B77860>, <items.Gold object at 0x0000000006DCD080>, <items.SlimeDust object at 0x0000000006DCDC18>, <items.Gold object at 0x0000000006DD14A8>, <items.Gold object at 0x0000000006C98940>, <items.Gold object at 0x0000000006DD1710>, <items.Gold object at 0x0000000006DD1B38>]}
+INFO:root:Game over! End loop.
+DEBUG:root:logging enabled at path: data\logs
+DEBUG:root:key repetition is set to True
+DEBUG:root:loaded hero state" {'direction': 'LEFT', '_isalive': True, 'mobile': True, 'hor': 0, 'inventory': [<items.RatTail object at 0x0000000002C33828>, <items.Gold object at 0x0000000006D3EC18>, <items.SlimeDust object at 0x0000000006D3E978>, <items.Gold object at 0x0000000006D3EA90>, <items.Gold object at 0x0000000006D3E9E8>, <items.Gold object at 0x0000000006D3E1D0>, <items.Gold object at 0x0000000006D3EBE0>], 'speed': 20, '_name': 'Hero_name', '_pos': (580, 440), 'collision_on': True, 'vert': 0}
+DEBUG:root:current bgm was:  room bgm is: engine_slow.wav
+DEBUG:root:saving hero state: {'direction': 'LEFT', 'mobile': True, '_pos': (580, 440), 'hor': 0, 'vert': 0, '_isalive': True, '_name': 'Hero_name', 'inventory': [<items.RatTail object at 0x0000000002C33828>, <items.Gold object at 0x0000000006D3EC18>, <items.SlimeDust object at 0x0000000006D3E978>, <items.Gold object at 0x0000000006D3EA90>, <items.Gold object at 0x0000000006D3E9E8>, <items.Gold object at 0x0000000006D3E1D0>, <items.Gold object at 0x0000000006D3EBE0>, <items.Gold object at 0x0000000006D3EB70>, <items.Gold object at 0x0000000006C08A90>, <items.Gold object at 0x0000000006D3D780>, <items.Gold object at 0x0000000006D3DBA8>], 'collision_on': True, 'speed': 20}
+INFO:root:Game over! End loop.
+DEBUG:root:logging enabled at path: data\logs
+DEBUG:root:key repetition is set to True
+DEBUG:root:loaded hero state" {'hor': 0, 'collision_on': True, 'mobile': True, '_isalive': True, '_pos': (580, 440), 'vert': 0, 'speed': 20, '_name': 'Hero_name', 'inventory': [<items.RatTail object at 0x0000000002C3E780>, <items.Gold object at 0x0000000006B71FD0>, <items.SlimeDust object at 0x0000000006B7D198>, <items.Gold object at 0x0000000006B7D9E8>, <items.Gold object at 0x0000000006B7D908>, <items.Gold object at 0x0000000006B7DA20>, <items.Gold object at 0x0000000006B7D128>, <items.Gold object at 0x0000000006B7DA58>, <items.Gold object at 0x0000000006B7DB70>, <items.Gold object at 0x0000000006B7DBE0>, <items.Gold object at 0x0000000006B7D160>], 'direction': 'LEFT'}
+DEBUG:root:current bgm was:  room bgm is: engine_slow.wav
+DEBUG:root:logging enabled at path: data\logs
+DEBUG:root:key repetition is set to True
+DEBUG:root:current bgm was:  room bgm is: engine_slow.wav
+DEBUG:root:logging enabled at path: data\logs
+DEBUG:root:key repetition is set to True
+DEBUG:root:current bgm was:  room bgm is: engine_slow.wav
+DEBUG:root:saving hero state: {'_isalive': True, '_pos': (100, 280), 'vert': 0, 'hor': 0, 'collision_on': True, 'mobile': True, 'inventory': [<items.RatTail object at 0x0000000006E59B00>], '_name': 'Hero_name', 'direction': 'LEFT', 'coin_purse': 0, 'speed': 20}
+INFO:root:Game over! End loop.
+DEBUG:root:logging enabled at path: data\logs
+DEBUG:root:key repetition is set to True
+DEBUG:root:loaded hero state" {'vert': 0, 'mobile': True, '_pos': (100, 280), '_isalive': True, 'speed': 20, '_name': 'Hero_name', 'hor': 0, 'coin_purse': 0, 'collision_on': True, 'inventory': [<items.RatTail object at 0x0000000002BFCF28>], 'direction': 'LEFT'}
+DEBUG:root:current bgm was:  room bgm is: engine_slow.wav
+DEBUG:root:saving hero state: {'_isalive': True, 'speed': 20, '_name': 'Hero_name', 'collision_on': True, 'direction': 'LEFT', 'vert': 0, 'mobile': True, '_pos': (560, 300), 'hor': 0, 'coin_purse': 10, 'inventory': [<items.RatTail object at 0x0000000002BFCF28>, <items.RatTail object at 0x0000000002BFCF60>]}
+INFO:root:Game over! End loop.
+DEBUG:root:logging enabled at path: data\logs
+DEBUG:root:key repetition is set to True
+DEBUG:root:loaded hero state" {'_name': 'Hero_name', 'speed': 20, 'coin_purse': 10, 'mobile': True, '_pos': (560, 300), 'inventory': [<items.RatTail object at 0x0000000002D6D828>, <items.RatTail object at 0x0000000006D91048>], 'direction': 'LEFT', 'hor': 0, 'vert': 0, '_isalive': True, 'collision_on': True}
+DEBUG:root:current bgm was:  room bgm is: engine_slow.wav
+DEBUG:root:gold is now 20
+DEBUG:root:gold is now 30
+DEBUG:root:saving hero state: {'speed': 20, '_pos': (580, 340), '_isalive': True, 'hor': 0, 'inventory': [<items.RatTail object at 0x0000000002D6D828>, <items.RatTail object at 0x0000000006D91048>], 'collision_on': True, '_name': 'Hero_name', 'coin_purse': 30, 'mobile': True, 'vert': 0, 'direction': 'LEFT'}
+INFO:root:Game over! End loop.
+DEBUG:root:logging enabled at path: data\logs
+DEBUG:root:key repetition is set to True
+DEBUG:root:loaded hero state" {'vert': 0, '_name': 'Hero_name', 'mobile': True, 'inventory': [], '_isalive': True, 'coin_purse': 40, 'hor': 0, '_pos': (560, 380), 'speed': 20, 'collision_on': True, 'direction': 'LEFT'}
+DEBUG:root:current bgm was:  room bgm is: engine_slow.wav
+DEBUG:root:gold is now 50
+DEBUG:root:gold is now 60
+DEBUG:root:gold is now 70
+DEBUG:root:gold is now 80
+DEBUG:root:saving hero state: {'_name': 'Hero_name', 'inventory': [], 'coin_purse': 80, 'vert': 0, '_pos': (580, 440), 'direction': 'LEFT', 'mobile': True, '_isalive': True, 'hor': 0, 'speed': 20, 'collision_on': True}
+INFO:root:Game over! End loop.
+10-08 21:40 logging enabled at path: data\logs
+10-08 21:40 key repetition is set to True
+10-08 21:40 loaded hero state" {'mobile': True, 'inventory': [], '_name': 'Hero_name', 'coin_purse': 80, '_isalive': True, '_pos': (580, 440), 'hor': 0, 'speed': 20, 'collision_on': True, 'vert': 0, 'direction': 'LEFT'}
+10-08 21:40 current bgm was:  room bgm is: engine_slow.wav
+10-08 21:40 gold is now 90
+10-08 21:40 gold is now 100
+10-08 21:40 gold is now 110
+10-08 21:40 gold is now 120
+10-08 21:40 gold is now 130
+10-08 21:40 saving hero state: {'collision_on': True, 'inventory': [<items.SlimeDust object at 0x0000000006E76080>, <items.RatTail object at 0x0000000006E6FCC0>], '_name': 'Hero_name', 'coin_purse': 130, 'vert': 0, 'mobile': True, 'speed': 20, '_pos': (560, 420), '_isalive': True, 'hor': 0, 'direction': 'LEFT'}
+10-08 21:40 Game over! End loop.
+10-08 21:41 root         DEBUG    logging enabled at path: data\logs
+10-08 21:41 root         DEBUG    key repetition is set to True
+10-08 21:41 root         DEBUG    loaded hero state" {'_name': 'Hero_name', 'collision_on': True, 'inventory': [<items.SlimeDust object at 0x0000000002B91B00>, <items.RatTail object at 0x0000000002B91588>], 'coin_purse': 130, 'vert': 0, '_isalive': True, 'hor': 0, 'direction': 'LEFT', '_pos': (560, 420), 'speed': 20, 'mobile': True}
+10-08 21:41 root         DEBUG    current bgm was:  room bgm is: engine_slow.wav
+10-08 21:41 root         DEBUG    gold is now 140
+10-08 21:41 root         DEBUG    gold is now 150
+10-08 21:42 root         DEBUG    gold is now 160
+10-08 21:42 root         DEBUG    gold is now 170
+10-08 21:42 root         DEBUG    saving hero state: {'_name': 'Hero_name', 'collision_on': True, '_isalive': True, 'vert': 0, 'mobile': True, 'inventory': [<items.SlimeDust object at 0x0000000002B91B00>, <items.RatTail object at 0x0000000002B91588>, <items.SlimeDust object at 0x0000000006DA4160>, <items.RatTail object at 0x0000000006D9DCF8>], 'coin_purse': 170, 'hor': 0, '_pos': (560, 420), 'speed': 20, 'direction': 'LEFT'}
+10-08 21:42 root         INFO     Game over! End loop.
+10-08 21:43 root        :DEBUG   :logging enabled at path: data\logs
+10-08 21:43 root        :DEBUG   :key repetition is set to True
+10-08 21:43 root        :DEBUG   :loaded hero state" {'inventory': [<items.SlimeDust object at 0x0000000002B3D588>, <items.RatTail object at 0x0000000002B3D908>, <items.SlimeDust object at 0x0000000006E65B00>, <items.RatTail object at 0x0000000006E65048>], 'speed': 20, 'coin_purse': 170, 'collision_on': True, '_name': 'Hero_name', '_isalive': True, '_pos': (560, 420), 'vert': 0, 'hor': 0, 'direction': 'LEFT', 'mobile': True}
+10-08 21:43 root        :DEBUG   :current bgm was:  room bgm is: engine_slow.wav
+10-08 21:43 root        :DEBUG   :saving hero state: {'coin_purse': 170, '_name': 'Hero_name', 'speed': 20, 'hor': 0, 'collision_on': True, 'inventory': [<items.SlimeDust object at 0x0000000002B3D588>, <items.RatTail object at 0x0000000002B3D908>, <items.SlimeDust object at 0x0000000006E65B00>, <items.RatTail object at 0x0000000006E65048>], 'direction': 'LEFT', '_pos': (300, 440), 'vert': 0, '_isalive': True, 'mobile': True}
+10-08 21:43 root        :INFO    :Game over! End loop.
+10-08 21:44 root        :DEBUG   :logging enabled at path: data\logs
+10-08 21:44 root        :DEBUG   :key repetition is set to True
+10-08 21:44 root        :DEBUG   :loaded hero state" {'_isalive': True, 'collision_on': True, 'coin_purse': 170, 'vert': 0, 'mobile': True, 'hor': 0, 'direction': 'LEFT', '_pos': (300, 440), 'speed': 20, 'inventory': [<items.SlimeDust object at 0x0000000002C84358>, <items.RatTail object at 0x0000000002C848D0>, <items.SlimeDust object at 0x0000000002C84940>, <items.RatTail object at 0x0000000006D7DB00>], '_name': 'Hero_name'}
+10-08 21:44 root        :DEBUG   :current bgm was:  room bgm is: engine_slow.wav
+10-08 21:44 root        :DEBUG   :saving hero state: {'collision_on': True, 'coin_purse': 170, '_isalive': True, 'inventory': [<items.SlimeDust object at 0x0000000002C84358>, <items.RatTail object at 0x0000000002C848D0>, <items.SlimeDust object at 0x0000000002C84940>, <items.RatTail object at 0x0000000006D7DB00>], '_name': 'Hero_name', 'hor': 0, 'vert': 0, '_pos': (300, 440), 'mobile': True, 'speed': 20, 'direction': 'LEFT'}
+10-08 21:44 root        :INFO    :Game over! End loop.
+10-08 21:45 root:DEBUG:logging enabled at path: data\logs
+10-08 21:45 root:DEBUG:key repetition is set to True
+10-08 21:45 root:DEBUG:loaded hero state" {'speed': 20, '_name': 'Hero_name', '_isalive': True, 'direction': 'LEFT', 'coin_purse': 170, 'mobile': True, 'inventory': [<items.SlimeDust object at 0x0000000002C5A8D0>, <items.RatTail object at 0x0000000006EABB00>, <items.SlimeDust object at 0x0000000006EAB0F0>, <items.RatTail object at 0x0000000006EABD30>], '_pos': (300, 440), 'collision_on': True, 'vert': 0, 'hor': 0}
+10-08 21:45 root:DEBUG:current bgm was:  room bgm is: engine_slow.wav
+10-08 21:45 root:DEBUG:saving hero state: {'_name': 'Hero_name', 'inventory': [<items.SlimeDust object at 0x0000000002C5A8D0>, <items.RatTail object at 0x0000000006EABB00>, <items.SlimeDust object at 0x0000000006EAB0F0>, <items.RatTail object at 0x0000000006EABD30>], '_isalive': True, 'speed': 20, 'coin_purse': 170, 'direction': 'LEFT', 'mobile': True, '_pos': (300, 440), 'hor': 0, 'vert': 0, 'collision_on': True}
+10-08 21:45 root:INFO:Game over! End loop.
+10-08 21:45:root:DEBUG:logging enabled at path: data\logs
+10-08 21:45:root:DEBUG:key repetition is set to True
+10-08 21:45:root:DEBUG:loaded hero state" {'coin_purse': 170, 'direction': 'LEFT', 'speed': 20, 'vert': 0, '_name': 'Hero_name', 'hor': 0, '_isalive': True, 'mobile': True, 'inventory': [<items.SlimeDust object at 0x0000000002BF3B38>, <items.RatTail object at 0x0000000002BF3860>, <items.SlimeDust object at 0x0000000002BF3908>, <items.RatTail object at 0x0000000002BF3940>], 'collision_on': True, '_pos': (300, 440)}
+10-08 21:45:root:DEBUG:current bgm was:  room bgm is: engine_slow.wav
+10-08 21:45:root:DEBUG:saving hero state: {'coin_purse': 170, 'direction': 'LEFT', 'mobile': True, '_isalive': True, '_pos': (300, 440), 'speed': 20, 'vert': 0, '_name': 'Hero_name', 'hor': 0, 'inventory': [<items.SlimeDust object at 0x0000000002BF3B38>, <items.RatTail object at 0x0000000002BF3860>, <items.SlimeDust object at 0x0000000002BF3908>, <items.RatTail object at 0x0000000002BF3940>], 'collision_on': True}
+10-08 21:45:root:INFO:Game over! End loop.
+10-08 21:45     root:DEBUG:logging enabled at path: data\logs
+10-08 21:45     root:DEBUG:key repetition is set to True
+10-08 21:45     root:DEBUG:loaded hero state" {'coin_purse': 170, 'speed': 20, '_pos': (300, 440), 'vert': 0, 'hor': 0, 'inventory': [<items.SlimeDust object at 0x0000000002B54940>, <items.RatTail object at 0x0000000006B830F0>, <items.SlimeDust object at 0x0000000006B832B0>, <items.RatTail object at 0x0000000006B83D30>], '_name': 'Hero_name', 'direction': 'LEFT', 'mobile': True, 'collision_on': True, '_isalive': True}
+10-08 21:45     root:DEBUG:current bgm was:  room bgm is: engine_slow.wav
+10-08 21:45     root:DEBUG:saving hero state: {'vert': 0, 'hor': 0, 'inventory': [<items.SlimeDust object at 0x0000000002B54940>, <items.RatTail object at 0x0000000006B830F0>, <items.SlimeDust object at 0x0000000006B832B0>, <items.RatTail object at 0x0000000006B83D30>], 'mobile': True, 'direction': 'LEFT', 'coin_purse': 170, 'speed': 20, '_pos': (300, 440), '_name': 'Hero_name', '_isalive': True, 'collision_on': True}
+10-08 21:45     root:INFO:Game over! End loop.
+10-08 21:46  :DEBUG:logging enabled at path: data\logs
+10-08 21:46  :DEBUG:key repetition is set to True
+10-08 21:46  :DEBUG:loaded hero state" {'_pos': (300, 440), 'inventory': [<items.SlimeDust object at 0x0000000002BDE358>, <items.RatTail object at 0x0000000002BDE8D0>, <items.SlimeDust object at 0x0000000002BDE940>, <items.RatTail object at 0x0000000006E88B00>], 'hor': 0, '_isalive': True, 'mobile': True, '_name': 'Hero_name', 'vert': 0, 'speed': 20, 'direction': 'LEFT', 'coin_purse': 170, 'collision_on': True}
+10-08 21:46  :DEBUG:current bgm was:  room bgm is: engine_slow.wav
+10-08 21:46  :DEBUG:saving hero state: {'_pos': (300, 440), '_isalive': True, 'mobile': True, 'direction': 'LEFT', 'coin_purse': 170, 'inventory': [<items.SlimeDust object at 0x0000000002BDE358>, <items.RatTail object at 0x0000000002BDE8D0>, <items.SlimeDust object at 0x0000000002BDE940>, <items.RatTail object at 0x0000000006E88B00>], 'hor': 0, '_name': 'Hero_name', 'vert': 0, 'speed': 20, 'collision_on': True}
+10-08 21:46  :INFO:Game over! End loop.
+10-08 21:46  :DEBUG  :logging enabled at path: data\logs
+10-08 21:46  :DEBUG  :key repetition is set to True
+10-08 21:46  :DEBUG  :loaded hero state" {'inventory': [<items.SlimeDust object at 0x0000000002C14588>, <items.RatTail object at 0x0000000002C14908>, <items.SlimeDust object at 0x0000000006DFBB00>, <items.RatTail object at 0x0000000006DFB048>], '_isalive': True, 'coin_purse': 170, 'collision_on': True, 'vert': 0, '_name': 'Hero_name', 'mobile': True, '_pos': (300, 440), 'speed': 20, 'direction': 'LEFT', 'hor': 0}
+10-08 21:46  :DEBUG  :current bgm was:  room bgm is: engine_slow.wav
+10-08 21:46  :DEBUG  :saving hero state: {'inventory': [<items.SlimeDust object at 0x0000000002C14588>, <items.RatTail object at 0x0000000002C14908>, <items.SlimeDust object at 0x0000000006DFBB00>, <items.RatTail object at 0x0000000006DFB048>], 'coin_purse': 170, 'mobile': True, '_pos': (300, 440), 'speed': 20, 'direction': 'LEFT', 'hor': 0, '_isalive': True, 'vert': 0, '_name': 'Hero_name', 'collision_on': True}
+10-08 21:46  :INFO  :Game over! End loop.
+10-08 21:47  :DEBUG:  logging enabled at path: data\logs
+10-08 21:47  :DEBUG:  key repetition is set to True
+10-08 21:47  :DEBUG:  loaded hero state" {'_name': 'Hero_name', 'hor': 0, 'direction': 'LEFT', 'coin_purse': 170, 'inventory': [<items.SlimeDust object at 0x0000000002BC4B00>, <items.RatTail object at 0x0000000002BC4588>, <items.SlimeDust object at 0x0000000002BC48D0>, <items.RatTail object at 0x0000000002BC4908>], 'mobile': True, 'vert': 0, '_isalive': True, '_pos': (300, 440), 'collision_on': True, 'speed': 20}
+10-08 21:47  :DEBUG:  current bgm was:  room bgm is: engine_slow.wav
+10-08 21:47  :DEBUG:  saving hero state: {'_name': 'Hero_name', 'direction': 'LEFT', '_isalive': True, 'speed': 20, 'hor': 0, 'coin_purse': 170, 'inventory': [<items.SlimeDust object at 0x0000000002BC4B00>, <items.RatTail object at 0x0000000002BC4588>, <items.SlimeDust object at 0x0000000002BC48D0>, <items.RatTail object at 0x0000000002BC4908>], 'mobile': True, 'vert': 0, '_pos': (300, 440), 'collision_on': True}
+10-08 21:47  :INFO:  Game over! End loop.
+10-08 21:47  :DEBUG:(name)s:  logging enabled at path: data\logs
+10-08 21:47  :DEBUG:(name)s:  key repetition is set to True
+10-08 21:47  :DEBUG:(name)s:  loaded hero state" {'_name': 'Hero_name', 'inventory': [<items.SlimeDust object at 0x0000000002C4A860>, <items.RatTail object at 0x0000000002C4A940>, <items.SlimeDust object at 0x0000000006D89048>, <items.RatTail object at 0x0000000006D890F0>], 'speed': 20, 'direction': 'LEFT', 'mobile': True, '_pos': (300, 440), 'collision_on': True, 'coin_purse': 170, 'hor': 0, 'vert': 0, '_isalive': True}
+10-08 21:47  :DEBUG:(name)s:  current bgm was:  room bgm is: engine_slow.wav
+10-08 21:47  :DEBUG:(name)s:  saving hero state: {'_name': 'Hero_name', 'collision_on': True, '_pos': (300, 440), 'coin_purse': 170, 'speed': 20, 'inventory': [<items.SlimeDust object at 0x0000000002C4A860>, <items.RatTail object at 0x0000000002C4A940>, <items.SlimeDust object at 0x0000000006D89048>, <items.RatTail object at 0x0000000006D890F0>], 'direction': 'LEFT', 'mobile': True, 'hor': 0, 'vert': 0, '_isalive': True}
+10-08 21:47  :INFO:(name)s:  Game over! End loop.
+10-08 21:47  :DEBUG:root:  logging enabled at path: data\logs
+10-08 21:47  :DEBUG:root:  key repetition is set to True
+10-08 21:47  :DEBUG:root:  loaded hero state" {'speed': 20, 'mobile': True, '_pos': (300, 440), 'hor': 0, 'direction': 'LEFT', 'vert': 0, 'collision_on': True, 'inventory': [<items.SlimeDust object at 0x0000000002CC9588>, <items.RatTail object at 0x0000000002CC9908>, <items.SlimeDust object at 0x0000000006EFBB00>, <items.RatTail object at 0x0000000006EFB048>], '_name': 'Hero_name', 'coin_purse': 170, '_isalive': True}
+10-08 21:47  :DEBUG:root:  current bgm was:  room bgm is: engine_slow.wav
+10-08 21:47  :DEBUG:root:  saving hero state: {'hor': 0, '_name': 'Hero_name', 'collision_on': True, 'vert': 0, '_pos': (300, 440), 'coin_purse': 170, 'speed': 20, 'direction': 'LEFT', 'inventory': [<items.SlimeDust object at 0x0000000002CC9588>, <items.RatTail object at 0x0000000002CC9908>, <items.SlimeDust object at 0x0000000006EFBB00>, <items.RatTail object at 0x0000000006EFB048>], 'mobile': True, '_isalive': True}
+10-08 21:47  :INFO:root:  Game over! End loop.
+10-08 21:47 :DEBUG:root:  logging enabled at path: data\logs
+10-08 21:47 :DEBUG:root:  key repetition is set to True
+10-08 21:47 :DEBUG:root:  loaded hero state" {'_name': 'Hero_name', 'collision_on': True, 'inventory': [<items.SlimeDust object at 0x0000000002B52908>, <items.RatTail object at 0x0000000006E77048>, <items.SlimeDust object at 0x0000000006E77D30>, <items.RatTail object at 0x0000000006E77C88>], 'coin_purse': 170, 'vert': 0, 'mobile': True, 'hor': 0, '_isalive': True, '_pos': (300, 440), 'speed': 20, 'direction': 'LEFT'}
+10-08 21:47 :DEBUG:root:  current bgm was:  room bgm is: engine_slow.wav
+10-08 21:47 :DEBUG:root:  saving hero state: {'collision_on': True, 'vert': 0, 'hor': 0, 'speed': 20, '_name': 'Hero_name', 'mobile': True, 'inventory': [<items.SlimeDust object at 0x0000000002B52908>, <items.RatTail object at 0x0000000006E77048>, <items.SlimeDust object at 0x0000000006E77D30>, <items.RatTail object at 0x0000000006E77C88>], 'coin_purse': 170, 'direction': 'LEFT', '_pos': (300, 440), '_isalive': True}
+10-08 21:47 :INFO:root:  Game over! End loop.
+10-08 21:47 :DEBUG:root: logging enabled at path: data\logs
+10-08 21:47 :DEBUG:root: key repetition is set to True
+10-08 21:47 :DEBUG:root: loaded hero state" {'speed': 20, 'hor': 0, '_pos': (300, 440), 'direction': 'LEFT', 'inventory': [<items.SlimeDust object at 0x0000000002BFE8D0>, <items.RatTail object at 0x0000000006D18B00>, <items.SlimeDust object at 0x0000000006D180F0>, <items.RatTail object at 0x0000000006D18C88>], 'collision_on': True, 'vert': 0, '_name': 'Hero_name', 'mobile': True, '_isalive': True, 'coin_purse': 170}
+10-08 21:47 :DEBUG:root: current bgm was:  room bgm is: engine_slow.wav
+10-08 21:47 :DEBUG:root: saving hero state: {'hor': 0, '_name': 'Hero_name', 'collision_on': True, 'inventory': [<items.SlimeDust object at 0x0000000002BFE8D0>, <items.RatTail object at 0x0000000006D18B00>, <items.SlimeDust object at 0x0000000006D180F0>, <items.RatTail object at 0x0000000006D18C88>], '_pos': (300, 440), 'coin_purse': 170, 'speed': 20, 'direction': 'LEFT', 'vert': 0, 'mobile': True, '_isalive': True}
+10-08 21:47 :INFO:root: Game over! End loop.
+10-08 21:59 :DEBUG:root: logging enabled at path: data\logs
+10-08 21:59 :DEBUG:root: key repetition is set to True
+10-08 21:59 :DEBUG:root: loaded hero state" {'hor': 0, 'mobile': True, '_pos': (440, 220), 'coin_purse': 0, 'direction': 'LEFT', '_name': 'Hero_name', 'collision_on': True, 'inventory': [<items.SlimeDust object at 0x0000000002BCBB70>, <items.SlimeDust object at 0x0000000002BCBB70>, <items.RatTail object at 0x0000000002BCB2E8>], '_isalive': True, 'vert': 0, 'speed': 20}
+10-08 21:59 :DEBUG:root: current bgm was:  room bgm is: engine_slow.wav
+10-08 21:59 :DEBUG:root: gold is now 5
+10-08 21:59 :DEBUG:root: gold is now 10
+10-08 21:59 :DEBUG:root: gold is now 33
+10-08 21:59 :DEBUG:root: gold is now 61
+10-08 21:59 :DEBUG:root: saving hero state: {'hor': 0, '_pos': (540, 440), 'speed': 20, 'direction': 'LEFT', 'mobile': True, 'inventory': [<items.SlimeDust object at 0x0000000002BCBB70>, <items.SlimeDust object at 0x0000000002BCBB70>, <items.RatTail object at 0x0000000002BCB2E8>, <items.RatTail object at 0x0000000006E6C2E8>, <items.RatTail object at 0x0000000006E6C2E8>, <items.RatTail object at 0x0000000006E6C2E8>, <items.RatTail object at 0x0000000006D3C240>, <items.RatTail object at 0x0000000006D3C240>, <items.RatTail object at 0x0000000006D3C240>, <items.Bone object at 0x0000000006E6C898>, <items.Bone object at 0x0000000006E6C898>, <items.Bone object at 0x0000000006E6C898>], 'coin_purse': 61, '_name': 'Hero_name', 'collision_on': True, '_isalive': True, 'vert': 0}
+10-08 21:59 :INFO:root: Game over! End loop.
+10-08 22:00 :DEBUG:root: logging enabled at path: data\logs
+10-08 22:01 :DEBUG:root: logging enabled at path: data\logs
+10-08 22:01 :DEBUG:root: key repetition is set to True
+10-08 22:01 :DEBUG:root: loaded hero state" {'_isalive': True, '_pos': (540, 440), 'hor': 0, 'coin_purse': 61, 'vert': 0, '_name': 'Hero_name', 'collision_on': True, 'inventory': [<items.SlimeDust object at 0x0000000002C2E860>, <items.SlimeDust object at 0x0000000002C2E860>, <items.RatTail object at 0x0000000006E3CFD0>, <items.RatTail object at 0x0000000006E69080>, <items.RatTail object at 0x0000000006E69080>, <items.RatTail object at 0x0000000006E69080>, <items.RatTail object at 0x0000000006E69CC0>, <items.RatTail object at 0x0000000006E69CC0>, <items.RatTail object at 0x0000000006E69CC0>, <items.Bone object at 0x0000000006E69C18>, <items.Bone object at 0x0000000006E69C18>, <items.Bone object at 0x0000000006E69C18>], 'direction': 'LEFT', 'speed': 20, 'mobile': True}
+10-08 22:01 :DEBUG:root: current bgm was:  room bgm is: engine_slow.wav
+10-08 22:01 :DEBUG:root: gold is now 68
+10-08 22:01 :DEBUG:root: gold is now 90
+10-08 22:01 :DEBUG:root: gold is now 121
+10-08 22:01 :DEBUG:root: gold is now 146
+10-08 22:01 :DEBUG:root: saving hero state: {'hor': 0, 'direction': 'LEFT', 'inventory': [<items.SlimeDust object at 0x0000000002C2E860>, <items.SlimeDust object at 0x0000000002C2E860>, <items.RatTail object at 0x0000000006E3CFD0>, <items.RatTail object at 0x0000000006E69080>, <items.RatTail object at 0x0000000006E69080>, <items.RatTail object at 0x0000000006E69080>, <items.RatTail object at 0x0000000006E69CC0>, <items.RatTail object at 0x0000000006E69CC0>, <items.RatTail object at 0x0000000006E69CC0>, <items.Bone object at 0x0000000006E69C18>, <items.Bone object at 0x0000000006E69C18>, <items.Bone object at 0x0000000006E69C18>], '_isalive': True, 'speed': 20, 'mobile': True, 'vert': 0, '_pos': (560, 420), 'collision_on': True, 'coin_purse': 146, '_name': 'Hero_name'}
+10-08 22:01 :INFO:root: Game over! End loop.
+10-08 22:05 :DEBUG:root: logging enabled at path: data\logs
+10-08 22:05 :DEBUG:root: key repetition is set to True
+10-08 22:05 :DEBUG:root: loaded hero state" {'_isalive': True, 'vert': 0, 'speed': 20, 'direction': 'LEFT', 'hor': 0, '_pos': (560, 420), 'mobile': True, '_name': 'Hero_name', 'inventory': [<items.SlimeDust object at 0x0000000002C9D6D8>, <items.SlimeDust object at 0x0000000002C9D6D8>, <items.RatTail object at 0x0000000002C9D7B8>, <items.RatTail object at 0x0000000002C9D828>, <items.RatTail object at 0x0000000002C9D828>, <items.RatTail object at 0x0000000002C9D828>, <items.RatTail object at 0x0000000006CD6E48>, <items.RatTail object at 0x0000000006CD6E48>, <items.RatTail object at 0x0000000006CD6E48>, <items.Bone object at 0x0000000006CD6F28>, <items.Bone object at 0x0000000006CD6F28>, <items.Bone object at 0x0000000006CD6F28>], 'collision_on': True, 'coin_purse': 146}
+10-08 22:05 :DEBUG:root: current bgm was:  room bgm is: engine_slow.wav
+10-08 22:05 :DEBUG:root: logging enabled at path: data\logs
+10-08 22:05 :DEBUG:root: key repetition is set to True
+10-08 22:05 :DEBUG:root: loaded hero state" {'hor': 0, '_name': 'Hero_name', 'inventory': [<items.SlimeDust object at 0x0000000002C2D6D8>, <items.SlimeDust object at 0x0000000002C2D6D8>, <items.RatTail object at 0x0000000002C2D7B8>, <items.RatTail object at 0x0000000002C2D828>, <items.RatTail object at 0x0000000002C2D828>, <items.RatTail object at 0x0000000002C2D828>, <items.RatTail object at 0x0000000006EA0E48>, <items.RatTail object at 0x0000000006EA0E48>, <items.RatTail object at 0x0000000006EA0E48>, <items.Bone object at 0x0000000006EA0F28>, <items.Bone object at 0x0000000006EA0F28>, <items.Bone object at 0x0000000006EA0F28>], 'coin_purse': 146, 'collision_on': True, 'direction': 'LEFT', '_pos': (560, 420), '_isalive': True, 'vert': 0, 'mobile': True, 'speed': 20}
+10-08 22:05 :DEBUG:root: current bgm was:  room bgm is: engine_slow.wav
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: mouseclick syntax still unwritten
+10-08 22:05 :DEBUG:root: saving hero state: {'collision_on': True, 'hor': 0, '_name': 'Hero_name', 'inventory': [<items.SlimeDust object at 0x0000000002C2D6D8>, <items.SlimeDust object at 0x0000000002C2D6D8>, <items.RatTail object at 0x0000000002C2D7B8>, <items.RatTail object at 0x0000000002C2D828>, <items.RatTail object at 0x0000000002C2D828>, <items.RatTail object at 0x0000000002C2D828>, <items.RatTail object at 0x0000000006EA0E48>, <items.RatTail object at 0x0000000006EA0E48>, <items.RatTail object at 0x0000000006EA0E48>, <items.Bone object at 0x0000000006EA0F28>, <items.Bone object at 0x0000000006EA0F28>, <items.Bone object at 0x0000000006EA0F28>], 'coin_purse': 146, 'direction': 'LEFT', '_pos': (300, 440), '_isalive': True, 'vert': 0, 'mobile': True, 'speed': 20}
+10-08 22:05 :INFO:root: Game over! End loop.
+10-08 22:05 :DEBUG:root: logging enabled at path: data\logs
+10-08 22:05 :DEBUG:root: key repetition is set to True
+10-08 22:05 :DEBUG:root: loaded hero state" {'speed': 20, '_isalive': True, 'coin_purse': 146, 'collision_on': True, '_pos': (300, 440), 'mobile': True, 'vert': 0, 'direction': 'LEFT', 'inventory': [<items.SlimeDust object at 0x0000000002C7D6D8>, <items.SlimeDust object at 0x0000000002C7D6D8>, <items.RatTail object at 0x0000000002C7D7B8>, <items.RatTail object at 0x0000000002C7D828>, <items.RatTail object at 0x0000000002C7D828>, <items.RatTail object at 0x0000000002C7D828>, <items.RatTail object at 0x0000000006DFCE48>, <items.RatTail object at 0x0000000006DFCE48>, <items.RatTail object at 0x0000000006DFCE48>, <items.Bone object at 0x0000000006DFCF28>, <items.Bone object at 0x0000000006DFCF28>, <items.Bone object at 0x0000000006DFCF28>], '_name': 'Hero_name', 'hor': 0}
+10-08 22:05 :DEBUG:root: current bgm was:  room bgm is: engine_slow.wav
+10-08 22:05 :DEBUG:root: saving hero state: {'direction': 'LEFT', 'hor': 0, 'mobile': True, '_isalive': True, 'inventory': [<items.SlimeDust object at 0x0000000002C7D6D8>, <items.SlimeDust object at 0x0000000002C7D6D8>, <items.RatTail object at 0x0000000002C7D7B8>, <items.RatTail object at 0x0000000002C7D828>, <items.RatTail object at 0x0000000002C7D828>, <items.RatTail object at 0x0000000002C7D828>, <items.RatTail object at 0x0000000006DFCE48>, <items.RatTail object at 0x0000000006DFCE48>, <items.RatTail object at 0x0000000006DFCE48>, <items.Bone object at 0x0000000006DFCF28>, <items.Bone object at 0x0000000006DFCF28>, <items.Bone object at 0x0000000006DFCF28>], 'coin_purse': 146, 'speed': 20, '_pos': (300, 440), 'vert': 0, '_name': 'Hero_name', 'collision_on': True}
+10-08 22:05 :INFO:root: Game over! End loop.
+10-08 22:07 :DEBUG:root: logging enabled at path: data\logs
+10-08 22:07 :DEBUG:root: key repetition is set to True
+10-08 22:07 :DEBUG:root: loaded hero state" {'inventory': [<items.SlimeDust object at 0x0000000002CC2160>, <items.SlimeDust object at 0x0000000002CC2160>, <items.RatTail object at 0x0000000002CC27F0>, <items.RatTail object at 0x0000000006DFDE48>, <items.RatTail object at 0x0000000006DFDE48>, <items.RatTail object at 0x0000000006DFDE48>, <items.RatTail object at 0x0000000006DFDF28>, <items.RatTail object at 0x0000000006DFDF28>, <items.RatTail object at 0x0000000006DFDF28>, <items.Bone object at 0x0000000006E2C198>, <items.Bone object at 0x0000000006E2C198>, <items.Bone object at 0x0000000006E2C198>], 'hor': 0, '_pos': (300, 440), 'collision_on': True, '_isalive': True, 'vert': 0, 'mobile': True, '_name': 'Hero_name', 'coin_purse': 146, 'speed': 20, 'direction': 'LEFT'}
+10-08 22:07 :DEBUG:root: current bgm was:  room bgm is: engine_slow.wav
+10-08 22:07 :DEBUG:root: saving hero state: {'mobile': True, 'collision_on': True, 'speed': 20, '_isalive': True, 'direction': 'LEFT', 'inventory': [<items.SlimeDust object at 0x0000000002CC2160>, <items.SlimeDust object at 0x0000000002CC2160>, <items.RatTail object at 0x0000000002CC27F0>, <items.RatTail object at 0x0000000006DFDE48>, <items.RatTail object at 0x0000000006DFDE48>, <items.RatTail object at 0x0000000006DFDE48>, <items.RatTail object at 0x0000000006DFDF28>, <items.RatTail object at 0x0000000006DFDF28>, <items.RatTail object at 0x0000000006DFDF28>, <items.Bone object at 0x0000000006E2C198>, <items.Bone object at 0x0000000006E2C198>, <items.Bone object at 0x0000000006E2C198>], 'hor': 0, '_pos': (300, 440), 'vert': 0, '_name': 'Hero_name', 'coin_purse': 146}
+10-08 22:07 :INFO:root: Game over! End loop.
+10-08 22:07 :DEBUG:root: logging enabled at path: data\logs
+10-08 22:07 :DEBUG:root: key repetition is set to True
+10-08 22:07 :DEBUG:root: loaded hero state" {'vert': 0, 'coin_purse': 146, '_isalive': True, 'inventory': [<items.SlimeDust object at 0x0000000002C26160>, <items.SlimeDust object at 0x0000000002C26160>, <items.RatTail object at 0x0000000002C267F0>, <items.RatTail object at 0x0000000006BD5E48>, <items.RatTail object at 0x0000000006BD5E48>, <items.RatTail object at 0x0000000006BD5E48>, <items.RatTail object at 0x0000000006BD5F28>, <items.RatTail object at 0x0000000006BD5F28>, <items.RatTail object at 0x0000000006BD5F28>, <items.Bone object at 0x0000000006C03198>, <items.Bone object at 0x0000000006C03198>, <items.Bone object at 0x0000000006C03198>], 'mobile': True, '_pos': (300, 440), 'hor': 0, 'direction': 'LEFT', '_name': 'Hero_name', 'speed': 20, 'collision_on': True}
+10-08 22:07 :DEBUG:root: current bgm was:  room bgm is: engine_slow.wav
+10-08 22:07 :DEBUG:root: saving hero state: {'_isalive': True, 'mobile': True, 'direction': 'LEFT', 'hor': 0, 'speed': 20, 'coin_purse': 146, 'vert': 0, 'collision_on': True, '_pos': (300, 440), 'inventory': [<items.SlimeDust object at 0x0000000002C26160>, <items.SlimeDust object at 0x0000000002C26160>, <items.RatTail object at 0x0000000002C267F0>, <items.RatTail object at 0x0000000006BD5E48>, <items.RatTail object at 0x0000000006BD5E48>, <items.RatTail object at 0x0000000006BD5E48>, <items.RatTail object at 0x0000000006BD5F28>, <items.RatTail object at 0x0000000006BD5F28>, <items.RatTail object at 0x0000000006BD5F28>, <items.Bone object at 0x0000000006C03198>, <items.Bone object at 0x0000000006C03198>, <items.Bone object at 0x0000000006C03198>], '_name': 'Hero_name'}
+10-08 22:07 :INFO:root: Game over! End loop.
+10-08 22:08 :DEBUG:root: logging enabled at path: data\logs
+10-08 22:08 :DEBUG:root: key repetition is set to True
+10-08 22:08 :DEBUG:root: loaded hero state" {'direction': 'LEFT', 'coin_purse': 146, 'mobile': True, 'speed': 20, 'vert': 0, '_isalive': True, '_name': 'Hero_name', 'collision_on': True, '_pos': (300, 440), 'hor': 0, 'inventory': [<items.SlimeDust object at 0x0000000002BAAF98>, <items.SlimeDust object at 0x0000000002BAAF98>, <items.RatTail object at 0x0000000006D3F5F8>, <items.RatTail object at 0x0000000006D3F828>, <items.RatTail object at 0x0000000006D3F828>, <items.RatTail object at 0x0000000006D3F828>, <items.RatTail object at 0x0000000006D3F710>, <items.RatTail object at 0x0000000006D3F710>, <items.RatTail object at 0x0000000006D3F710>, <items.Bone object at 0x0000000006D3F748>, <items.Bone object at 0x0000000006D3F748>, <items.Bone object at 0x0000000006D3F748>]}
+10-08 22:08 :DEBUG:root: current bgm was:  room bgm is: engine_slow.wav
+10-08 22:08 :DEBUG:root: saving hero state: {'_name': 'Hero_name', 'speed': 20, 'vert': 0, 'hor': 0, 'mobile': True, 'inventory': [<items.SlimeDust object at 0x0000000002BAAF98>, <items.SlimeDust object at 0x0000000002BAAF98>, <items.RatTail object at 0x0000000006D3F5F8>, <items.RatTail object at 0x0000000006D3F828>, <items.RatTail object at 0x0000000006D3F828>, <items.RatTail object at 0x0000000006D3F828>, <items.RatTail object at 0x0000000006D3F710>, <items.RatTail object at 0x0000000006D3F710>, <items.RatTail object at 0x0000000006D3F710>, <items.Bone object at 0x0000000006D3F748>, <items.Bone object at 0x0000000006D3F748>, <items.Bone object at 0x0000000006D3F748>], 'direction': 'LEFT', 'coin_purse': 146, 'collision_on': True, '_isalive': True, '_pos': (300, 440)}
+10-08 22:08 :INFO:root: Game over! End loop.
+10-08 22:08 :DEBUG:root: logging enabled at path: data\logs
+10-08 22:08 :DEBUG:root: key repetition is set to True
+10-08 22:08 :DEBUG:root: loaded hero state" {'collision_on': True, '_isalive': True, 'inventory': [<items.SlimeDust object at 0x0000000002B508D0>, <items.SlimeDust object at 0x0000000002B508D0>, <items.RatTail object at 0x0000000006C2EB00>, <items.RatTail object at 0x0000000006C2E0F0>, <items.RatTail object at 0x0000000006C2E0F0>, <items.RatTail object at 0x0000000006C2E0F0>, <items.RatTail object at 0x0000000006C2ED30>, <items.RatTail object at 0x0000000006C2ED30>, <items.RatTail object at 0x0000000006C2ED30>, <items.Bone object at 0x0000000006C2EC88>, <items.Bone object at 0x0000000006C2EC88>, <items.Bone object at 0x0000000006C2EC88>], 'mobile': True, '_pos': (300, 440), 'coin_purse': 146, 'direction': 'LEFT', 'vert': 0, 'speed': 20, '_name': 'Hero_name', 'hor': 0}
+10-08 22:08 :DEBUG:root: current bgm was:  room bgm is: engine_slow.wav
+10-08 22:08 :DEBUG:root: saving hero state: {'inventory': [<items.SlimeDust object at 0x0000000002B508D0>, <items.SlimeDust object at 0x0000000002B508D0>, <items.RatTail object at 0x0000000006C2EB00>, <items.RatTail object at 0x0000000006C2E0F0>, <items.RatTail object at 0x0000000006C2E0F0>, <items.RatTail object at 0x0000000006C2E0F0>, <items.RatTail object at 0x0000000006C2ED30>, <items.RatTail object at 0x0000000006C2ED30>, <items.RatTail object at 0x0000000006C2ED30>, <items.Bone object at 0x0000000006C2EC88>, <items.Bone object at 0x0000000006C2EC88>, <items.Bone object at 0x0000000006C2EC88>], 'collision_on': True, 'vert': 0, 'speed': 20, '_name': 'Hero_name', '_isalive': True, '_pos': (300, 440), 'coin_purse': 146, 'direction': 'LEFT', 'hor': 0, 'mobile': True}
+10-08 22:08 :INFO:root: Game over! End loop.
+10-08 22:08 :DEBUG:root: logging enabled at path: data\logs
+10-08 22:08 :DEBUG:root: key repetition is set to True
+10-08 22:08 :DEBUG:root: loaded hero state" {'hor': 0, 'inventory': [<items.SlimeDust object at 0x0000000002C03B00>, <items.SlimeDust object at 0x0000000002C03B00>, <items.RatTail object at 0x0000000002C03588>, <items.RatTail object at 0x0000000002C038D0>, <items.RatTail object at 0x0000000002C038D0>, <items.RatTail object at 0x0000000002C038D0>, <items.RatTail object at 0x0000000002C03908>, <items.RatTail object at 0x0000000002C03908>, <items.RatTail object at 0x0000000002C03908>, <items.Bone object at 0x0000000002C03940>, <items.Bone object at 0x0000000002C03940>, <items.Bone object at 0x0000000002C03940>], '_isalive': True, 'mobile': True, '_pos': (300, 440), '_name': 'Hero_name', 'collision_on': True, 'coin_purse': 146, 'direction': 'LEFT', 'speed': 20, 'vert': 0}
+10-08 22:08 :DEBUG:root: current bgm was:  room bgm is: engine_slow.wav
+10-08 22:08 :DEBUG:root: saving hero state: {'vert': 0, '_isalive': True, '_pos': (300, 440), 'collision_on': True, 'mobile': True, 'hor': 0, 'inventory': [<items.SlimeDust object at 0x0000000002C03B00>, <items.SlimeDust object at 0x0000000002C03B00>, <items.RatTail object at 0x0000000002C03588>, <items.RatTail object at 0x0000000002C038D0>, <items.RatTail object at 0x0000000002C038D0>, <items.RatTail object at 0x0000000002C038D0>, <items.RatTail object at 0x0000000002C03908>, <items.RatTail object at 0x0000000002C03908>, <items.RatTail object at 0x0000000002C03908>, <items.Bone object at 0x0000000002C03940>, <items.Bone object at 0x0000000002C03940>, <items.Bone object at 0x0000000002C03940>], 'direction': 'LEFT', '_name': 'Hero_name', 'coin_purse': 146, 'speed': 20}
+10-08 22:08 :INFO:root: Game over! End loop.
+10-08 22:09 :DEBUG:root: logging enabled at path: data\logs
+10-08 22:09 :DEBUG:root: key repetition is set to True
+10-08 22:09 :DEBUG:root: loaded hero state" {'direction': 'LEFT', 'speed': 20, 'hor': 0, 'collision_on': True, 'coin_purse': 0, '_isalive': True, 'mobile': True, 'vert': 0, '_name': 'Hero_name', 'inventory': [<items.RatTail object at 0x0000000002B4E860>], '_pos': (100, 280)}
+10-08 22:09 :DEBUG:root: current bgm was:  room bgm is: engine_slow.wav
+10-08 22:10 :DEBUG:root: gold is now 10
+10-08 22:10 :DEBUG:root: gold is now 15
+10-08 22:10 :DEBUG:root: gold is now 43
+10-08 22:10 :DEBUG:root: gold is now 70
+10-08 22:10 :DEBUG:root: saving hero state: {'collision_on': True, 'hor': 0, 'vert': 0, 'direction': 'LEFT', 'mobile': True, 'speed': 20, 'coin_purse': 70, '_isalive': True, '_pos': (500, 440), '_name': 'Hero_name', 'inventory': [<items.RatTail object at 0x0000000002B4E860>, <items.SlimeDust object at 0x0000000006DC90B8>, <items.RatTail object at 0x0000000006DC6240>, <items.SlimeDust object at 0x0000000006DC9438>, <items.SlimeDust object at 0x0000000006DC9438>, <items.SlimeDust object at 0x0000000006DC9438>, <items.SlimeDust object at 0x0000000006C88F60>, <items.SlimeDust object at 0x0000000006C88F60>, <items.SlimeDust object at 0x0000000006DC9780>, <items.SlimeDust object at 0x0000000006DC9780>, <items.SlimeDust object at 0x0000000006DC9780>]}
+10-08 22:10 :INFO:root: Game over! End loop.
+10-08 22:11 :DEBUG:root: logging enabled at path: data\logs
+10-08 22:11 :DEBUG:root: key repetition is set to True
+10-08 22:11 :DEBUG:root: loaded hero state" {'speed': 20, 'direction': 'LEFT', '_isalive': True, 'vert': 0, 'inventory': [<items.RatTail object at 0x0000000002B79828>, <items.SlimeDust object at 0x0000000006E02B70>, <items.RatTail object at 0x0000000006E02A58>, <items.SlimeDust object at 0x0000000006E02C18>, <items.SlimeDust object at 0x0000000006E02C18>, <items.SlimeDust object at 0x0000000006E02C18>, <items.SlimeDust object at 0x0000000006E02978>, <items.SlimeDust object at 0x0000000006E02978>, <items.SlimeDust object at 0x0000000006E02A90>, <items.SlimeDust object at 0x0000000006E02A90>, <items.SlimeDust object at 0x0000000006E02A90>], 'collision_on': True, 'coin_purse': 70, 'hor': 0, '_pos': (500, 440), 'mobile': True, '_name': 'Hero_name'}
+10-08 22:11 :DEBUG:root: current bgm was:  room bgm is: engine_slow.wav
+10-08 22:14 :DEBUG:root: logging enabled at path: data\logs
+10-08 22:14 :DEBUG:root: logging enabled at path: data\logs
+10-08 22:14 :DEBUG:root: key repetition is set to True
+10-08 22:14 :DEBUG:root: loaded hero state" {'collision_on': True, 'inventory_size': 20, 'speed': 20, 'mobile': True, 'vert': 0, '_isalive': True, '_pos': (300, 80), 'direction': 'LEFT', 'coin_purse': 70, 'inventory': [<items.SlimeDust object at 0x0000000002C27048>, <items.RatTail object at 0x0000000006E8B780>, <items.RatTail object at 0x0000000006E8B710>, <items.RatTail object at 0x0000000006E8B748>, <items.SlimeDust object at 0x0000000006E8B898>, <items.RatTail object at 0x0000000006E8F0B8>, <items.RatTail object at 0x0000000006E8F0B8>, <items.RatTail object at 0x0000000006E8F208>, <items.RatTail object at 0x0000000006E8F0F0>, <items.SlimeDust object at 0x0000000006E8F2E8>, <items.RatTail object at 0x0000000006E8F198>, <items.Bone object at 0x0000000006E8F160>, <items.SlimeDust object at 0x0000000006E8F9E8>, <items.SlimeDust object at 0x0000000006E8F048>], '_name': 'Hero_name', 'hor': 0}
+10-08 22:14 :DEBUG:root: current bgm was:  room bgm is: engine_slow.wav
+10-08 22:14 :DEBUG:root: saving hero state: {'collision_on': True, 'speed': 20, 'inventory_size': 20, 'mobile': True, 'vert': 0, '_isalive': True, '_pos': (380, 320), 'direction': 'LEFT', 'coin_purse': 70, 'inventory': [<items.SlimeDust object at 0x0000000002C27048>, <items.RatTail object at 0x0000000006E8B780>, <items.RatTail object at 0x0000000006E8B710>, <items.RatTail object at 0x0000000006E8B748>, <items.SlimeDust object at 0x0000000006E8B898>, <items.RatTail object at 0x0000000006E8F0B8>, <items.RatTail object at 0x0000000006E8F0B8>, <items.RatTail object at 0x0000000006E8F208>, <items.RatTail object at 0x0000000006E8F0F0>, <items.SlimeDust object at 0x0000000006E8F2E8>, <items.RatTail object at 0x0000000006E8F198>, <items.Bone object at 0x0000000006E8F160>, <items.SlimeDust object at 0x0000000006E8F9E8>, <items.SlimeDust object at 0x0000000006E8F048>], '_name': 'Hero_name', 'hor': 0}
+10-08 22:14 :INFO:root: Game over! End loop.
+10-08 22:16 :DEBUG:root: logging enabled at path: data\logs
+10-08 22:16 :DEBUG:root: key repetition is set to True
+10-08 22:16 :DEBUG:root: loaded hero state" {'inventory_size': 20, 'collision_on': True, '_name': 'Hero_name', '_isalive': True, 'vert': 0, 'mobile': True, 'inventory': [<items.SlimeDust object at 0x0000000002B9F748>, <items.RatTail object at 0x0000000006EBCF98>, <items.RatTail object at 0x0000000006EBCFD0>, <items.RatTail object at 0x0000000006EBCDD8>, <items.SlimeDust object at 0x0000000006EC4978>, <items.RatTail object at 0x0000000006EC4BA8>, <items.RatTail object at 0x0000000006EC4BA8>, <items.RatTail object at 0x0000000006EC4B00>, <items.RatTail object at 0x0000000006EC49E8>, <items.SlimeDust object at 0x0000000006EC4908>, <items.RatTail object at 0x0000000006EC4A20>, <items.Bone object at 0x0000000006EC4080>, <items.SlimeDust object at 0x0000000006EC4B38>, <items.SlimeDust object at 0x0000000006EC4BE0>], 'coin_purse': 70, 'hor': 0, 'speed': 20, '_pos': (380, 320), 'direction': 'LEFT'}
+10-08 22:16 :DEBUG:root: current bgm was:  room bgm is: engine_slow.wav
+10-08 22:16 :DEBUG:root: saving hero state: {'inventory_size': 20, 'collision_on': True, '_name': 'Hero_name', '_isalive': True, 'vert': 0, 'mobile': True, 'inventory': [<items.SlimeDust object at 0x0000000002B9F748>, <items.RatTail object at 0x0000000006EBCF98>, <items.RatTail object at 0x0000000006EBCFD0>, <items.RatTail object at 0x0000000006EBCDD8>, <items.SlimeDust object at 0x0000000006EC4978>, <items.RatTail object at 0x0000000006EC4BA8>, <items.RatTail object at 0x0000000006EC4BA8>, <items.RatTail object at 0x0000000006EC4B00>, <items.RatTail object at 0x0000000006EC49E8>, <items.SlimeDust object at 0x0000000006EC4908>, <items.RatTail object at 0x0000000006EC4A20>, <items.Bone object at 0x0000000006EC4080>, <items.SlimeDust object at 0x0000000006EC4B38>, <items.SlimeDust object at 0x0000000006EC4BE0>], 'coin_purse': 70, 'hor': 0, 'speed': 20, '_pos': (300, 440), 'direction': 'LEFT'}
+10-08 22:16 :INFO:root: Game over! End loop.
+10-08 22:16 :DEBUG:root: logging enabled at path: data\logs
+10-08 22:16 :DEBUG:root: key repetition is set to True
+10-08 22:16 :DEBUG:root: loaded hero state" {'hor': 0, 'mobile': True, 'direction': 'LEFT', 'coin_purse': 70, 'inventory_size': 20, 'collision_on': True, '_isalive': True, '_pos': (300, 440), 'vert': 0, 'speed': 20, '_name': 'Hero_name', 'inventory': [<items.SlimeDust object at 0x0000000002BD9518>, <items.RatTail object at 0x0000000002BD9898>, <items.RatTail object at 0x0000000006E76FD0>, <items.RatTail object at 0x0000000006E94A90>, <items.SlimeDust object at 0x0000000006E94080>, <items.RatTail object at 0x0000000006E94160>, <items.RatTail object at 0x0000000006E94160>, <items.RatTail object at 0x0000000006E94AC8>, <items.RatTail object at 0x0000000006E94C50>, <items.SlimeDust object at 0x0000000006E949E8>, <items.RatTail object at 0x0000000006E94B00>, <items.Bone object at 0x0000000006E94B38>, <items.SlimeDust object at 0x0000000006E94B70>, <items.SlimeDust object at 0x0000000006E94CC0>]}
+10-08 22:16 :DEBUG:root: current bgm was:  room bgm is: engine_slow.wav
+10-08 22:16 :DEBUG:root: saving hero state: {'inventory_size': 20, 'collision_on': True, 'direction': 'LEFT', 'coin_purse': 70, 'hor': 0, 'mobile': True, '_isalive': True, '_pos': (300, 440), 'vert': 0, 'speed': 20, '_name': 'Hero_name', 'inventory': [<items.SlimeDust object at 0x0000000002BD9518>, <items.RatTail object at 0x0000000002BD9898>, <items.RatTail object at 0x0000000006E76FD0>, <items.RatTail object at 0x0000000006E94A90>, <items.SlimeDust object at 0x0000000006E94080>, <items.RatTail object at 0x0000000006E94160>, <items.RatTail object at 0x0000000006E94160>, <items.RatTail object at 0x0000000006E94AC8>, <items.RatTail object at 0x0000000006E94C50>, <items.SlimeDust object at 0x0000000006E949E8>, <items.RatTail object at 0x0000000006E94B00>, <items.Bone object at 0x0000000006E94B38>, <items.SlimeDust object at 0x0000000006E94B70>, <items.SlimeDust object at 0x0000000006E94CC0>]}
+10-08 22:16 :INFO:root: Game over! End loop.
+10-08 22:16 :DEBUG:root: logging enabled at path: data\logs
+10-08 22:16 :DEBUG:root: key repetition is set to True
+10-08 22:16 :DEBUG:root: loaded hero state" {'vert': 0, 'mobile': True, '_pos': (300, 440), 'coin_purse': 70, 'inventory': [<items.SlimeDust object at 0x0000000002BF38D0>, <items.RatTail object at 0x0000000006DC9080>, <items.RatTail object at 0x0000000006DC9160>, <items.RatTail object at 0x0000000006DC9CF8>, <items.SlimeDust object at 0x0000000006DC99E8>, <items.RatTail object at 0x0000000006DC9B00>, <items.RatTail object at 0x0000000006DC9B00>, <items.RatTail object at 0x0000000006DC9B38>, <items.RatTail object at 0x0000000006DC9A58>, <items.SlimeDust object at 0x0000000006DC90F0>, <items.RatTail object at 0x0000000006DC9BA8>, <items.Bone object at 0x0000000006DC9B70>, <items.SlimeDust object at 0x0000000006DC9240>, <items.SlimeDust object at 0x0000000006DC9AC8>], '_isalive': True, 'hor': 0, 'inventory_size': 20, 'collision_on': True, 'direction': 'LEFT', 'speed': 20, '_name': 'Hero_name'}
+10-08 22:16 :DEBUG:root: current bgm was:  room bgm is: engine_slow.wav
+10-08 22:16 :DEBUG:root: saving hero state: {'vert': 0, 'mobile': True, '_pos': (300, 440), 'coin_purse': 70, 'inventory': [<items.SlimeDust object at 0x0000000002BF38D0>, <items.RatTail object at 0x0000000006DC9080>, <items.RatTail object at 0x0000000006DC9160>, <items.RatTail object at 0x0000000006DC9CF8>, <items.SlimeDust object at 0x0000000006DC99E8>, <items.RatTail object at 0x0000000006DC9B00>, <items.RatTail object at 0x0000000006DC9B00>, <items.RatTail object at 0x0000000006DC9B38>, <items.RatTail object at 0x0000000006DC9A58>, <items.SlimeDust object at 0x0000000006DC90F0>, <items.RatTail object at 0x0000000006DC9BA8>, <items.Bone object at 0x0000000006DC9B70>, <items.SlimeDust object at 0x0000000006DC9240>, <items.SlimeDust object at 0x0000000006DC9AC8>], 'hor': 0, 'inventory_size': 20, '_isalive': True, 'collision_on': True, 'speed': 20, '_name': 'Hero_name', 'direction': 'LEFT'}
+10-08 22:16 :INFO:root: Game over! End loop.
+10-08 22:17 :DEBUG:root: logging enabled at path: data\logs
+10-08 22:17 :DEBUG:root: key repetition is set to True
+10-08 22:17 :DEBUG:root: loaded hero state" {'vert': 0, '_name': 'Hero_name', 'mobile': True, '_pos': (300, 440), 'hor': 0, 'coin_purse': 70, 'speed': 20, '_isalive': True, 'direction': 'LEFT', 'inventory_size': 20, 'collision_on': True, 'inventory': [<items.SlimeDust object at 0x0000000002BF9518>, <items.RatTail object at 0x0000000002BF9898>, <items.RatTail object at 0x0000000006EC6FD0>, <items.RatTail object at 0x0000000006EE4A90>, <items.SlimeDust object at 0x0000000006EE4080>, <items.RatTail object at 0x0000000006EE4C88>, <items.RatTail object at 0x0000000006EE4C88>, <items.RatTail object at 0x0000000006EE4CC0>, <items.RatTail object at 0x0000000006EE4AC8>, <items.SlimeDust object at 0x0000000006EE49E8>, <items.RatTail object at 0x0000000006EE4B00>, <items.Bone object at 0x0000000006EE4B38>, <items.SlimeDust object at 0x0000000006EE4CF8>, <items.SlimeDust object at 0x0000000006EE4B70>]}
+10-08 22:17 :DEBUG:root: current bgm was:  room bgm is: engine_slow.wav
+10-08 22:17 :DEBUG:root: saving hero state: {'vert': 0, '_name': 'Hero_name', 'mobile': True, '_pos': (300, 440), 'hor': 0, 'coin_purse': 70, 'inventory_size': 20, '_isalive': True, 'direction': 'LEFT', 'speed': 20, 'collision_on': True, 'inventory': [<items.SlimeDust object at 0x0000000002BF9518>, <items.RatTail object at 0x0000000002BF9898>, <items.RatTail object at 0x0000000006EC6FD0>, <items.RatTail object at 0x0000000006EE4A90>, <items.SlimeDust object at 0x0000000006EE4080>, <items.RatTail object at 0x0000000006EE4C88>, <items.RatTail object at 0x0000000006EE4C88>, <items.RatTail object at 0x0000000006EE4CC0>, <items.RatTail object at 0x0000000006EE4AC8>, <items.SlimeDust object at 0x0000000006EE49E8>, <items.RatTail object at 0x0000000006EE4B00>, <items.Bone object at 0x0000000006EE4B38>, <items.SlimeDust object at 0x0000000006EE4CF8>, <items.SlimeDust object at 0x0000000006EE4B70>]}
+10-08 22:17 :INFO:root: Game over! End loop.
+10-08 22:41 :DEBUG:root: logging enabled at path: data\logs
+10-08 22:41 :DEBUG:root: key repetition is set to True
+10-08 22:41 :DEBUG:root: current bgm was:  room bgm is: engine_slow.wav
+10-08 22:43 :DEBUG:root: logging enabled at path: data\logs
+10-08 22:43 :DEBUG:root: key repetition is set to True
+10-08 22:47 :DEBUG:root: logging enabled at path: data\logs
+10-08 22:47 :DEBUG:root: key repetition is set to True
+10-08 22:47 :DEBUG:root: current bgm was:  room bgm is: engine_slow.wav
+10-08 22:47 :DEBUG:root: logging enabled at path: data\logs
+10-08 22:47 :DEBUG:root: logging enabled at path: data\logs
+10-08 22:47 :DEBUG:root: key repetition is set to True
+10-08 22:47 :DEBUG:root: current bgm was:  room bgm is: engine_slow.wav
+10-08 22:52 :DEBUG:root: logging enabled at path: data\logs
+10-08 22:52 :DEBUG:root: logging enabled at path: data\logs
+10-08 22:52 :DEBUG:root: key repetition is set to True
+10-08 22:52 :DEBUG:root: current bgm was:  room bgm is: engine_slow.wav
+10-08 22:52 :DEBUG:root: saving hero state: {'_name': 'Hero_name', 'vert': 0, 'mobile': True, '_pos': (300, 440), 'direction': 'LEFT', 'save_file': 'save', '_isalive': True, 'speed': 20, 'collision_on': True, 'coin_purse': 0, 'save_dir': 'data\\saves', 'hor': 0, 'inventory': [], 'inventory_size': 20}
+10-08 22:54 :DEBUG:root: logging enabled at path: data\logs
+10-08 22:54 :DEBUG:root: key repetition is set to True
+10-08 22:54 :DEBUG:root: current bgm was:  room bgm is: engine_slow.wav
+10-08 22:54 :DEBUG:root: logging enabled at path: data\logs
+10-08 22:56 :DEBUG:root: logging enabled at path: data\logs
+10-08 23:00 :DEBUG:root: logging enabled at path: data\logs
+10-08 23:00 :DEBUG:root: key repetition is set to True
+10-08 23:00 :DEBUG:root: current bgm was:  room bgm is: engine_slow.wav
+10-08 23:01 :DEBUG:root: logging enabled at path: data\logs
+10-08 23:01 :DEBUG:root: key repetition is set to True
+10-08 23:01 :DEBUG:root: current bgm was:  room bgm is: engine_slow.wav
+10-08 23:02 :DEBUG:root: logging enabled at path: data\logs
+10-08 23:02 :DEBUG:root: logging enabled at path: data\logs
+10-08 23:02 :DEBUG:root: key repetition is set to True
+10-08 23:02 :DEBUG:root: current bgm was:  room bgm is: engine_slow.wav
+10-08 23:09 :DEBUG:root: logging enabled at path: data\logs
+10-08 23:09 :DEBUG:root: key repetition is set to True
+10-08 23:09 :DEBUG:root: current bgm was:  room bgm is: engine_slow.wav
+10-08 23:10 :DEBUG:root: logging enabled at path: data\logs
+10-08 23:10 :DEBUG:root: key repetition is set to True
+10-08 23:10 :DEBUG:root: current bgm was:  room bgm is: engine_slow.wav
+10-08 23:10 :DEBUG:root: saving hero state: {'_pos': (300, 440), '_isalive': True, 'vert': 0, 'hor': 0, 'mobile': True, 'inventory': [], 'speed': 20, 'collision_on': True, '_name': 'Hero_name', 'save_dir': 'data\\saves', 'save_file': 'save', 'coin_purse': 0, 'direction': 'LEFT', 'inventory_size': 20}
+10-08 23:10 :DEBUG:root: logging enabled at path: data\logs
+10-08 23:12 :DEBUG:root: logging enabled at path: data\logs
+10-08 23:12 :DEBUG:root: key repetition is set to True
+10-08 23:12 :DEBUG:root: current bgm was:  room bgm is: engine_slow.wav
+10-08 23:12 :DEBUG:root: logging enabled at path: data\logs
+10-08 23:12 :DEBUG:root: logging enabled at path: data\logs
+10-08 23:12 :DEBUG:root: key repetition is set to True
+10-08 23:12 :DEBUG:root: current bgm was:  room bgm is: engine_slow.wav
+10-08 23:12 :DEBUG:root: saving hero state: {'hor': 0, 'direction': 'LEFT', 'speed': 20, 'mobile': True, 'coin_purse': 0, 'save_file': 'save', 'inventory_size': 20, 'save_dir': 'data\\saves', 'inventory': [], '_name': 'Hero_name', 'collision_on': True, '_isalive': True, 'vert': 0, '_pos': (300, 440)}
+10-08 23:12 :INFO:root: Game over! End loop.
+10-08 23:13 :DEBUG:root: logging enabled at path: data\logs
+10-08 23:14 :DEBUG:root: logging enabled at path: data\logs
+10-08 23:14 :DEBUG:root: loaded hero state" {'hor': 0, 'inventory_size': 20, 'save_dir': 'data\\saves', 'speed': 20, 'save_file': 'save', 'collision_on': True, 'direction': 'LEFT', 'coin_purse': 0, 'inventory': [], 'mobile': True, 'vert': 0, '_name': 'Hero_name', '_pos': (300, 440), '_isalive': True}
+10-08 23:14 :DEBUG:root: logging enabled at path: data\logs
+10-08 23:14 :DEBUG:root: key repetition is set to True
+10-08 23:14 :DEBUG:root: current bgm was:  room bgm is: engine_slow.wav
+10-08 23:14 :DEBUG:root: saving hero state: {'save_dir': 'data\\saves', 'direction': 'LEFT', 'hor': 0, 'inventory_size': 20, 'save_file': 'save', '_isalive': True, 'mobile': True, 'speed': 20, 'inventory': [], '_name': 'Hero_name', 'vert': 0, 'collision_on': True, '_pos': (300, 440), 'coin_purse': 0}
+10-08 23:14 :INFO:root: Game over! End loop.
+10-08 23:15 :DEBUG:root: logging enabled at path: data\logs
+10-08 23:15 :DEBUG:root: loaded hero state" {'inventory_size': 20, 'save_dir': 'data\\saves', '_isalive': True, 'save_file': 'save', 'direction': 'LEFT', 'speed': 20, '_name': 'Hero_name', 'collision_on': True, 'mobile': True, 'vert': 0, '_pos': (300, 440), 'coin_purse': 0, 'inventory': [], 'hor': 0}
+10-08 23:17 :DEBUG:root: logging enabled at path: data\logs
+10-08 23:17 :DEBUG:root: loaded hero state" {'save_dir': 'data\\saves', 'vert': 0, 'speed': 20, '_pos': (300, 440), 'coin_purse': 0, 'save_file': 'save', 'hor': 0, '_name': 'Hero_name', 'mobile': True, 'inventory_size': 20, 'direction': 'LEFT', '_isalive': True, 'inventory': [], 'collision_on': True}
+10-08 23:21 :DEBUG:root: logging enabled at path: data\logs
+10-08 23:21 :DEBUG:root: key repetition is set to True
+10-08 23:21 :DEBUG:root: current bgm was:  room bgm is: engine_slow.wav
+10-08 23:21 :DEBUG:root: saving hero state: {'coin_purse': 0, '_isalive': True, '_name': 'Hero_name', 'mobile': True, 'save_dir': 'data\\saves', 'direction': 'LEFT', 'hor': 0, 'inventory_size': 20, 'speed': 20, 'vert': 0, 'collision_on': True, '_pos': (300, 440), 'save_file': 'save', 'inventory': []}
+10-08 23:21 :INFO:root: Game over! End loop.
+10-08 23:21 :DEBUG:root: logging enabled at path: data\logs
+10-08 23:21 :DEBUG:root: loaded hero state" {'vert': 0, 'save_file': 'save', 'inventory_size': 20, 'save_dir': 'data\\saves', 'mobile': True, '_name': 'Hero_name', 'hor': 0, '_pos': (300, 440), 'coin_purse': 0, '_isalive': True, 'direction': 'LEFT', 'speed': 20, 'collision_on': True, 'inventory': []}
+10-08 23:23 :DEBUG:root: logging enabled at path: data\logs
+10-08 23:23 :DEBUG:root: key repetition is set to True
+10-08 23:23 :DEBUG:root: current bgm was:  room bgm is: engine_slow.wav
+10-08 23:23 :DEBUG:root: saving hero state: {'vert': 0, '_name': 'Hero_name', '_isalive': True, 'direction': 'LEFT', 'coin_purse': 0, 'speed': 20, '_pos': (300, 440), 'mobile': True, 'save_file': 'save', 'hor': 0, 'inventory': [], 'save_dir': 'data\\saves', 'collision_on': True, 'inventory_size': 20}
+10-08 23:23 :INFO:root: Game over! End loop.
+10-08 23:23 :DEBUG:root: logging enabled at path: data\logs
+10-08 23:23 :DEBUG:root: loaded hero state" {'mobile': True, 'save_file': 'save', '_isalive': True, 'inventory': [], 'speed': 20, 'inventory_size': 20, 'direction': 'LEFT', 'save_dir': 'data\\saves', 'collision_on': True, 'vert': 0, '_pos': (300, 440), 'coin_purse': 0, 'hor': 0, '_name': 'Hero_name'}
+10-08 23:24 :DEBUG:root: logging enabled at path: data\logs
+10-08 23:24 :DEBUG:root: key repetition is set to True
+10-08 23:24 :DEBUG:root: current bgm was:  room bgm is: engine_slow.wav
+10-08 23:24 :DEBUG:root: saving hero state: {'hor': 0, 'speed': 20, 'inventory_size': 20, 'collision_on': True, 'inventory': [], 'coin_purse': 0, 'save_dir': 'data\\saves', 'vert': 0, 'mobile': True, '_pos': (300, 440), '_name': 'Hero_name', 'direction': 'LEFT', 'save_file': 'save', '_isalive': True}
+10-08 23:24 :INFO:root: Game over! End loop.
+10-08 23:24 :DEBUG:root: logging enabled at path: data\logs
+10-08 23:24 :DEBUG:root: loaded hero state" {'inventory': [], 'save_dir': 'data\\saves', 'mobile': True, '_isalive': True, 'direction': 'LEFT', 'hor': 0, 'inventory_size': 20, 'collision_on': True, '_name': 'Hero_name', 'save_file': 'save', 'coin_purse': 0, 'speed': 20, 'vert': 0, '_pos': (300, 440)}
+10-08 23:25 :DEBUG:root: logging enabled at path: data\logs
+10-08 23:25 :DEBUG:root: loaded hero state" {'collision_on': True, 'hor': 0, 'speed': 20, '_name': 'Hero_name', '_isalive': True, 'coin_purse': 0, 'save_dir': 'data\\saves', 'mobile': True, 'inventory_size': 20, 'vert': 0, 'save_file': 'save', '_pos': (300, 440), 'direction': 'LEFT', 'inventory': []}
+10-08 23:25 :DEBUG:root: logging enabled at path: data\logs
+10-08 23:25 :DEBUG:root: key repetition is set to True
+10-08 23:25 :DEBUG:root: current bgm was:  room bgm is: engine_slow.wav
+10-08 23:25 :DEBUG:root: saving hero state: {'mobile': True, 'collision_on': True, 'hor': 0, 'vert': 0, '_pos': (300, 440), '_isalive': True, '_name': 'Hero_name', 'speed': 20, 'inventory': [], 'save_file': 'save', 'inventory_size': 20, 'coin_purse': 0, 'direction': 'LEFT', 'save_dir': 'data\\saves'}
+10-08 23:25 :INFO:root: Game over! End loop.
+10-08 23:25 :DEBUG:root: logging enabled at path: data\logs
+10-08 23:25 :DEBUG:root: loaded hero state" {'_name': 'Hero_name', 'inventory': [], '_isalive': True, 'save_dir': 'data\\saves', 'collision_on': True, 'coin_purse': 0, 'direction': 'LEFT', 'mobile': True, 'save_file': 'save', 'inventory_size': 20, '_pos': (300, 440), 'hor': 0, 'vert': 0, 'speed': 20}
+10-08 23:26 :DEBUG:root: logging enabled at path: data\logs
+10-08 23:26 :DEBUG:root: key repetition is set to True
+10-08 23:26 :DEBUG:root: current bgm was:  room bgm is: engine_slow.wav
+10-08 23:26 :DEBUG:root: saving hero state: {'_name': 'Hero_name', 'speed': 20, 'inventory': [], 'mobile': True, 'hor': 0, 'save_dir': 'data\\saves', 'vert': 0, '_isalive': True, '_pos': (300, 440), 'collision_on': True, 'direction': 'LEFT', 'coin_purse': 0, 'save_file': 'save', 'inventory_size': 20}
+10-08 23:26 :INFO:root: Game over! End loop.
+10-08 23:26 :DEBUG:root: logging enabled at path: data\logs
+10-08 23:26 :DEBUG:root: loaded hero state" {'save_dir': 'data\\saves', 'save_file': 'save', 'vert': 0, '_isalive': True, 'collision_on': True, '_name': 'Hero_name', 'inventory_size': 20, 'direction': 'LEFT', 'speed': 20, '_pos': (300, 440), 'hor': 0, 'coin_purse': 0, 'inventory': [], 'mobile': True}
+10-08 23:28 :DEBUG:root: logging enabled at path: data\logs
+10-08 23:28 :DEBUG:root: logging enabled at path: data\logs
+10-08 23:28 :DEBUG:root: key repetition is set to True
+10-08 23:28 :DEBUG:root: current bgm was:  room bgm is: engine_slow.wav
+10-08 23:28 :DEBUG:root: saving hero state: {'speed': 20, 'save_file': 'save', 'mobile': True, 'direction': 'LEFT', 'vert': 0, 'hor': 0, '_pos': (300, 440), '_isalive': True, 'inventory': [], '_name': 'Hero_name', 'coin_purse': 0, 'collision_on': True, 'save_dir': 'data\\saves', 'inventory_size': 20}
+10-08 23:28 :INFO:root: Game over! End loop.
+10-08 23:28 :DEBUG:root: logging enabled at path: data\logs
+10-08 23:28 :DEBUG:root: loaded hero state" {'inventory_size': 20, 'speed': 20, 'save_dir': 'data\\saves', 'direction': 'LEFT', 'mobile': True, 'vert': 0, '_isalive': True, '_pos': (300, 440), 'hor': 0, '_name': 'Hero_name', 'inventory': [], 'collision_on': True, 'save_file': 'save', 'coin_purse': 0}
+10-08 23:28 :DEBUG:root: logging enabled at path: data\logs
+10-08 23:28 :DEBUG:root: loaded hero state" {'save_dir': 'data\\saves', 'inventory_size': 20, 'speed': 20, 'hor': 0, '_pos': (300, 440), 'coin_purse': 0, 'mobile': True, 'inventory': [], 'direction': 'LEFT', 'collision_on': True, '_isalive': True, 'save_file': 'save', '_name': 'Hero_name', 'vert': 0}
+10-08 23:29 :DEBUG:root: logging enabled at path: data\logs
+10-08 23:29 :DEBUG:root: key repetition is set to True
+10-08 23:29 :DEBUG:root: current bgm was:  room bgm is: engine_slow.wav
+10-08 23:29 :DEBUG:root: saving hero state: {'hor': 0, 'save_file': 'save', '_pos': (320, 200), 'inventory': [<items.RatTail object at 0x0000000006E434A8>, <items.SlimeDust object at 0x0000000006E3F7B8>], 'vert': 0, '_name': 'Hero_name', 'coin_purse': 0, 'collision_on': True, 'mobile': True, '_isalive': True, 'speed': 20, 'inventory_size': 20, 'direction': 'LEFT', 'save_dir': 'data\\saves'}
+10-08 23:29 :INFO:root: Game over! End loop.
+10-08 23:29 :DEBUG:root: logging enabled at path: data\logs
+10-08 23:29 :DEBUG:root: loaded hero state" {'mobile': True, '_name': 'Hero_name', 'hor': 0, 'save_file': 'save', 'coin_purse': 0, 'vert': 0, 'save_dir': 'data\\saves', '_pos': (320, 200), 'collision_on': True, 'inventory_size': 20, 'inventory': [<items.RatTail object at 0x0000000002BE13C8>, <items.SlimeDust object at 0x0000000002BE1400>], '_isalive': True, 'direction': 'LEFT', 'speed': 20}
+10-08 23:30 :DEBUG:root: logging enabled at path: data\logs
+10-08 23:30 :DEBUG:root: loaded hero state" {'inventory': [<items.RatTail object at 0x0000000002BC7400>, <items.SlimeDust object at 0x0000000002BC7438>], 'vert': 0, 'inventory_size': 20, '_name': 'Hero_name', 'collision_on': True, 'save_dir': 'data\\saves', 'save_file': 'save', 'coin_purse': 0, '_isalive': True, 'mobile': True, '_pos': (320, 200), 'speed': 20, 'direction': 'LEFT', 'hor': 0}
+10-08 23:31 :DEBUG:root: logging enabled at path: data\logs
+10-08 23:31 :DEBUG:root: key repetition is set to True
+10-08 23:31 :DEBUG:root: current bgm was:  room bgm is: engine_slow.wav
+10-08 23:31 :DEBUG:root: saving hero state: {'coin_purse': 0, 'direction': 'LEFT', 'save_file': 'save', 'speed': 20, 'inventory_size': 20, 'save_dir': 'data\\saves', 'collision_on': True, '_name': 'Hero_name', 'vert': 0, '_pos': (300, 440), '_isalive': True, 'mobile': True, 'inventory': [], 'hor': 0}
+10-08 23:31 :INFO:root: Game over! End loop.
+10-08 23:31 :DEBUG:root: logging enabled at path: data\logs
+10-08 23:31 :DEBUG:root: loaded hero state" {'hor': 0, 'speed': 20, '_pos': (300, 440), 'direction': 'LEFT', 'inventory': [], 'mobile': True, 'save_file': 'save', 'coin_purse': 0, 'save_dir': 'data\\saves', 'inventory_size': 20, 'collision_on': True, '_name': 'Hero_name', '_isalive': True, 'vert': 0}
+10-08 23:31 :DEBUG:root: logging enabled at path: data\logs
+10-08 23:31 :DEBUG:root: loaded hero state" {'hor': 0, 'vert': 0, 'save_dir': 'data\\saves', 'direction': 'LEFT', 'inventory': [], 'coin_purse': 0, '_pos': (300, 440), 'save_file': 'save', 'speed': 20, '_isalive': True, 'collision_on': True, 'inventory_size': 20, '_name': 'Hero_name', 'mobile': True}
+10-08 23:31 :DEBUG:root: logging enabled at path: data\logs
+10-08 23:31 :DEBUG:root: loaded hero state" {'_pos': (300, 440), 'collision_on': True, 'save_file': 'save', 'hor': 0, 'coin_purse': 0, '_name': 'Hero_name', 'vert': 0, '_isalive': True, 'inventory': [], 'mobile': True, 'direction': 'LEFT', 'save_dir': 'data\\saves', 'inventory_size': 20, 'speed': 20}
+10-08 23:33 :DEBUG:root: logging enabled at path: data\logs
+10-08 23:33 :DEBUG:root: loaded hero state" {'_pos': (300, 440), 'mobile': True, 'vert': 0, 'hor': 0, 'save_dir': 'data\\saves', 'coin_purse': 0, '_isalive': True, 'save_file': 'save', 'inventory_size': 20, 'direction': 'LEFT', 'speed': 20, '_name': 'Hero_name', 'collision_on': True, 'inventory': []}
+10-08 23:35 :DEBUG:root: logging enabled at path: data\logs
+10-08 23:35 :DEBUG:root: key repetition is set to True
+10-08 23:35 :DEBUG:root: current bgm was:  room bgm is: engine_slow.wav
+10-08 23:35 :INFO:root: Game over! End loop.
+10-08 23:35 :DEBUG:root: logging enabled at path: data\logs
+10-08 23:35 :DEBUG:root: key repetition is set to True
+10-08 23:35 :DEBUG:root: current bgm was:  room bgm is: engine_slow.wav
+10-08 23:35 :DEBUG:root: gold is now 11
+10-08 23:35 :DEBUG:root: gold is now 44
+10-08 23:36 :DEBUG:root: gold is now 53
+10-08 23:36 :DEBUG:root: gold is now 72
+10-08 23:36 :INFO:root: Game over! End loop.
+10-09 07:03 :DEBUG:root: logging enabled at path: data\logs
+10-09 07:03 :DEBUG:root: key repetition is set to True
+10-09 07:03 :DEBUG:root: current bgm was:  room bgm is: engine_slow.wav
+10-09 07:03 :DEBUG:root: gold is now 17
+10-09 07:03 :DEBUG:root: gold is now 23
+10-09 07:03 :DEBUG:root: gold is now 50
+10-09 07:03 :DEBUG:root: gold is now 78
+10-09 07:04 :INFO:root: Game over! End loop.
+10-09 07:07 :DEBUG:root: logging enabled at path: data\logs
+10-09 07:07 :DEBUG:root: key repetition is set to True
+10-09 07:07 :DEBUG:root: current bgm was:  room bgm is: engine_slow.wav
+10-09 07:07 :DEBUG:root: logging enabled at path: data\logs
+10-09 07:07 :DEBUG:root: key repetition is set to True
+10-09 07:07 :DEBUG:root: current bgm was:  room bgm is: engine_slow.wav
+10-09 07:07 :DEBUG:root: gold is now 23
+10-09 07:07 :DEBUG:root: gold is now 54
+10-09 07:07 :DEBUG:root: gold is now 84
+10-09 07:07 :DEBUG:root: gold is now 99
+10-09 07:07 :INFO:root: Game over! End loop.
+10-09 07:07 :DEBUG:root: logging enabled at path: data\logs
+10-09 07:07 :DEBUG:root: key repetition is set to True
+10-09 07:07 :DEBUG:root: current bgm was:  room bgm is: engine_slow.wav
+10-09 07:08 :INFO:root: Game over! End loop.
