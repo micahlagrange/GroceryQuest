@@ -86,11 +86,12 @@ class Chest(Container):
 
         super(Chest, self).__init__(name, contents)
 
-    def touch(self, hero):
+    def touch(self, hero, game):
         if not self.open_state:
             if self.open(hero):
                 self.image = self.set_image(self.chest_open_img)
                 self.open_setter()
+                game.soundplayer.play_sfx('loose_change.wav')
             else:
                 hero.pos = hero._last_pos
 

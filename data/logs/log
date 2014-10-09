@@ -1078,3 +1078,27 @@ INFO:root:Game over! End loop.
 10-09 07:07 :DEBUG:root: key repetition is set to True
 10-09 07:07 :DEBUG:root: current bgm was:  room bgm is: engine_slow.wav
 10-09 07:08 :INFO:root: Game over! End loop.
+10-09 12:03 :DEBUG:root: logging enabled at path: data\logs
+10-09 12:03 :DEBUG:root: key repetition is set to True
+10-09 12:03 :DEBUG:root: current bgm was:  room bgm is: engine_slow.wav
+10-09 12:04 :DEBUG:root: gold is now 18
+10-09 12:04 :DEBUG:root: gold is now 49
+10-09 12:04 :DEBUG:root: gold is now 71
+10-09 12:04 :DEBUG:root: gold is now 82
+10-09 12:04 :INFO:root: Game over! End loop.
+10-09 12:04 :DEBUG:root: logging enabled at path: data\logs
+10-09 12:04 :DEBUG:root: key repetition is set to True
+10-09 12:04 :DEBUG:root: current bgm was:  room bgm is: engine_slow.wav
+10-09 12:04 :DEBUG:root: gold is now 3
+10-09 12:04 :DEBUG:root: gold is now 34
+10-09 12:04 :DEBUG:root: gold is now 60
+10-09 12:04 :DEBUG:root: gold is now 66
+10-09 12:04 :INFO:root: Game over! End loop.
+10-09 12:05 :DEBUG:root: logging enabled at path: data\logs
+10-09 12:05 :DEBUG:root: key repetition is set to True
+10-09 12:05 :DEBUG:root: current bgm was:  room bgm is: engine_slow.wav
+10-09 12:05 :DEBUG:root: gold is now 1
+10-09 12:05 :DEBUG:root: gold is now 34
+10-09 12:05 :DEBUG:root: gold is now 54
+10-09 12:05 :DEBUG:root: gold is now 66
+10-09 12:05 :INFO:root: Game over! End loop.

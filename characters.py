@@ -183,7 +183,7 @@ class Hero(object):
             if touched_container:
                 self.stop_movement()
                 self.pos = self.last_pos
-                touched_container.touch(self)
+                touched_container.touch(self, game)
             if touched_wall or touched_edge:
                 self.stop_movement()
                 self.pos = self.last_pos
@@ -242,6 +242,7 @@ class Hero(object):
             if item.name == 'gold':
                 self.coin_purse += item.amount
                 logging.debug('gold is now ' + str(self.coin_purse))
+
             else:
                 if len(self.inventory) <= self.inventory_size:
                     for _ in range(item.amount):
