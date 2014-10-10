@@ -32,11 +32,11 @@ def parse_pos(pos):
 
 
 class Level(pygame.sprite.Sprite):
-    def __init__(self, name, mapimage, wall_image, isle_image, start_pos, game):
+    def __init__(self, name, wall_image, isle_image, start_pos, game):
         self.name = name
 
         self.image = pygame.image.load(
-            os.path.join(con.PATHS['backgrounds'], mapimage))
+            os.path.join(con.PATHS['backgrounds'], self.mapimage))
         self.mapfile = os.path.join(con.PATHS['maps'], self.name + ".map")
 
         self.tile = con.GAME_CONSTANTS["TILE"]
@@ -148,26 +148,29 @@ class Level(pygame.sprite.Sprite):
 
     def __getstate__(self):
         state = self.__dict__.copy()
-        # del state['image']
+        del state['image']
 
+        str_state = str(state)
+        logging.error('saving level: ' + str_state)
+        logging.error('wtf')
         return state
 
     def __setstate__(self, state):
-        # state['image'] = pygame.image.load(os.path.join(con.PATHS['backgrounds'], state['mapimage']))
+        state['image'] = pygame.image.load(os.path.join(con.PATHS['backgrounds'], self.mapimage))
         self.__dict__.update(state)
 
 
 class Start(Level):
     def __init__(self, game):
         name = "Start"
-        mapimage = "greyfloor.png"
+        self.mapimage = "greyfloor.png"
         wall_image = "wall1.png"
         isle_image = "emptyisle.png"
         start_pos = parse_pos((14, 19))
         self.ambient_volume = 0.2
         self.bgm = 'engine_slow.wav'
 
-        super(Start, self).__init__(name, mapimage, wall_image, isle_image, start_pos, game)
+        super(Start, self).__init__(name, wall_image, isle_image, start_pos, game)
 
         self.northdoor1 = items.Door(
             dest_level="Isle2",

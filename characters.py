@@ -3,7 +3,6 @@ import sys
 import os
 import math
 import logging
-import pickle
 
 import pygame
 from pygame.locals import *
@@ -43,11 +42,8 @@ class Hero(object):
         hor (int): x coordinate (pixel)
         vert (int): y coordinate (pixel)
     """
-    def __init__(self, save_dir, save_file, name, game, pos=(0, 0)):
+    def __init__(self, name, game, pos=(0, 0)):
         self.arrow_keys = {K_LEFT, K_RIGHT, K_UP, K_DOWN}
-
-        self.save_dir = save_dir
-        self.save_file = save_file
 
         self._name = name
         self._isalive = True
@@ -119,13 +115,7 @@ class Hero(object):
         for event in pygame.event.get():
             if event.type == KEYDOWN:
                 if event.key == K_ESCAPE:
-                    #Save game object
-                    # with open(os.path.join(self.save_dir, self.save_file), 'wb') as savefile:
-                    #     pickle.dump(game, savefile)
-
-                    logging.info("Game over! End loop.")
-                    pygame.quit()
-                    sys.exit("Goodbye.")
+                    game.game_over = True
 
                 # logging.debug(event.key)  # WAY too much for regular debugging use
                 if event.key == K_LEFT:
@@ -298,20 +288,18 @@ class Monster(pygame.sprite.Sprite):
         corpse (Container): container object for corpse looting
 
     """
-    def __init__(self, image, corpseimage, drops, name, pos=(0, 0)):
+    def __init__(self, drops, name, pos=(0, 0)):
         pygame.sprite.Sprite.__init__(self)
 
         self.name = name
         self.isalive = True
         self.pos = pos
         self.last_pos = self.pos
-        self.image = self.set_image(image)
+        self.image = self.set_image(self.mob_image)
         self.rect = self.update_rect()
         self.tile = con.GAME_CONSTANTS["TILE"]
 
         self.corpse = items.Container(self.name, drops)
-
-        self.corpseimage = corpseimage
 
         self.speed = con.DIFFICULTY["ENEMY_SPEED"]
         self.aggro_dist = con.DIFFICULTY["AGGRO_DIST"]
@@ -412,17 +400,24 @@ class Monster(pygame.sprite.Sprite):
     def set_image(image):
         return pygame.image.load(image)
 
+    def __getstate__(self):
+        state = self.__dict__.copy()
+        del state['image']
+
+        return state
+
+    def __setstate__(self, state):
+        state['image'] = self.set_image(os.path.join(con.PATHS["sprites"], "slime.png"))
+
 
 class Slime(Monster):
     def __init__(self, pos, drops):
         self.mob_image = os.path.join(con.PATHS["sprites"], "slime.png")
-        self.sprite = pygame.sprite.Sprite()
+        # self.sprite = pygame.sprite.Sprite()
         self.corpseimage = os.path.join(con.PATHS["sprites"], "slimedead.png")
         name = "slime"
 
         super(Slime, self).__init__(
-            self.mob_image,
-            self.corpseimage,
             drops,
             name,
             pos
@@ -436,8 +431,6 @@ class Rat(Monster):
         name = "rat"
 
         super(Rat, self).__init__(
-            self.mob_image,
-            self.corpseimage,
             drops,
             name,
             pos,
@@ -451,8 +444,6 @@ class Ogre(Monster):
         name = "ogre"
 
         super(Ogre, self).__init__(
-            self.mob_image,
-            self.corpseimage,
             drops,
             name,
             pos,

@@ -3,6 +3,18 @@ __author__ = "micah turner"
 import os
 import logging
 
+PREFERENCES = {
+    'KEY_REPEAT_ON': True,
+    'KEY_DELAY': 50,
+    'KEY_REPEAT': 20,
+    'MENU_FONT_SIZE': 25,
+    'MENU_FONT': 'resources/fonts/freesansbold.ttf',
+    'HERO_NAME': 'Hero_name',
+    'LOG_LEVEL': 'DEBUG'
+}
+
+PROFILE_NAME = PREFERENCES['HERO_NAME']
+
 PATHS = {
     'sprites': os.path.join("resources", "sprites"),
     'entities': os.path.join("resources", "entities"),
@@ -10,12 +22,12 @@ PATHS = {
     'sounds': os.path.join("resources", "sounds"),
     'maps': os.path.join("resources", "maps"),
     'logs': os.path.join("data", "logs"),
-    'save_dir': os.path.join("data", "saves"),
+    'save_dir': os.path.join("data", PROFILE_NAME),
 }
 
 for key, path in PATHS.items():
     if not os.path.exists(path):
-        logging.warning('Could not find {} directory in the project path'.format(path))
+        logging.debug('Could not find {} directory in the project path'.format(path))
         os.makedirs(path)
         logging.debug('Created path ' + path)
 
@@ -32,15 +44,6 @@ GAME_CONSTANTS = {
     'MAP_BOTTOM_EDGE': 479
 }
 
-PREFERENCES = {
-    'KEY_REPEAT_ON': True,
-    'KEY_DELAY': 50,
-    'KEY_REPEAT': 20,
-    'MENU_FONT_SIZE': 25,
-    'MENU_FONT': 'resources/fonts/freesansbold.ttf',
-    'HERO_NAME': 'Hero_name',
-    'LOG_LEVEL': 'DEBUG'
-}
 
 DIFFICULTY = {
     'AGGRO_DIST': 5,
@@ -73,7 +76,7 @@ SOUND_SETTINGS = {
 }
 
 logging.basicConfig(
-    filename=os.path.join(PATHS['logs'], 'log'),
+    filename=os.path.join(PATHS['logs'], 'gc.log'),
     level=PREFERENCES['LOG_LEVEL'],
     datefmt='%m-%d %H:%M',
     format='%(asctime)s :%(levelname)s:%(name)s: %(message)s')

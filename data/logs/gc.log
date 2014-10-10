@@ -1,0 +1,4 @@
+10-09 18:31 :DEBUG:root: logging enabled at path: data\logs
+10-09 18:31 :DEBUG:root: key repetition is set to True
+10-09 18:31 :DEBUG:root: current bgm was:  room bgm is: engine_slow.wav
+10-09 18:31 :INFO:root: Game over! End loop.

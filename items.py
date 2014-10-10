@@ -93,7 +93,7 @@ class Chest(Container):
                 self.open_setter()
                 game.soundplayer.play_sfx('loose_change.wav')
             else:
-                hero.pos = hero._last_pos
+                hero.pos = hero.last_pos
 
     def open_setter(self):
         self.open_state = 1
