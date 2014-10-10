@@ -185,14 +185,14 @@ class Start(Level):
 class Isle2(Level):
     def __init__(self, game):
         name = "Isle2"
-        mapimage = "greyfloor.png"
+        self.mapimage = "greyfloor.png"
         wall_image = "wall1.png"
         isle_image = "emptyisle.png"
         start_pos = parse_pos((14, 19))
         self.ambient_volume = 0.3
         self.bgm = 'engine_slow.wav'
 
-        super(Isle2, self).__init__(name, mapimage, wall_image, isle_image, start_pos, game)
+        super(Isle2, self).__init__(name, wall_image, isle_image, start_pos, game)
 
         self.southdoor1 = items.Door(
             dest_level="Start",
@@ -213,14 +213,14 @@ class Isle2(Level):
 class ThroneRoom(Level):
     def __init__(self, game):
         name = "ThroneRoom"
-        mapimage = "dark_gray_floor.png"
+        self.mapimage = "dark_gray_floor.png"
         wall_image = "wall1.png"
         isle_image = "emptyisle.png"
         start_pos = parse_pos((14, 19))
         self.ambient_volume = .4
         self.bgm = 'engine_slow.wav'
 
-        super(ThroneRoom, self).__init__(name, mapimage, wall_image, isle_image, start_pos, game)
+        super(ThroneRoom, self).__init__(name, wall_image, isle_image, start_pos, game)
 
         self.southdoor1 = items.Door(
             dest_level="Isle2",
