@@ -9,7 +9,7 @@ PREFERENCES = {
     'KEY_REPEAT': 20,
     'MENU_FONT_SIZE': 25,
     'MENU_FONT': 'resources/fonts/freesansbold.ttf',
-    'HERO_NAME': 'Hero_name',
+    'HERO_NAME': 'Spluge',
     'LOG_LEVEL': 'DEBUG'
 }
 

@@ -45,17 +45,17 @@ class Hero(object):
     def __init__(self, name, game, pos=(0, 0)):
         self.arrow_keys = {K_LEFT, K_RIGHT, K_UP, K_DOWN}
 
-        self._name = name
-        self._isalive = True
-        self._last_pos = None
-        self._pos = pos
+        self.name = name
+        self.isalive = True
+        self.last_pos = None
+        self.pos = pos
 
         self.direction = "LEFT"
 
         self.hor = 0
         self.vert = 0
 
-        self.image = self.set_image("DOWN")
+        self.image = self.set_image(self.direction)
         self.rect = self.update_rect()
 
         self.inventory_size = con.DIFFICULTY['INVENTORY_SIZE']
@@ -64,43 +64,11 @@ class Hero(object):
 
         self.mobile = True
         self.collision_on = True
-
         self.speed = con.DIFFICULTY["HERO_SPEED"]
 
-
-    @property
-    def name(self):
-        return self._name
-
-    @name.setter
-    def name(self, value):
-        self._name = value
-
-    @property
-    def pos(self):
-        return self._pos
-
-    @pos.setter
-    def pos(self, value):
-        self._pos = value
+    def set_pos(self, value):
+        self.pos = value
         self.rect = self.update_rect()
-
-    @property
-    def last_pos(self):
-        return self._last_pos
-
-    @last_pos.setter
-    def last_pos(self, value):
-        self._last_pos = value
-
-    @property
-    def isalive(self):
-        return self._isalive
-
-    @isalive.setter
-    def isalive(self, value):
-        """stop drawing the hero on the screen"""
-        self._isalive = value
 
     def update(self, game):
         """Manages the players appearance on screen.
@@ -164,27 +132,27 @@ class Hero(object):
 
             if touched_door:
                 self.stop_movement()
-                self.pos = self.last_pos
+                self.set_pos(self.last_pos)
                 touched_door.touch(game)
             if touched_enemy:
                 self.stop_movement()
-                # self.pos = self.last_pos
+                # self.set_pos(self.last_pos
                 touched_enemy.touch(self, game)
             if touched_container:
                 self.stop_movement()
-                self.pos = self.last_pos
+                self.set_pos(self.last_pos)
                 touched_container.touch(self, game)
             if touched_wall or touched_edge:
                 self.stop_movement()
-                self.pos = self.last_pos
+                self.set_pos(self.last_pos)
             if touched_entity:
                 self.stop_movement()
                 if self.rect.colliderect(touched_entity.rect):
-                    self.pos = self.last_pos
+                    self.set_pos(self.last_pos)
 
-    @staticmethod
-    def set_image(direction):
+    def set_image(self, direction):
         try:
+            self.direction = direction
             return pygame.image.load(os.path.join(
                 con.PATHS["sprites"], "hero_{}.png".format(direction.lower()))
             )
@@ -200,8 +168,8 @@ class Hero(object):
         old_row, old_col = self.pos
         row = old_row + self.hor
         col = old_col + self.vert
-        self.pos = (row, col)
-        self.rect = self.update_rect()
+        self.set_pos((row, col))
+        # self.rect = self.update_rect()
 
     def toggle_collision(self):
         if self.collision_on:
@@ -251,9 +219,8 @@ class Hero(object):
         state = self.__dict__.copy()
 
         del state['image']
-        del state['rect']
-        del state['_last_pos']
-        del state['arrow_keys']
+        # del state['rect']
+        # del state['last_pos']
 
         str_state = str(state)
         logging.debug('saving hero state: ' + str_state)
@@ -266,10 +233,12 @@ class Hero(object):
 
         self.__dict__.update(state)
 
-        self.image = self.set_image("DOWN")
-        self.rect = self.update_rect()
-        self._last_pos = None
-        self.arrow_keys = {K_LEFT, K_RIGHT, K_UP, K_DOWN}
+        str_dict = str(self.__dict__)
+        logging.debug('after dict update: ' + str_dict)
+
+        self.image = self.set_image(state['direction'])
+        # self.rect = self.update_rect()
+        self.last_pos = None
 
 
 class Monster(pygame.sprite.Sprite):
@@ -337,7 +306,7 @@ class Monster(pygame.sprite.Sprite):
             new_col = old_row + vert
 
             self.pos = (new_row, new_col)
-            self.rect = self.update_rect()
+            # self.rect = self.update_rect()
 
             self.process_collisions(game)
 

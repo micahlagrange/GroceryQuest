@@ -24,7 +24,7 @@ class LoadGame():
         self.blit_reg_savefile = os.path.join(con.PATHS['save_dir'], 'blit_registry')
 
     def load_hero(self):
-        if not os.path.exists(os.path.join(con.PATHS['save_dir'], self.hero_savefile)):
+        if not os.path.exists(self.hero_savefile):
             hero = characters.Hero(name=self.hero_name, game=self, pos=(0, 0))
 
         else:
@@ -64,11 +64,17 @@ class LoadGame():
         with open(self.blit_reg_savefile, 'wb') as blit_savefile:
             pickle.dump(registry, blit_savefile)
 
+    def load_hero_pos(self, game):
+        if os.path.exists(self.hero_savefile):
+            pass
+        else:
+            game.hero.pos = game.level.startpos
+
 
 class Game(object):
-    def __init__(self, levelname, save_filename, hero_name=con.PREFERENCES["HERO_NAME"]):
+    def __init__(self, levelname, hero_name=con.PREFERENCES["HERO_NAME"]):
         self.game_over = False
-        self.game_loader = LoadGame(save_filename)
+        self.game_loader = LoadGame(hero_name)
 
         pygame.init()
 
@@ -91,11 +97,11 @@ class Game(object):
         self.hero = self.game_loader.load_hero()
         self.blitter.blit_registry = self.game_loader.load_blit_registry()
         self.level = levels.choose_level(levelname, self)
-        self.hero.pos = self.level.startpos
+        self.game_loader.load_hero_pos(self)
 
 
 def main():
-    game = Game('Start', 'save')
+    game = Game('Start')
 
     while not game.game_over:
         game.hero.update(game)
@@ -104,7 +110,7 @@ def main():
         game.fpsClock.tick(con.DISPLAY["FPS"])
 
     #Save game object
-    # game.game_loader.save_hero(game.hero)
+    game.game_loader.save_hero(game.hero)
     # game.game_loader.save_levels(game.explored_areas)
     # game.game_loader.save_blit_registry(game.blitter.blit_registry)
 
