@@ -9,7 +9,7 @@ PREFERENCES = {
     'KEY_REPEAT': 20,
     'MENU_FONT_SIZE': 25,
     'MENU_FONT': 'resources/fonts/freesansbold.ttf',
-    'HERO_NAME': 'Spluge',
+    'HERO_NAME': 'Brob',
     'LOG_LEVEL': 'DEBUG'
 }
 
@@ -48,8 +48,8 @@ GAME_CONSTANTS = {
 DIFFICULTY = {
     'AGGRO_DIST': 5,
     'HERO_SPEED': 20,
-    'ENEMY_SPEED': 10,
-    'INVENTORY_SIZE': 20
+    'ENEMY_SPEED': 20,
+    'INVENTORY_SIZE': 15
 }
 
 DISPLAY = {

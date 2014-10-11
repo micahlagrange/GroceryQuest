@@ -1,5 +1,4 @@
 import random
-import sys
 import os
 import math
 import logging
@@ -11,6 +10,7 @@ import combat
 import items
 import constants as con
 import display
+import levels
 
 
 def edge_collision_check(pos):
@@ -42,7 +42,7 @@ class Hero(object):
         hor (int): x coordinate (pixel)
         vert (int): y coordinate (pixel)
     """
-    def __init__(self, name, game, pos=(0, 0)):
+    def __init__(self, name, pos=(0, 0)):
         self.arrow_keys = {K_LEFT, K_RIGHT, K_UP, K_DOWN}
 
         self.name = name
@@ -51,20 +51,20 @@ class Hero(object):
         self.pos = pos
 
         self.direction = "LEFT"
-
-        self.hor = 0
-        self.vert = 0
+        self.hor = self.vert = 0
 
         self.image = self.set_image(self.direction)
         self.rect = self.update_rect()
 
         self.inventory_size = con.DIFFICULTY['INVENTORY_SIZE']
         self.inventory = []
-        self.coin_purse = 0
+        self.coin_purse = 1
 
         self.mobile = True
         self.collision_on = True
         self.speed = con.DIFFICULTY["HERO_SPEED"]
+
+        self.current_level = ''
 
     def set_pos(self, value):
         self.pos = value
@@ -78,9 +78,9 @@ class Hero(object):
         will repeat at a set interval of milliseconds.
         """
         self.vert = self.hor = 0
-        current_time = pygame.time.get_ticks()
+        # current_time = pygame.time.get_ticks()
 
-        for event in pygame.event.get():
+        for event in game.events:
             if event.type == KEYDOWN:
                 if event.key == K_ESCAPE:
                     game.game_over = True
@@ -133,8 +133,8 @@ class Hero(object):
                 self.set_pos(self.last_pos)
                 touched_door.touch(game)
             if touched_enemy:
+                self.set_pos(self.last_pos)
                 self.stop_movement()
-                # self.set_pos(self.last_pos
                 touched_enemy.touch(self, game)
             if touched_container:
                 self.stop_movement()
@@ -235,7 +235,6 @@ class Hero(object):
         logging.debug('after dict update: ' + str_dict)
 
         self.image = self.set_image(state['direction'])
-        # self.rect = self.update_rect()
         self.last_pos = None
 
 
@@ -422,5 +421,3 @@ class Ogre(Monster):
             return self.image.get_rect(left=x, top=y, height=40, width=20)
         else:
             return self.image.get_rect(left=x, top=y, height=20, width=40)
-
-

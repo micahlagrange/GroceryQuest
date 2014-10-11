@@ -85,20 +85,6 @@ class BlitManager():
 
         return queue
 
-    # def __getstate__(self):
-    #     state = self.__dict__.copy()
-    #     # del state['screen']
-    #
-    #     return state
-    #
-    # def __setstate__(self, state):
-    #     self.__dict__.update(state)
-
-
-class Button():
-    def __init__(self):
-        pass
-
 
 class InventoryMenu():
     def __init__(
@@ -129,10 +115,16 @@ class InventoryMenu():
 
     def run(self):
         mainloop = True
+        accepting_input = False
+
         while mainloop:
             for event in pygame.event.get():
-                if event.type == pygame.QUIT or (event.type == KEYDOWN and event.key == pygame.K_i):
-                    mainloop = False
+                # Keep I from repeating until keyup event occurs
+                if accepting_input:
+                    if event.type == pygame.QUIT or (event.type == KEYDOWN and event.key == pygame.K_i):
+                        mainloop = False
+                elif event.type == KEYUP and event.key == K_i:
+                    accepting_input = True
 
             # Redraw the background
             self.screen.fill(self.bg_color)

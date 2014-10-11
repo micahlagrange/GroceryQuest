@@ -257,8 +257,9 @@ def teleport(levelname, game):
 
         if levelname == area_name:
             game.soundplayer.set_bgm_volume(area.ambient_volume)
-
+            game.hero.current_level = levelname
             return area
 
     #  Or, if the room hasn't already been visited by the player, instantiate it
+    game.hero.current_level = levelname
     return choose_level(levelname, game)

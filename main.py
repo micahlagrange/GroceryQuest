@@ -23,13 +23,14 @@ class LoadGame():
         self.hero_savefile = os.path.join(con.PATHS['save_dir'], 'hero')
         self.blit_reg_savefile = os.path.join(con.PATHS['save_dir'], 'blit_registry')
 
-    def load_hero(self):
+    def load_hero(self, game):
         if not os.path.exists(self.hero_savefile):
-            hero = characters.Hero(name=self.hero_name, game=self, pos=(0, 0))
+            hero = characters.Hero(name=self.hero_name, pos=(0, 0))
 
         else:
             with open(self.hero_savefile, 'rb') as savefile:
                 hero = pickle.load(savefile)
+                game.start_levelname = hero.current_level
 
         return hero
 
@@ -73,6 +74,7 @@ class LoadGame():
 
 class Game(object):
     def __init__(self, levelname, hero_name=con.PREFERENCES["HERO_NAME"]):
+        self.events = []
         self.game_over = False
         self.game_loader = LoadGame(hero_name)
 
@@ -91,13 +93,18 @@ class Game(object):
         self.blitter = display.BlitManager(self.screen.screen)
         self.soundplayer = sound.SoundPlayer()
 
+        self.start_levelname = levelname
         self.explored_areas = self.game_loader.load_levels()
         self.current_bgm = ''
 
-        self.hero = self.game_loader.load_hero()
+        self.hero = self.game_loader.load_hero(self)
         self.blitter.blit_registry = self.game_loader.load_blit_registry()
-        self.level = levels.choose_level(levelname, self)
+
+        self.level = levels.choose_level(self.start_levelname, self)
         self.game_loader.load_hero_pos(self)
+
+    def get_events(self):
+        self.events = pygame.event.get()
 
 
 def main():
@@ -108,8 +115,12 @@ def main():
         game.blitter.blit_all(game.level)
         pygame.display.flip()
         game.fpsClock.tick(con.DISPLAY["FPS"])
+        game.get_events()
 
-    #Save game object
+        if K_ESCAPE in game.events:
+            game.game_over = True
+
+    #Save game
     game.game_loader.save_hero(game.hero)
     # game.game_loader.save_levels(game.explored_areas)
     # game.game_loader.save_blit_registry(game.blitter.blit_registry)
