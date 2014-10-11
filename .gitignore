@@ -41,3 +41,8 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+.idea/workspace.xml
+*.pyc
+data/logs/gc.log
+*.log

@@ -84,8 +84,6 @@ class Hero(object):
             if event.type == KEYDOWN:
                 if event.key == K_ESCAPE:
                     game.game_over = True
-
-                # logging.debug(event.key)  # WAY too much for regular debugging use
                 if event.key == K_LEFT:
                     self.hor -= self.speed
                     self.image = self.set_image("LEFT")
