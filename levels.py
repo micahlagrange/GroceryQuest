@@ -1,7 +1,6 @@
+__author__ = "multivoxmuse"
+
 import random
-
-__author__ = "micah turner"
-
 import os
 import logging
 

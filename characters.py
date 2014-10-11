@@ -1,3 +1,5 @@
+__author__ = "multivoxmuse"
+
 import random
 import os
 import math

@@ -7,7 +7,7 @@ setup(
     name='Grocery quest',
     version='0.1',
     url='multivoxmuse.duckdns.org',
-    author='turner.micah@gmail.com',
+    author='multivoxmuse',
     zipfile=None,
     data_files=[
         ("resources\\sprites",

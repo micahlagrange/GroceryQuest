@@ -1,4 +1,4 @@
-__author__ = "micah turner"
+__author__ = "multivoxmuse"
 
 import os
 import logging

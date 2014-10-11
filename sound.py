@@ -1,4 +1,5 @@
-__author__ = 'micah'
+__author__ = "multivoxmuse"
+
 import os
 
 import pygame

@@ -1,7 +1,6 @@
+__author__ = "multivoxmuse"
+
 import sys
-
-__author__ = "micah turner"
-
 import logging
 import pickle
 import os
