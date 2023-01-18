@@ -1,6 +1,5 @@
-__author__ = "multivoxmuse"
-
 import random
+import sys
 import os
 import math
 import logging
@@ -12,19 +11,25 @@ import combat
 import items
 import constants as con
 import display
-import levels
+
+KEYS_PRESSED = {
+    K_LEFT: False,
+    K_RIGHT: False,
+    K_UP: False,
+    K_DOWN: False,
+}
 
 
 def edge_collision_check(pos):
-        collision = False
-        x, y = pos
-        if x < con.GAME_CONSTANTS["MAP_LEFT_EDGE"] or x > con.GAME_CONSTANTS["MAP_RIGHT_EDGE"]:
-            collision = True
+    collision = False
+    x, y = pos
+    if x < con.GAME_CONSTANTS["MAP_LEFT_EDGE"] or x > con.GAME_CONSTANTS["MAP_RIGHT_EDGE"]:
+        collision = True
 
-        elif y < con.GAME_CONSTANTS["MAP_TOP_EDGE"] or y > con.GAME_CONSTANTS["MAP_BOTTOM_EDGE"]:
-            collision = True
+    elif y < con.GAME_CONSTANTS["MAP_TOP_EDGE"] or y > con.GAME_CONSTANTS["MAP_BOTTOM_EDGE"]:
+        collision = True
 
-        return collision
+    return collision
 
 
 class Hero(object):
@@ -44,33 +49,68 @@ class Hero(object):
         hor (int): x coordinate (pixel)
         vert (int): y coordinate (pixel)
     """
-    def __init__(self, name, pos=(0, 0)):
+
+    def __init__(self, save_dir, save_file, name, game, pos=(0, 0)):
         self.arrow_keys = {K_LEFT, K_RIGHT, K_UP, K_DOWN}
 
-        self.name = name
-        self.isalive = True
-        self.last_pos = None
-        self.pos = pos
+        self.save_dir = save_dir
+        self.save_file = save_file
+
+        self._name = name
+        self._isalive = True
+        self._last_pos = None
+        self._pos = pos
 
         self.direction = "LEFT"
-        self.hor = self.vert = 0
 
-        self.image = self.set_image(self.direction)
+        self.hor = 0
+        self.vert = 0
+
+        self.image = self.set_image("DOWN")
         self.rect = self.update_rect()
 
         self.inventory_size = con.DIFFICULTY['INVENTORY_SIZE']
         self.inventory = []
-        self.coin_purse = 1
+        self.coin_purse = 0
 
-        self.mobile = True
         self.collision_on = True
+
+        self.moveable = True
         self.speed = con.DIFFICULTY["HERO_SPEED"]
 
-        self.current_level = ''
+    @property
+    def name(self):
+        return self._name
 
-    def set_pos(self, value):
-        self.pos = value
+    @name.setter
+    def name(self, value):
+        self._name = value
+
+    @property
+    def pos(self):
+        return self._pos
+
+    @pos.setter
+    def pos(self, value):
+        self._pos = value
         self.rect = self.update_rect()
+
+    @property
+    def last_pos(self):
+        return self._last_pos
+
+    @last_pos.setter
+    def last_pos(self, value):
+        self._last_pos = value
+
+    @property
+    def isalive(self):
+        return self._isalive
+
+    @isalive.setter
+    def isalive(self, value):
+        """stop drawing the hero on the screen"""
+        self._isalive = value
 
     def update(self, game):
         """Manages the players appearance on screen.
@@ -80,79 +120,116 @@ class Hero(object):
         will repeat at a set interval of milliseconds.
         """
         self.vert = self.hor = 0
-        # current_time = pygame.time.get_ticks()
+        current_time = pygame.time.get_ticks()
 
-        for event in game.events:
-            if event.type == KEYDOWN:
-                if event.key == K_ESCAPE:
-                    game.game_over = True
-                if event.key == K_LEFT:
-                    self.hor -= self.speed
-                    self.image = self.set_image("LEFT")
-                if event.key == K_RIGHT:
-                    self.hor += self.speed
-                    self.image = self.set_image("RIGHT")
-                if event.key == K_UP:
-                    self.vert -= self.speed
-                    self.image = self.set_image("UP")
-                if event.key == K_DOWN:
-                    self.vert += self.speed
-                    self.image = self.set_image("DOWN")
-                if event.key == K_F11:
-                    game.screen.toggle_fullscreen()
+        for event in pygame.event.get():
+            # if (event.type == KEYUP or event.type == KEYDOWN) and event.key in self.arrow_keys:
+            #     debug_pressed = []
+            #     for k, v in KEYS_PRESSED.items():
+            #         if v == True:
+            #             debug_pressed.append(k)
+            #     print(debug_pressed)
+
+            if event.type == KEYUP:
+                if event.key in self.arrow_keys:
+                    self.moveable = True
+
                 if event.key == K_0:
                     self.toggle_collision()
 
                 if event.key in self.arrow_keys:
-                    for enemy in game.level.enemy_sprites:
-                        if enemy.isalive and self.mobile:
-                            enemy.follow_hero(game, self)
+                    KEYS_PRESSED[event.key] = False
 
-                elif event.key == K_i:
-                    inventory_names = [str(item.name) for item in game.hero.inventory]
+                if event.key == K_i:
+                    item_group = {}
+                    for item in game.hero.inventory:
+                        if item.name in item_group:
+                            item_group[item.name] += 1
+                        else:
+                            item_group[item.name] = 1
+
                     menu_items = [" - Gold - ", str(self.coin_purse)]
                     menu_items.extend(["", "- Inventory -"])
-                    menu_items.extend(inventory_names)
+                    menu_items.extend([" - " + item + ": " + str(count)
+                                      for item, count in item_group.items()])
                     gm = display.InventoryMenu(game.screen.screen, menu_items)
                     gm.run()
 
-            if event.type == KEYUP and event.key in self.arrow_keys:
-                self.start_movement()
+                if event.key == K_ESCAPE:
+                    # Save game object
+                    # with open(os.path.join(self.save_dir, self.save_file), 'wb') as savefile:
+                    #     pickle.dump(game, savefile)
 
-        if self.mobile:
+                    logging.info("Game over! End loop.")
+                    pygame.quit()
+                    sys.exit("Goodbye.")
+
+            if event.type == KEYDOWN and self.moveable:
+                # logging.debug(event.key)  # WAY too much for regular debugging use
+                if event.key in self.arrow_keys:
+                    KEYS_PRESSED[event.key] = True
+
+                if event.key == K_F11:
+                    game.screen.toggle_fullscreen()
+
+                if event.key in self.arrow_keys:
+                    for enemy in game.level.enemy_sprites:
+                        if enemy.isalive:
+                            enemy.follow_hero(game, self)
+
+                if KEYS_PRESSED[K_LEFT]:
+                    self.hor -= self.speed
+                    self.image = self.set_image("LEFT")
+                if KEYS_PRESSED[K_RIGHT]:
+                    self.hor += self.speed
+                    self.image = self.set_image("RIGHT")
+                if KEYS_PRESSED[K_UP]:
+                    self.vert -= self.speed
+                    self.image = self.set_image("UP")
+                if KEYS_PRESSED[K_DOWN]:
+                    self.vert += self.speed
+                    self.image = self.set_image("DOWN")
+
+        if any(KEYS_PRESSED):
+            self.moveable
             self.move()
 
         if self.collision_on:
-            touched_enemy = pygame.sprite.spritecollideany(self, game.level.enemy_sprites)
-            touched_container = pygame.sprite.spritecollideany(self, game.level.container_sprites)
-            touched_wall = pygame.sprite.spritecollideany(self, game.level.wall_sprites)
-            touched_entity = pygame.sprite.spritecollideany(self, game.level.entity_sprites)
-            touched_door = pygame.sprite.spritecollideany(self, game.level.exit_sprites)
+            touched_enemy = pygame.sprite.spritecollideany(
+                self, game.level.enemy_sprites)
+            touched_container = pygame.sprite.spritecollideany(
+                self, game.level.container_sprites)
+            touched_wall = pygame.sprite.spritecollideany(
+                self, game.level.wall_sprites)
+            touched_entity = pygame.sprite.spritecollideany(
+                self, game.level.entity_sprites)
+            touched_door = pygame.sprite.spritecollideany(
+                self, game.level.exit_sprites)
             touched_edge = edge_collision_check(self.pos)
 
             if touched_door:
-                self.stop_movement()
-                self.set_pos(self.last_pos)
+                # Reset movement for doors.. seems hacky I know
+                self.moveable = False
+                KEYS_PRESSED[K_LEFT] = False
+                KEYS_PRESSED[K_RIGHT] = False
+                KEYS_PRESSED[K_UP] = False
+                KEYS_PRESSED[K_DOWN] = False
+                self.pos = self.last_pos
                 touched_door.touch(game)
-            if touched_enemy:
-                self.set_pos(self.last_pos)
-                self.stop_movement()
-                touched_enemy.touch(self, game)
-            if touched_container:
-                self.stop_movement()
-                self.set_pos(self.last_pos)
+            elif touched_enemy:
+                    touched_enemy.touch(self, game)
+            elif touched_container:
+                self.pos = self.last_pos
                 touched_container.touch(self, game)
-            if touched_wall or touched_edge:
-                self.stop_movement()
-                self.set_pos(self.last_pos)
-            if touched_entity:
-                self.stop_movement()
+            elif touched_wall or touched_edge:
+                self.pos = self.last_pos
+            elif touched_entity:
                 if self.rect.colliderect(touched_entity.rect):
-                    self.set_pos(self.last_pos)
+                    self.pos = self.last_pos
 
-    def set_image(self, direction):
+    @staticmethod
+    def set_image(direction):
         try:
-            self.direction = direction
             return pygame.image.load(os.path.join(
                 con.PATHS["sprites"], "hero_{}.png".format(direction.lower()))
             )
@@ -168,24 +245,23 @@ class Hero(object):
         old_row, old_col = self.pos
         row = old_row + self.hor
         col = old_col + self.vert
-        self.set_pos((row, col))
-        # self.rect = self.update_rect()
+        self.pos = (row, col)
+        self.rect = self.update_rect()
 
     def toggle_collision(self):
         if self.collision_on:
             self.collision_on = False
         elif not self.collision_on:
             self.collision_on = True
-        print(self.collision_on)
+        print("Collision: " + str(self.collision_on))
 
     def move_all_monsters(self, game):
         for mob in game.level.enemy_sprites:
-            if self.mobile:
-                enemy_speed = random.randint(1, 1)
-                if enemy_speed == 1:
-                    mob_hor = random.randint(-1, 1)
-                    mob_vert = random.randint(-1, 1)
-                    mob.move(game, mob_hor, mob_vert)
+            enemy_speed = random.randint(1, 1)
+            if enemy_speed == 1:
+                mob_hor = random.randint(-1, 1)
+                mob_vert = random.randint(-1, 1)
+                mob.move(game, mob_hor, mob_vert)
 
     def update_rect(self):
         """Updates the player rect variable. This needs to happen
@@ -200,27 +276,25 @@ class Hero(object):
             if item.name == 'gold':
                 self.coin_purse += item.amount
                 logging.debug('gold is now ' + str(self.coin_purse))
-
             else:
+                inventory_space_available = self.inventory_size - \
+                    len(self.inventory)
                 if len(self.inventory) <= self.inventory_size:
+                    if item.amount > inventory_space_available:
+                        return
                     for _ in range(item.amount):
                         self.inventory.append(item)
                     container.drop()
                 else:
                     print('inventory full')
 
-    def stop_movement(self):
-        self.mobile = False
-
-    def start_movement(self):
-        self.mobile = True
-
     def __getstate__(self):
         state = self.__dict__.copy()
 
         del state['image']
-        # del state['rect']
-        # del state['last_pos']
+        del state['rect']
+        del state['_last_pos']
+        del state['arrow_keys']
 
         str_state = str(state)
         logging.debug('saving hero state: ' + str_state)
@@ -233,11 +307,10 @@ class Hero(object):
 
         self.__dict__.update(state)
 
-        str_dict = str(self.__dict__)
-        logging.debug('after dict update: ' + str_dict)
-
-        self.image = self.set_image(state['direction'])
-        self.last_pos = None
+        self.image = self.set_image("DOWN")
+        self.rect = self.update_rect()
+        self._last_pos = None
+        self.arrow_keys = {K_LEFT, K_RIGHT, K_UP, K_DOWN}
 
 
 class Monster(pygame.sprite.Sprite):
@@ -256,29 +329,27 @@ class Monster(pygame.sprite.Sprite):
         corpse (Container): container object for corpse looting
 
     """
-    def __init__(self, drops, name, pos=(0, 0)):
+
+    def __init__(self, image, corpseimage, drops, name, pos=(0, 0)):
         pygame.sprite.Sprite.__init__(self)
 
         self.name = name
         self.isalive = True
         self.pos = pos
         self.last_pos = self.pos
-        self.image = self.set_image(self.mob_image)
+        self.image = self.set_image(image)
         self.rect = self.update_rect()
         self.tile = con.GAME_CONSTANTS["TILE"]
 
         self.corpse = items.Container(self.name, drops)
 
+        self.corpseimage = corpseimage
+
         self.speed = con.DIFFICULTY["ENEMY_SPEED"]
         self.aggro_dist = con.DIFFICULTY["AGGRO_DIST"]
 
     def aggro(self, dist):
-        if dist < self.aggro_dist * self.tile:
-            aggro = True
-        else:
-            aggro = False
-
-        return aggro
+        return dist < self.aggro_dist * self.tile
 
     def touch(self, hero, game):
         """Process events when hero touches enemy objects"""
@@ -289,6 +360,7 @@ class Monster(pygame.sprite.Sprite):
                 game.soundplayer.play_sfx('stab_001.wav')
             combat.Battle.fight(self, hero)
         elif not self.isalive:
+            game.soundplayer.play_sfx('loot.wav')
             self.loot(hero, game)
 
     def move(self, game, hor, vert):
@@ -305,7 +377,7 @@ class Monster(pygame.sprite.Sprite):
             new_col = old_row + vert
 
             self.pos = (new_row, new_col)
-            # self.rect = self.update_rect()
+            self.rect = self.update_rect()
 
             self.process_collisions(game)
 
@@ -332,9 +404,12 @@ class Monster(pygame.sprite.Sprite):
         self.process_collisions(game)
 
     def process_collisions(self, game):
-        wall_collision = pygame.sprite.spritecollideany(self, game.level.wall_sprites)
-        other_mob_collision = pygame.sprite.spritecollideany(self, game.level.enemy_sprites)
-        container_collsion = pygame.sprite.spritecollideany(self, game.level.container_sprites)
+        wall_collision = pygame.sprite.spritecollideany(
+            self, game.level.wall_sprites)
+        other_mob_collision = pygame.sprite.spritecollideany(
+            self, game.level.enemy_sprites)
+        container_collsion = pygame.sprite.spritecollideany(
+            self, game.level.container_sprites)
         edge_collision = edge_collision_check(self.pos)
 
         if wall_collision or edge_collision:
@@ -368,24 +443,17 @@ class Monster(pygame.sprite.Sprite):
     def set_image(image):
         return pygame.image.load(image)
 
-    def __getstate__(self):
-        state = self.__dict__.copy()
-        del state['image']
-
-        return state
-
-    def __setstate__(self, state):
-        state['image'] = self.set_image(os.path.join(con.PATHS["sprites"], "slime.png"))
-
 
 class Slime(Monster):
     def __init__(self, pos, drops):
         self.mob_image = os.path.join(con.PATHS["sprites"], "slime.png")
-        # self.sprite = pygame.sprite.Sprite()
+        self.sprite = pygame.sprite.Sprite()
         self.corpseimage = os.path.join(con.PATHS["sprites"], "slimedead.png")
         name = "slime"
 
         super(Slime, self).__init__(
+            self.mob_image,
+            self.corpseimage,
             drops,
             name,
             pos
@@ -399,6 +467,8 @@ class Rat(Monster):
         name = "rat"
 
         super(Rat, self).__init__(
+            self.mob_image,
+            self.corpseimage,
             drops,
             name,
             pos,
@@ -412,6 +482,8 @@ class Ogre(Monster):
         name = "ogre"
 
         super(Ogre, self).__init__(
+            self.mob_image,
+            self.corpseimage,
             drops,
             name,
             pos,

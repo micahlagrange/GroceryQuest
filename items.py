@@ -1,4 +1,4 @@
-__author__ = "multivoxmuse"
+__author__ = "micah turner"
 
 import os
 import logging
@@ -32,8 +32,8 @@ class Door(pygame.sprite.Sprite):
             self.dest_level, game
         )
         game.level = moveto_level
-        game.hero.pos = self.dest_startpos
         game.blitter.change_room(game.hero, game.level)
+        game.hero.pos = self.dest_startpos
 
     @staticmethod
     def set_image(imagefile):
@@ -59,7 +59,7 @@ class Container(pygame.sprite.Sprite):
         self.contents = contents
 
     def describe_item(self):
-        for item, description in self.contents:
+        for item in self.contents:
             logging.debug(item.name + item.description)
 
     def open(self, hero):
@@ -89,11 +89,11 @@ class Chest(Container):
     def touch(self, hero, game):
         if not self.open_state:
             if self.open(hero):
+                game.soundplayer.play_sfx('loot.wav')
                 self.image = self.set_image(self.chest_open_img)
                 self.open_setter()
-                game.soundplayer.play_sfx('loose_change.wav')
             else:
-                hero.pos = hero.last_pos
+                hero.pos = hero._last_pos
 
     def open_setter(self):
         self.open_state = 1

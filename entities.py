@@ -1,4 +1,4 @@
-__author__ = "multivoxmuse"
+__author__ = 'micaht'
 
 import os
 

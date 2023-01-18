@@ -1,6 +1,7 @@
-__author__ = "multivoxmuse"
-
 import random
+
+__author__ = "micah turner"
+
 import os
 import logging
 
@@ -31,15 +32,16 @@ def parse_pos(pos):
 
 
 class Level(pygame.sprite.Sprite):
-    def __init__(self, name, wall_image, isle_image, start_pos, game):
+    def __init__(self, name, mapimage, wall_image, isle_image, start_pos, game):
         self.name = name
 
         self.image = pygame.image.load(
-            os.path.join(con.PATHS['backgrounds'], self.mapimage))
+            os.path.join(con.PATHS['backgrounds'], mapimage))
         self.mapfile = os.path.join(con.PATHS['maps'], self.name + ".map")
 
         self.tile = con.GAME_CONSTANTS["TILE"]
         self.startpos = start_pos
+        game.hero.pos = start_pos
 
         top_left_corner = parse_pos((0, 0))
         self.pos = top_left_corner
@@ -117,19 +119,19 @@ class Level(pygame.sprite.Sprite):
                     elif tile == slime:
                         new_slime = characters.Slime(
                             pos=(x, y),
-                            drops=[items.SlimeDust(1)])
+                            drops=[items.SlimeDust(random.randint(1, 3))])
                         self.enemy_sprites.add(new_slime)
 
                     elif tile == rat:
                         new_rat = characters.Rat(
                             pos=(x, y),
-                            drops=[items.RatTail(1)])
+                            drops=[items.RatTail(random.randint(1, 3))])
                         self.enemy_sprites.add(new_rat)
 
                     elif tile == ogre:
                         new_ogre = characters.Ogre(
                             pos=(x, y),
-                            drops=[items.Bone(1)])
+                            drops=[items.Bone(random.randint(1, 3))])
                         self.enemy_sprites.add(new_ogre)
 
                     elif tile == torch:
@@ -147,29 +149,26 @@ class Level(pygame.sprite.Sprite):
 
     def __getstate__(self):
         state = self.__dict__.copy()
-        del state['image']
+        # del state['image']
 
-        str_state = str(state)
-        logging.error('saving level: ' + str_state)
-        logging.error('wtf')
         return state
 
     def __setstate__(self, state):
-        state['image'] = pygame.image.load(os.path.join(con.PATHS['backgrounds'], self.mapimage))
+        # state['image'] = pygame.image.load(os.path.join(con.PATHS['backgrounds'], state['mapimage']))
         self.__dict__.update(state)
 
 
 class Start(Level):
     def __init__(self, game):
         name = "Start"
-        self.mapimage = "greyfloor.png"
+        mapimage = "greyfloor.png"
         wall_image = "wall1.png"
         isle_image = "emptyisle.png"
         start_pos = parse_pos((14, 19))
         self.ambient_volume = 0.2
-        self.bgm = 'engine_slow.wav'
+        self.bgm = 'ambient_music_001.wav'
 
-        super(Start, self).__init__(name, wall_image, isle_image, start_pos, game)
+        super(Start, self).__init__(name, mapimage, wall_image, isle_image, start_pos, game)
 
         self.northdoor1 = items.Door(
             dest_level="Isle2",
@@ -184,14 +183,14 @@ class Start(Level):
 class Isle2(Level):
     def __init__(self, game):
         name = "Isle2"
-        self.mapimage = "greyfloor.png"
+        mapimage = "greyfloor.png"
         wall_image = "wall1.png"
         isle_image = "emptyisle.png"
         start_pos = parse_pos((14, 19))
         self.ambient_volume = 0.3
-        self.bgm = 'engine_slow.wav'
+        self.bgm = 'ambient_music_001.wav'
 
-        super(Isle2, self).__init__(name, wall_image, isle_image, start_pos, game)
+        super(Isle2, self).__init__(name, mapimage, wall_image, isle_image, start_pos, game)
 
         self.southdoor1 = items.Door(
             dest_level="Start",
@@ -212,14 +211,14 @@ class Isle2(Level):
 class ThroneRoom(Level):
     def __init__(self, game):
         name = "ThroneRoom"
-        self.mapimage = "dark_gray_floor.png"
+        mapimage = "dirtycheckerfloor.png"
         wall_image = "wall1.png"
         isle_image = "emptyisle.png"
         start_pos = parse_pos((14, 19))
         self.ambient_volume = .4
         self.bgm = 'engine_slow.wav'
 
-        super(ThroneRoom, self).__init__(name, wall_image, isle_image, start_pos, game)
+        super(ThroneRoom, self).__init__(name, mapimage, wall_image, isle_image, start_pos, game)
 
         self.southdoor1 = items.Door(
             dest_level="Isle2",
@@ -256,9 +255,8 @@ def teleport(levelname, game):
 
         if levelname == area_name:
             game.soundplayer.set_bgm_volume(area.ambient_volume)
-            game.hero.current_level = levelname
+
             return area
 
     #  Or, if the room hasn't already been visited by the player, instantiate it
-    game.hero.current_level = levelname
     return choose_level(levelname, game)

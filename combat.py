@@ -1,4 +1,4 @@
-__author__ = "multivoxmuse"
+__author__ = "micah turner"
 
 
 class Battle(object):

@@ -1,19 +1,7 @@
-__author__ = "multivoxmuse"
+__author__ = "micah turner"
 
 import os
 import logging
-
-PREFERENCES = {
-    'KEY_REPEAT_ON': True,
-    'KEY_DELAY': 50,
-    'KEY_REPEAT': 20,
-    'MENU_FONT_SIZE': 25,
-    'MENU_FONT': 'resources/fonts/freesansbold.ttf',
-    'HERO_NAME': 'Brob',
-    'LOG_LEVEL': 'DEBUG'
-}
-
-PROFILE_NAME = PREFERENCES['HERO_NAME']
 
 PATHS = {
     'sprites': os.path.join("resources", "sprites"),
@@ -22,12 +10,12 @@ PATHS = {
     'sounds': os.path.join("resources", "sounds"),
     'maps': os.path.join("resources", "maps"),
     'logs': os.path.join("data", "logs"),
-    'save_dir': os.path.join("data", PROFILE_NAME),
+    'save_dir': os.path.join("data", "saves"),
 }
 
 for key, path in PATHS.items():
     if not os.path.exists(path):
-        logging.debug('Could not find {} directory in the project path'.format(path))
+        logging.warning('Could not find {} directory in the project path'.format(path))
         os.makedirs(path)
         logging.debug('Created path ' + path)
 
@@ -44,12 +32,21 @@ GAME_CONSTANTS = {
     'MAP_BOTTOM_EDGE': 479
 }
 
+PREFERENCES = {
+    'KEY_REPEAT_ON': True,
+    'KEY_DELAY': 50,
+    'KEY_REPEAT': 20,
+    'MENU_FONT_SIZE': 25,
+    'MENU_FONT': 'resources/fonts/freesansbold.ttf',
+    'HERO_NAME': 'Hero_name',
+    'LOG_LEVEL': 'DEBUG'
+}
 
 DIFFICULTY = {
-    'AGGRO_DIST': 5,
-    'HERO_SPEED': 20,
-    'ENEMY_SPEED': 20,
-    'INVENTORY_SIZE': 15
+    'AGGRO_DIST': 100, # If an enemy is within this number of tiles it follows the hero
+    'HERO_SPEED': 5,
+    'ENEMY_SPEED': 5,
+    'INVENTORY_SIZE': 20
 }
 
 DISPLAY = {
@@ -76,8 +73,9 @@ SOUND_SETTINGS = {
 }
 
 logging.basicConfig(
-    filename=os.path.join(PATHS['logs'], 'gc.log'),
+    filename=os.path.join(PATHS['logs'], 'log'),
     level=PREFERENCES['LOG_LEVEL'],
     datefmt='%m-%d %H:%M',
     format='%(asctime)s :%(levelname)s:%(name)s: %(message)s')
+
 logging.debug('logging enabled at path: ' + PATHS['logs'])
